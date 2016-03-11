@@ -1,11 +1,13 @@
+{% set version = "1.2.3" %}
+
 package:
     name: netcdf4
-    version: 1.2.2
+    version: {{ version }}
 
 source:
-    fn: netCDF4-1.2.2.tar.gz
-    url: https://pypi.python.org/packages/source/n/netCDF4/netCDF4-1.2.2.tar.gz
-    md5: c8a80cb2bbfaae2faaff7d1d699b4b61
+    fn: netCDF4-{{ version }}.tar.gz
+    url: https://pypi.python.org/packages/source/n/netCDF4/netCDF4-{{ version }}.tar.gz
+    md5: 937b2acdbaff5c2a2b396979337cdc90
 
 build:
     number: 0
