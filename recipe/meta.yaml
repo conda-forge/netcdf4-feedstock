@@ -8,6 +8,8 @@ source:
     fn: netCDF4-{{ version }}.tar.gz
     url: https://pypi.python.org/packages/source/n/netCDF4/netCDF4-{{ version }}.tar.gz
     md5: 937b2acdbaff5c2a2b396979337cdc90
+    patches:
+        - setup_cfg.patch  # [win]
 
 build:
     number: 0
