@@ -10,7 +10,7 @@ source:
     md5: 24fc0101c7c441709c230e76af611d53
 
 build:
-    number: 0
+    number: 1
     entry_points:
         - ncinfo = netCDF4.utils:ncinfo
         - nc4tonc3 = netCDF4.utils:nc4tonc3
