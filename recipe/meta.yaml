@@ -10,7 +10,7 @@ source:
     md5: 24fc0101c7c441709c230e76af611d53
 
 build:
-    number: 1
+    number: 2
     entry_points:
         - ncinfo = netCDF4.utils:ncinfo
         - nc4tonc3 = netCDF4.utils:nc4tonc3
@@ -22,13 +22,13 @@ requirements:
         - setuptools
         - numpy x.x
         - cython
-        - hdf5
+        - hdf5 1.8.15.1
         - libnetcdf
     run:
         - python
         - setuptools
         - numpy x.x
-        - hdf5
+        - hdf5 1.8.15.1
         - libnetcdf
 
 test:
