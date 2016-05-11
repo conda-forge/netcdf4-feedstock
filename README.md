@@ -5,7 +5,7 @@ Home: http://github.com/Unidata/netcdf4-python
 
 Package license: OSI Approved
 
-Feedstock license: BSD
+Feedstock license: BSD 3-Clause
 
 Summary: Provides an object-oriented python interface to the netCDF version 4 library.
 
