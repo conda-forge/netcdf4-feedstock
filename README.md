@@ -3,7 +3,7 @@ About netcdf4
 
 Home: http://github.com/Unidata/netcdf4-python
 
-Package license: OSI Approved
+Package license: OSI Approved and MIT
 
 Feedstock license: BSD 3-Clause
 
@@ -31,7 +31,6 @@ It is possible to list all of the versions of `netcdf4` available on your platfo
 ```
 conda search netcdf4 --channel conda-forge
 ```
-
 
 
 About conda-forge
