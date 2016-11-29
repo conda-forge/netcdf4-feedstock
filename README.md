@@ -11,6 +11,18 @@ Summary: Provides an object-oriented python interface to the netCDF version 4 li
 
 
 
+Current build status
+====================
+
+Linux: [![Circle CI](https://circleci.com/gh/conda-forge/netcdf4-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/netcdf4-feedstock)
+OSX: [![TravisCI](https://travis-ci.org/conda-forge/netcdf4-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/netcdf4-feedstock)
+Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/netcdf4-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/netcdf4-feedstock/branch/master)
+
+Current release info
+====================
+Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/netcdf4/badges/version.svg)](https://anaconda.org/conda-forge/netcdf4)
+Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/netcdf4/badges/downloads.svg)](https://anaconda.org/conda-forge/netcdf4)
+
 Installing netcdf4
 ==================
 
@@ -66,18 +78,6 @@ Terminology
 
 **conda-forge** - the place where the feedstock and smithy live and work to
                   produce the finished article (built conda distributions)
-
-Current build status
-====================
-
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/netcdf4-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/netcdf4-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/netcdf4-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/netcdf4-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/netcdf4-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/netcdf4-feedstock/branch/master)
-
-Current release info
-====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/netcdf4/badges/version.svg)](https://anaconda.org/conda-forge/netcdf4)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/netcdf4/badges/downloads.svg)](https://anaconda.org/conda-forge/netcdf4)
 
 
 Updating netcdf4-feedstock
