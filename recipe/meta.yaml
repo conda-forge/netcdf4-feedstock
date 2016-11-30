@@ -1,4 +1,4 @@
-{% set version = "1.2.4" %}
+{% set version = "1.2.5" %}
 
 package:
   name: netcdf4
@@ -7,10 +7,10 @@ package:
 source:
   fn: netCDF4-{{ version }}.tar.gz
   url: https://github.com/Unidata/netcdf4-python/archive/v{{ version }}rel.tar.gz
-  sha256: f3b81b5d9f2285ed272f72e78b1731c2110f98cb72ddb7bc98e1aa8571edd0f4
+  sha256: 1d98b22bcfcd9f728ce7220587ebe97bcc53ebbeabfe9983cfa421168363991e
 
 build:
-  number: 2
+  number: 0
   entry_points:
     - ncinfo = netCDF4.utils:ncinfo
     - nc4tonc3 = netCDF4.utils:nc4tonc3
@@ -47,8 +47,11 @@ about:
   license: OSI Approved and MIT
   license_file: '{{ environ["RECIPE_DIR"] }}/COPYING'
   summary: 'Provides an object-oriented python interface to the netCDF version 4 library.'
+  dev_url: https://github.com/Unidata/netcdf4-python
+  doc_url: https://unidata.github.io/netcdf4-python
 
 extra:
   recipe-maintainers:
     - ocefpaf
     - pelson
+    - dopplershift
