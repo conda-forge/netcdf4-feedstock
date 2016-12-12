@@ -1,4 +1,4 @@
-{% set version = "1.2.5" %}
+{% set version = "1.2.6" %}
 
 package:
   name: netcdf4
@@ -7,7 +7,7 @@ package:
 source:
   fn: netCDF4-{{ version }}.tar.gz
   url: https://github.com/Unidata/netcdf4-python/archive/v{{ version }}rel.tar.gz
-  sha256: 1d98b22bcfcd9f728ce7220587ebe97bcc53ebbeabfe9983cfa421168363991e
+  sha256: c85321110ca979e81852705c0cf9fc659cd2b7233d6de67e26905833dcce1f45
 
 build:
   number: 0
@@ -39,8 +39,8 @@ test:
     - ncinfo -h
     - nc4tonc3 -h
     - nc3tonc4 -h
-    #- conda inspect linkages -p $PREFIX netcdf4  # [not win]
-    #- conda inspect objects -p $PREFIX netcdf4  # [osx]
+    - conda inspect linkages -p $PREFIX netcdf4  # [not win]
+    - conda inspect objects -p $PREFIX netcdf4  # [osx]
 
 about:
   home: http://github.com/Unidata/netcdf4-python
