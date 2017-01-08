@@ -117,10 +117,6 @@ install:
     - cmd: conda config --add channels defaults
     - cmd: conda config --add channels conda-forge
 
-    # Install conda-build 2.x to build with a long prefix.
-    - cmd: conda install --yes --quiet conda-build=2
-    - cmd: conda info
-
     # Configure the VM.
     - cmd: conda install -n root --quiet --yes obvious-ci
     - cmd: conda install -n root --quiet --yes conda-forge-build-setup
