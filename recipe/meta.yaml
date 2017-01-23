@@ -7,7 +7,7 @@ package:
 source:
   fn: netCDF4-{{ version }}.tar.gz
   url: https://github.com/Unidata/netcdf4-python/archive/v{{ version }}rel.tar.gz
-  sha256: 9f5c053be3189db9380f5822c7926dadadba8d44af3731456f3b56415e8fca5e
+  sha256: 42255f15341ae1959f814443385af4be5ae012b42e2202f300a5e5095338f54e
 
 build:
   number: 0
