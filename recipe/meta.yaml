@@ -10,7 +10,7 @@ source:
   sha256: 31eb4eae5fd3b2bd8f828721142ddcefdbf10287281bf6f636764dd7957f8450
 
 build:
-  number: 0
+  number: 1
   entry_points:
     - ncinfo = netCDF4.utils:ncinfo
     - nc4tonc3 = netCDF4.utils:nc4tonc3
@@ -22,13 +22,13 @@ requirements:
     - setuptools
     - numpy x.x
     - cython >=0.19
-    - hdf5 1.8.17|1.8.17.*
+    - hdf5 1.8.18|1.8.18.*
     - libnetcdf 4.4.*
   run:
     - python
     - setuptools
     - numpy x.x
-    - hdf5 1.8.17|1.8.17.*
+    - hdf5 1.8.18|1.8.18.*
     - libnetcdf 4.4.*
 
 test:
