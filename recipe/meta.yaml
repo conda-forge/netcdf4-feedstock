@@ -20,14 +20,16 @@ requirements:
   build:
     - python
     - setuptools
-    - numpy x.x
+    - numpy 1.8.*  # [not (win and py36)]
+    - numpy 1.11.*  # [win and py36]
     - cython >=0.19
     - hdf5 1.8.18|1.8.18.*
     - libnetcdf 4.4.*
   run:
     - python
     - setuptools
-    - numpy x.x
+    - numpy >=1.8  # [not (win and py36)]
+    - numpy >=1.11  # [win and py36]
     - hdf5 1.8.18|1.8.18.*
     - libnetcdf 4.4.*
 
