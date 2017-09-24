@@ -5,7 +5,7 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/n/netCDF4-/netCDF4-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/n/netCDF4/netCDF4-{{ version }}.tar.gz
   sha256: 1982372aeacc6b36054d90d8cb54ee9506b66b6f44d5cff10e2ffb162aad5476
 
 build:
