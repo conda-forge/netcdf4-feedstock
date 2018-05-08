@@ -1,15 +1,15 @@
-{% set version = "1.3.1" %}
+{% set version = "1.4.0" %}
 
 package:
   name: netcdf4
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/n/netCDF4/netCDF4-{{ version }}.tar.gz
-  sha256: 570ea59992aa6d98a9b672c71161d11ba5683f787da53446086077470a869957
+  url: https://github.com/Unidata/netcdf4-python/archive/v{{ version }}rel.tar.gz
+  sha256: cbb6d58a7182821d6dd52a52042de772c2d342731800b4704323d12233f3ff1a
 
 build:
-  number: 3
+  number: 0
   entry_points:
     - ncinfo = netCDF4.utils:ncinfo
     - nc4tonc3 = netCDF4.utils:nc4tonc3
@@ -18,28 +18,28 @@ build:
 requirements:
   build:
     - python
-    - setuptools
-    - numpy 1.8.*  # [not (win and (py35 or py36))]
-    - numpy 1.9.*  # [win and py35]
-    - numpy 1.11.*  # [win and py36]
+    - pip
+    - numpy 1.11.*
     - cython >=0.19
+    - cftime
     - hdf5 1.10.1
+    # libnetcdf 4.4.* is the last one to work with Python 2.7 on Windows.
     - libnetcdf 4.4.*  # [win and py2k]
     - libnetcdf 4.5.*  # [not (win and py2k)]
   run:
     - python
     - setuptools
-    - numpy >=1.8  # [not (win and (py35 or py36))]
-    - numpy >=1.9  # [win and py35]
-    - numpy >=1.11  # [win and py36]
+    - numpy >=1.11
+    - cftime
     - hdf5 1.10.1
+    # libnetcdf 4.4.* is the last one to work with Python 2.7 on Windows.
     - libnetcdf 4.4.*  # [win and py2k]
     - libnetcdf >=4.5  # [not (win and py2k)]
 
 test:
   imports:
     - netCDF4
-    - netcdftime
+    - cftime
   commands:
     - ncinfo -h
     - nc4tonc3 -h
@@ -50,7 +50,7 @@ test:
 about:
   home: http://github.com/Unidata/netcdf4-python
   license: OSI Approved and MIT
-  license_file: '{{ environ["RECIPE_DIR"] }}/COPYING'
+  license_file: COPYING
   summary: 'Provides an object-oriented python interface to the netCDF version 4 library.'
   dev_url: https://github.com/Unidata/netcdf4-python
   doc_url: https://unidata.github.io/netcdf4-python
