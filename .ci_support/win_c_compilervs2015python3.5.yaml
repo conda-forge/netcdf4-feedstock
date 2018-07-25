@@ -1,11 +1,11 @@
 c_compiler:
-- toolchain_c
+- vs2015
 hdf5:
 - 1.10.2
 libnetcdf:
 - '4.6'
 numpy:
-- '1.9'
+- '1.11'
 pin_run_as_build:
   hdf5:
     max_pin: x.x.x
@@ -15,4 +15,7 @@ pin_run_as_build:
     max_pin: x.x
     min_pin: x.x
 python:
-- '2.7'
+- '3.5'
+zip_keys:
+- - python
+  - c_compiler
