@@ -9,7 +9,7 @@ source:
   sha256: cbb6d58a7182821d6dd52a52042de772c2d342731800b4704323d12233f3ff1a
 
 build:
-  number: 1
+  number: 2
   entry_points:
     - ncinfo = netCDF4.utils:ncinfo
     - nc4tonc3 = netCDF4.utils:nc4tonc3
@@ -25,18 +25,14 @@ requirements:
     - cython >=0.19
     - cftime
     - hdf5
-    # libnetcdf 4.4.* is the last one to work with Python 2.7 on Windows.
-    - libnetcdf 4.4.*  # [win and py2k]
-    - libnetcdf  # [not (win and py2k)]
+    - libnetcdf
   run:
     - python
     - setuptools
     - {{ pin_compatible('numpy') }}
     - cftime
     - hdf5
-    # libnetcdf 4.4.* is the last one to work with Python 2.7 on Windows.
-    - libnetcdf 4.4.*  # [win and py2k]
-    - libnetcdf  # [not (win and py2k)]
+    - libnetcdf
 
 test:
   imports:
@@ -46,8 +42,6 @@ test:
     - ncinfo -h
     - nc4tonc3 -h
     - nc3tonc4 -h
-    - conda inspect linkages -p $PREFIX $PKG_NAME  # [not win]
-    - conda inspect objects -p $PREFIX $PKG_NAME  # [osx]
 
 about:
   home: http://github.com/Unidata/netcdf4-python
