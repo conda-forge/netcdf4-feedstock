@@ -6,10 +6,10 @@ package:
 
 source:
   url: https://github.com/Unidata/netcdf4-python/archive/v{{ version }}rel.tar.gz
-  sha256: f6f2fc2dd80f72b5750290e8c09789bfa598cc4d1eed24c43009950624ead0b2
+  sha256: b42d50220387f16e20b42e2e6f6f5d2cb62ba8edc2787618db677c40ba7b1bf4
 
 build:
-  number: 0
+  number: 1
   entry_points:
     - ncinfo = netCDF4.utils:ncinfo
     - nc4tonc3 = netCDF4.utils:nc4tonc3
