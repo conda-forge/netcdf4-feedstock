@@ -14,9 +14,9 @@ Summary: Provides an object-oriented python interface to the netCDF version 4 li
 Current build status
 ====================
 
-[![Linux](https://img.shields.io/circleci/project/github/conda-forge/netcdf4-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/netcdf4-feedstock)
-[![OSX](https://img.shields.io/travis/conda-forge/netcdf4-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/netcdf4-feedstock)
-[![Windows](https://img.shields.io/appveyor/ci/conda-forge/netcdf4-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/netcdf4-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/build_with_hdf5_1.10.2-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/build_with_hdf5_1.10.2-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/build_with_hdf5_1.10.2-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/build_with_hdf5_1.10.2-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/build_with_hdf5_1.10.2-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/build-with-hdf5-1-10-2-feedstock/branch/master)
 
 Current release info
 ====================
