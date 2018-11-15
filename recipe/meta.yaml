@@ -9,7 +9,7 @@ source:
   sha256: b934af350459cf9041bcdf5472e2aa56ed7321c018d918e9f325ec9a1f9d1a30
 
 build:
-  number: 0
+  number: 1000
   entry_points:
     - ncinfo = netCDF4.utils:ncinfo
     - nc4tonc3 = netCDF4.utils:nc4tonc3
