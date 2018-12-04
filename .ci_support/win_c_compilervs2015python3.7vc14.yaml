@@ -5,21 +5,24 @@ channel_sources:
 channel_targets:
 - conda-forge main
 hdf5:
-- 1.10.3
+- 1.10.4
 libnetcdf:
 - '4.6'
 numpy:
 - '1.11'
 pin_run_as_build:
-  hdf5:
-    max_pin: x.x.x
   libnetcdf:
     max_pin: x.x
   python:
     min_pin: x.x
     max_pin: x.x
+  vc:
+    max_pin: x
 python:
-- '3.6'
+- '3.7'
+vc:
+- '14'
 zip_keys:
 - - python
+  - vc
   - c_compiler
