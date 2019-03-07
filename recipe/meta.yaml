@@ -5,8 +5,8 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/n/netCDF4/netCDF4-{{version}}.tar.gz
-  sha256: 7c76a614d6f827c01f7d688d799d26d0a7ceff80467ce52e2c24d895cc78b196
+  url: https://github.com/Unidata/netcdf4-python/archive/v{{ version }}.tar.gz
+  sha256: d3e4e2e9eda4e92775492c1e11d234c1df41104910423995be9b387cacddae79
 
 build:
   skip: True  # [win and vc<14]
