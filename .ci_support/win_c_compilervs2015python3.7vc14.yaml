@@ -7,12 +7,12 @@ channel_targets:
 hdf5:
 - 1.10.4
 libnetcdf:
-- '4.6'
+- 4.6.2
 numpy:
 - '1.11'
 pin_run_as_build:
   libnetcdf:
-    max_pin: x.x
+    max_pin: x.x.x
   python:
     min_pin: x.x
     max_pin: x.x
