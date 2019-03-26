@@ -10,7 +10,7 @@ source:
 
 build:
   skip: True  # [win and vc<14]
-  number: 0
+  number: 1
   entry_points:
     - ncinfo = netCDF4.utils:ncinfo
     - nc4tonc3 = netCDF4.utils:nc4tonc3
