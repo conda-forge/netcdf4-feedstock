@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://github.com/Unidata/netcdf4-python/archive/v{{ version }}rel.tar.gz
-  sha256: 92b54ac0358473c7ad1dc4215480f2bfeb3a669245c7f7ad13e6238365649c84
+  sha256: bd5fd8d99b431c4a4a6e28762ab824149c9266998018a98f6574f809efd1b953
 
 build:
   skip: True  # [win and vc<14]
