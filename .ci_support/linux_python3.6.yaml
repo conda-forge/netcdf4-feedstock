@@ -9,7 +9,7 @@ channel_targets:
 docker_image:
 - condaforge/linux-anvil-comp7
 hdf5:
-- 1.10.5
+- 4.6.3
 libnetcdf:
 - 4.7.1
 numpy:
