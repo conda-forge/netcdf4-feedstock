@@ -9,7 +9,7 @@ channel_sources:
 channel_targets:
 - conda-forge main
 hdf5:
-- 4.6.3
+- 1.10.5
 libnetcdf:
 - 4.7.1
 macos_machine:
