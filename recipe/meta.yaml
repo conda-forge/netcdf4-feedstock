@@ -1,16 +1,16 @@
-{% set version = "1.5.1.2" %}
+{% set version = "1.5.3" %}
 
 package:
   name: netcdf4
   version: {{ version }}
 
 source:
-  url: https://github.com/Unidata/netcdf4-python/archive/v{{ version }}rel.tar.gz
-  sha256: b58ee907207d01d08b0cec2e2c2cb8d76cd435e12290a017512adbcb3d931e58
+  url: https://pypi.io/packages/source/n/netCDF4/netCDF4-{{ version }}.tar.gz
+  sha256: 2a3ca855848f4bbf07fac366da77a681fcead18c0a8813d91d46302f562dc3be
 
 build:
   skip: True  # [win and vc<14]
-  number: 2
+  number: 0
   entry_points:
     - ncinfo = netCDF4.utils:ncinfo
     - nc4tonc3 = netCDF4.utils:nc4tonc3
