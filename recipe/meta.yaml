@@ -1,4 +1,12 @@
 {% set version = "1.5.3" %}
+{% set build = 1 %}
+
+# recipe-lint fails if mpi is undefined
+{% set mpi = mpi or 'nompi' %}
+{% if mpi == "nompi" %}
+# prioritize nompi via build number
+{% set build = build + 100 %}
+{% endif %}
 
 package:
   name: netcdf4
@@ -10,7 +18,20 @@ source:
 
 build:
   skip: True  # [win and vc<14]
-  number: 0
+  number: {{ build }}
+
+  # add build string so packages can depend on
+  # mpi or nompi variants explicitly:
+  # `netcdf4 * mpi_mpich_*` for mpich
+  # `netcdf4 * mpi_*` for any mpi
+  # `netcdf4 * nompi_*` for no mpi
+
+  {% if mpi != 'nompi' %}
+  {% set mpi_prefix = "mpi_" + mpi %}
+  {% else %}
+  {% set mpi_prefix = "nompi" %}
+  {% endif %}
+  string: "{{ mpi_prefix }}_py{{ CONDA_PY }}h{{ PKG_HASH }}_{{ build }}"
   entry_points:
     - ncinfo = netCDF4.utils:ncinfo
     - nc4tonc3 = netCDF4.utils:nc4tonc3
@@ -25,15 +46,19 @@ requirements:
     - numpy
     - cython >=0.19
     - cftime >=1.0.1
-    - hdf5
-    - libnetcdf
+    - hdf5 * {{ mpi_prefix }}_*
+    - libnetcdf * {{ mpi_prefix }}_*
+    - {{ mpi }}  # [mpi != 'nompi']
+    - mpi4py  # [mpi != 'nompi']
   run:
     - python
     - setuptools
     - {{ pin_compatible('numpy') }}
     - cftime
-    - hdf5
-    - libnetcdf
+    - hdf5 * {{ mpi_prefix }}_*
+    - libnetcdf * {{ mpi_prefix }}_*
+    - {{ mpi }}  # [mpi != 'nompi']
+    - mpi4py  # [mpi != 'nompi']
 
 test:
   imports:
