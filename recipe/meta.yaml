@@ -61,6 +61,8 @@ requirements:
     - mpi4py  # [mpi != 'nompi']
 
 test:
+  files:
+    - parallel_test.py  # [mpi != 'nompi']
   imports:
     - netCDF4
     - cftime
@@ -68,6 +70,7 @@ test:
     - ncinfo -h
     - nc4tonc3 -h
     - nc3tonc4 -h
+    - mpirun -np 4 python parallel_test.py  # [mpi != 'nompi']
 
 about:
   home: http://github.com/Unidata/netcdf4-python
