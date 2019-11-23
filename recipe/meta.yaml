@@ -46,7 +46,11 @@ requirements:
     - numpy
     - cython >=0.19
     - cftime >=1.0.1
+    # need to list hdf5 and libnetcdf twice to get version pinning from conda_build_config
+    # and build pinning from {{ mpi_prefix }}
+    - hdf5
     - hdf5 * {{ mpi_prefix }}_*
+    - libnetcdf
     - libnetcdf * {{ mpi_prefix }}_*
     - {{ mpi }}  # [mpi != 'nompi']
     - mpi4py  # [mpi != 'nompi']
