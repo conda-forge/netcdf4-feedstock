@@ -17,7 +17,7 @@ source:
   sha256: 2a3ca855848f4bbf07fac366da77a681fcead18c0a8813d91d46302f562dc3be
 
 build:
-  skip: True  # [win and vc<14]
+  skip: True  # [(win and vc<14) or (win and mpi != 'nompi')]
   number: {{ build }}
 
   # add build string so packages can depend on
@@ -63,6 +63,7 @@ requirements:
     - libnetcdf * {{ mpi_prefix }}_*
     - {{ mpi }}  # [mpi != 'nompi']
     - mpi4py  # [mpi != 'nompi']
+    - openssh  # [mpi == 'openmpi']
 
 test:
   files:
