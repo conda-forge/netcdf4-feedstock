@@ -75,7 +75,8 @@ test:
     - ncinfo -h
     - nc4tonc3 -h
     - nc3tonc4 -h
-    - mpirun -np 4 python parallel_test.py  # [mpi != 'nompi']
+    - mpirun -np 4 python parallel_test.py  # [mpi == 'mpich']
+    - mpirun --oversubscribe -np 4 python parallel_test.py  # [mpi == 'openmpi']
 
 about:
   home: http://github.com/Unidata/netcdf4-python
