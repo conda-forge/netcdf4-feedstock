@@ -7,7 +7,7 @@ channel_targets:
 hdf5:
 - 1.10.5
 libnetcdf:
-- 4.7.1
+- 4.7.3
 mpi:
 - nompi
 numpy:
