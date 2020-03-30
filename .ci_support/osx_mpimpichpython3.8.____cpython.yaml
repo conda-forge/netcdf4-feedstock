@@ -11,20 +11,18 @@ channel_targets:
 hdf5:
 - 1.10.5
 libnetcdf:
-- 4.7.3
+- 4.7.4
 macos_machine:
 - x86_64-apple-darwin13.4.0
 macos_min_version:
 - '10.9'
 mpi:
-- nompi
+- mpich
 numpy:
 - '1.14'
 pin_run_as_build:
-  libnetcdf:
-    max_pin: x.x.x
   python:
     min_pin: x.x
     max_pin: x.x
 python:
-- '2.7'
+- 3.8.* *_cpython
