@@ -68,6 +68,8 @@ requirements:
     - {{ mpi }}  # [mpi != 'nompi']
     - mpi4py  # [mpi != 'nompi']
     - openssh  # [mpi == 'openmpi']
+    - mkl 2020.0  # [win]
+    - intel-openmp 2020.0  # [win]
 
 test:
   files:
