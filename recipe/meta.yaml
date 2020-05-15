@@ -54,6 +54,7 @@ requirements:
     - libnetcdf * {{ mpi_prefix }}_*
     - {{ mpi }}  # [mpi != 'nompi']
     - mpi4py  # [mpi != 'nompi']
+    - libssh2 1.8.*
   run:
     - python
     - setuptools
@@ -70,6 +71,7 @@ requirements:
     - openssh  # [mpi == 'openmpi']
     - mkl 2020.0  # [win]
     - intel-openmp 2020.0  # [win]
+    - libssh2 1.8.*
 
 test:
   files:
