@@ -1,5 +1,5 @@
-{% set version = "1.5.3" %}
-{% set build = 6 %}
+{% set version = "1.5.4" %}
+{% set build = 0 %}
 
 # recipe-lint fails if mpi is undefined
 {% set mpi = mpi or 'nompi' %}
@@ -14,10 +14,10 @@ package:
 
 source:
   url: https://pypi.io/packages/source/n/netCDF4/netCDF4-{{ version }}.tar.gz
-  sha256: 2a3ca855848f4bbf07fac366da77a681fcead18c0a8813d91d46302f562dc3be
+  sha256: 941de6f3623b6474ecb4d043be5990690f7af4cf0d593b31be912627fe5aad03
 
 build:
-  skip: True  # [(win and vc<14) or (win and mpi != 'nompi')]
+  skip: true  # [(win and vc<14) or (win and mpi != 'nompi')]
   number: {{ build }}
 
   # add build string so packages can depend on
@@ -31,7 +31,7 @@ build:
   {% else %}
   {% set mpi_prefix = "nompi" %}
   {% endif %}
-  string: "{{ mpi_prefix }}_py{{ CONDA_PY }}h{{ PKG_HASH }}_{{ build }}"
+  string: {{ mpi_prefix }}_py{{ CONDA_PY }}h{{ PKG_HASH }}_{{ build }}
   entry_points:
     - ncinfo = netCDF4.utils:ncinfo
     - nc4tonc3 = netCDF4.utils:nc4tonc3
@@ -90,7 +90,7 @@ about:
   home: http://github.com/Unidata/netcdf4-python
   license: OSI Approved and MIT
   license_file: COPYING
-  summary: 'Provides an object-oriented python interface to the netCDF version 4 library'
+  summary: Provides an object-oriented python interface to the netCDF version 4 library
   dev_url: https://github.com/Unidata/netcdf4-python
   doc_url: https://unidata.github.io/netcdf4-python
 
