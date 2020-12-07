@@ -23,5 +23,5 @@ target_platform:
 vc:
 - '14'
 zip_keys:
-- - numpy
-  - python
+- - python
+  - numpy
