@@ -3,7 +3,7 @@ About netcdf4
 
 Home: http://github.com/Unidata/netcdf4-python
 
-Package license: OSI Approved and MIT
+Package license: MIT
 
 Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/netcdf4-feedstock/blob/master/LICENSE.txt)
 
