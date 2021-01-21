@@ -1,5 +1,5 @@
 {% set version = "1.5.5.1" %}
-{% set build = 0 %}
+{% set build = 1 %}
 
 # recipe-lint fails if mpi is undefined
 {% set mpi = mpi or 'nompi' %}
@@ -53,6 +53,7 @@ requirements:
     - libnetcdf
     - libnetcdf * {{ mpi_prefix }}_*
     - {{ mpi }}  # [mpi != 'nompi']
+    - mpich-mpicc  # [mpi == 'mpich']
     - mpi4py  # [mpi != 'nompi']
     - libssh2 1.8.*
   run:
@@ -85,8 +86,8 @@ test:
 
 about:
   home: http://github.com/Unidata/netcdf4-python
-  license: OSI Approved and MIT
-  license_file: COPYING
+  license: MIT
+  license_file: LICENSE
   summary: Provides an object-oriented python interface to the netCDF version 4 library
   dev_url: https://github.com/Unidata/netcdf4-python
   doc_url: https://unidata.github.io/netcdf4-python
