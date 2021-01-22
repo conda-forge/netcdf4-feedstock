@@ -55,7 +55,6 @@ requirements:
     - {{ mpi }}  # [mpi != 'nompi']
     - mpich-mpicc  # [mpi == 'mpich']
     - mpi4py  # [mpi != 'nompi']
-    - libssh2 1.8.*
   run:
     - python
     - setuptools
