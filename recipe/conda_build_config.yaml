@@ -1,8 +1,12 @@
+libnetcdf:
+  - 4.7.4
+  - 4.8.0
+zipped_keys:
+  - libnetcdf
 mpi:
   - nompi
   - mpich
   - openmpi
-
 pin_run_as_build:
   mpich: x.x
   openmpi: x.x
