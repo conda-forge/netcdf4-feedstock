@@ -116,6 +116,42 @@ jobs:
       osx_64_libnetcdf4.8.0mpiopenmpinumpy1.19python3.9.____cpython:
         CONFIG: osx_64_libnetcdf4.8.0mpiopenmpinumpy1.19python3.9.____cpython
         UPLOAD_PACKAGES: 'True'
+      osx_arm64_libnetcdf4.7.4mpimpichpython3.8.____cpython:
+        CONFIG: osx_arm64_libnetcdf4.7.4mpimpichpython3.8.____cpython
+        UPLOAD_PACKAGES: 'True'
+      osx_arm64_libnetcdf4.7.4mpimpichpython3.9.____cpython:
+        CONFIG: osx_arm64_libnetcdf4.7.4mpimpichpython3.9.____cpython
+        UPLOAD_PACKAGES: 'True'
+      osx_arm64_libnetcdf4.7.4mpinompipython3.8.____cpython:
+        CONFIG: osx_arm64_libnetcdf4.7.4mpinompipython3.8.____cpython
+        UPLOAD_PACKAGES: 'True'
+      osx_arm64_libnetcdf4.7.4mpinompipython3.9.____cpython:
+        CONFIG: osx_arm64_libnetcdf4.7.4mpinompipython3.9.____cpython
+        UPLOAD_PACKAGES: 'True'
+      osx_arm64_libnetcdf4.7.4mpiopenmpipython3.8.____cpython:
+        CONFIG: osx_arm64_libnetcdf4.7.4mpiopenmpipython3.8.____cpython
+        UPLOAD_PACKAGES: 'True'
+      osx_arm64_libnetcdf4.7.4mpiopenmpipython3.9.____cpython:
+        CONFIG: osx_arm64_libnetcdf4.7.4mpiopenmpipython3.9.____cpython
+        UPLOAD_PACKAGES: 'True'
+      osx_arm64_libnetcdf4.8.0mpimpichpython3.8.____cpython:
+        CONFIG: osx_arm64_libnetcdf4.8.0mpimpichpython3.8.____cpython
+        UPLOAD_PACKAGES: 'True'
+      osx_arm64_libnetcdf4.8.0mpimpichpython3.9.____cpython:
+        CONFIG: osx_arm64_libnetcdf4.8.0mpimpichpython3.9.____cpython
+        UPLOAD_PACKAGES: 'True'
+      osx_arm64_libnetcdf4.8.0mpinompipython3.8.____cpython:
+        CONFIG: osx_arm64_libnetcdf4.8.0mpinompipython3.8.____cpython
+        UPLOAD_PACKAGES: 'True'
+      osx_arm64_libnetcdf4.8.0mpinompipython3.9.____cpython:
+        CONFIG: osx_arm64_libnetcdf4.8.0mpinompipython3.9.____cpython
+        UPLOAD_PACKAGES: 'True'
+      osx_arm64_libnetcdf4.8.0mpiopenmpipython3.8.____cpython:
+        CONFIG: osx_arm64_libnetcdf4.8.0mpiopenmpipython3.8.____cpython
+        UPLOAD_PACKAGES: 'True'
+      osx_arm64_libnetcdf4.8.0mpiopenmpipython3.9.____cpython:
+        CONFIG: osx_arm64_libnetcdf4.8.0mpiopenmpipython3.9.____cpython
+        UPLOAD_PACKAGES: 'True'
   timeoutInMinutes: 360
 
   steps:
