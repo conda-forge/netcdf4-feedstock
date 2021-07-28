@@ -15,9 +15,9 @@ hdf5:
 libnetcdf:
 - 4.8.0
 mpi:
-- openmpi
+- nompi
 numpy:
-- '1.17'
+- '1.18'
 pin_run_as_build:
   python:
     min_pin: x.x
