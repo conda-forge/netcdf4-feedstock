@@ -1,5 +1,5 @@
 {% set version = "1.5.7" %}
-{% set build = 2 %}
+{% set build = 3 %}
 
 # recipe-lint fails if mpi is undefined
 {% set mpi = mpi or 'nompi' %}
@@ -57,7 +57,6 @@ requirements:
     - libnetcdf
     - libnetcdf * {{ mpi_prefix }}_*
     - {{ mpi }}  # [mpi != 'nompi']
-    - mpich-mpicc  # [mpi == 'mpich']
     - mpi4py  # [mpi != 'nompi']
   run:
     - python
