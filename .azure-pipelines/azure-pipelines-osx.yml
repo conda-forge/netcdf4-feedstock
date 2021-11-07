@@ -20,6 +20,9 @@ jobs:
       osx_64_mpimpichnumpy1.19python3.9.____cpython:
         CONFIG: osx_64_mpimpichnumpy1.19python3.9.____cpython
         UPLOAD_PACKAGES: 'True'
+      osx_64_mpimpichnumpy1.21python3.10.____cpython:
+        CONFIG: osx_64_mpimpichnumpy1.21python3.10.____cpython
+        UPLOAD_PACKAGES: 'True'
       osx_64_mpinompinumpy1.18python3.7.____cpython:
         CONFIG: osx_64_mpinompinumpy1.18python3.7.____cpython
         UPLOAD_PACKAGES: 'True'
@@ -31,6 +34,9 @@ jobs:
         UPLOAD_PACKAGES: 'True'
       osx_64_mpinompinumpy1.19python3.9.____cpython:
         CONFIG: osx_64_mpinompinumpy1.19python3.9.____cpython
+        UPLOAD_PACKAGES: 'True'
+      osx_64_mpinompinumpy1.21python3.10.____cpython:
+        CONFIG: osx_64_mpinompinumpy1.21python3.10.____cpython
         UPLOAD_PACKAGES: 'True'
       osx_64_mpiopenmpinumpy1.18python3.7.____cpython:
         CONFIG: osx_64_mpiopenmpinumpy1.18python3.7.____cpython
@@ -44,24 +50,37 @@ jobs:
       osx_64_mpiopenmpinumpy1.19python3.9.____cpython:
         CONFIG: osx_64_mpiopenmpinumpy1.19python3.9.____cpython
         UPLOAD_PACKAGES: 'True'
-      osx_arm64_mpimpichpython3.8.____cpython:
-        CONFIG: osx_arm64_mpimpichpython3.8.____cpython
+      osx_64_mpiopenmpinumpy1.21python3.10.____cpython:
+        CONFIG: osx_64_mpiopenmpinumpy1.21python3.10.____cpython
         UPLOAD_PACKAGES: 'True'
-      osx_arm64_mpimpichpython3.9.____cpython:
-        CONFIG: osx_arm64_mpimpichpython3.9.____cpython
+      osx_arm64_mpimpichnumpy1.19python3.8.____cpython:
+        CONFIG: osx_arm64_mpimpichnumpy1.19python3.8.____cpython
         UPLOAD_PACKAGES: 'True'
-      osx_arm64_mpinompipython3.8.____cpython:
-        CONFIG: osx_arm64_mpinompipython3.8.____cpython
+      osx_arm64_mpimpichnumpy1.19python3.9.____cpython:
+        CONFIG: osx_arm64_mpimpichnumpy1.19python3.9.____cpython
         UPLOAD_PACKAGES: 'True'
-      osx_arm64_mpinompipython3.9.____cpython:
-        CONFIG: osx_arm64_mpinompipython3.9.____cpython
+      osx_arm64_mpimpichnumpy1.21python3.10.____cpython:
+        CONFIG: osx_arm64_mpimpichnumpy1.21python3.10.____cpython
         UPLOAD_PACKAGES: 'True'
-      osx_arm64_mpiopenmpipython3.8.____cpython:
-        CONFIG: osx_arm64_mpiopenmpipython3.8.____cpython
+      osx_arm64_mpinompinumpy1.19python3.8.____cpython:
+        CONFIG: osx_arm64_mpinompinumpy1.19python3.8.____cpython
         UPLOAD_PACKAGES: 'True'
-      osx_arm64_mpiopenmpipython3.9.____cpython:
-        CONFIG: osx_arm64_mpiopenmpipython3.9.____cpython
+      osx_arm64_mpinompinumpy1.19python3.9.____cpython:
+        CONFIG: osx_arm64_mpinompinumpy1.19python3.9.____cpython
         UPLOAD_PACKAGES: 'True'
+      osx_arm64_mpinompinumpy1.21python3.10.____cpython:
+        CONFIG: osx_arm64_mpinompinumpy1.21python3.10.____cpython
+        UPLOAD_PACKAGES: 'True'
+      osx_arm64_mpiopenmpinumpy1.19python3.8.____cpython:
+        CONFIG: osx_arm64_mpiopenmpinumpy1.19python3.8.____cpython
+        UPLOAD_PACKAGES: 'True'
+      osx_arm64_mpiopenmpinumpy1.19python3.9.____cpython:
+        CONFIG: osx_arm64_mpiopenmpinumpy1.19python3.9.____cpython
+        UPLOAD_PACKAGES: 'True'
+      osx_arm64_mpiopenmpinumpy1.21python3.10.____cpython:
+        CONFIG: osx_arm64_mpiopenmpinumpy1.21python3.10.____cpython
+        UPLOAD_PACKAGES: 'True'
+    maxParallel: 16
   timeoutInMinutes: 360
 
   steps:
