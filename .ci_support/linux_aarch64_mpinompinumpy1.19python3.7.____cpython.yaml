@@ -3,7 +3,7 @@ BUILD:
 c_compiler:
 - gcc
 c_compiler_version:
-- '9'
+- '10'
 cdt_arch:
 - aarch64
 cdt_name:
@@ -20,8 +20,12 @@ libnetcdf:
 - 4.8.1
 mpi:
 - nompi
+mpich:
+- '4'
 numpy:
-- '1.18'
+- '1.19'
+openmpi:
+- '4'
 pin_run_as_build:
   python:
     min_pin: x.x
