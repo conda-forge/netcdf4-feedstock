@@ -15,7 +15,7 @@ hdf5:
 libnetcdf:
 - 4.8.1
 mpi:
-- openmpi
+- mpich
 mpich:
 - '4'
 numpy:
@@ -27,7 +27,7 @@ pin_run_as_build:
     min_pin: x.x
     max_pin: x.x
 python:
-- 3.7.* *_73_pypy
+- 3.9.* *_73_pypy
 target_platform:
 - linux-ppc64le
 zip_keys:
