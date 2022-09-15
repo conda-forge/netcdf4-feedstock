@@ -76,17 +76,22 @@ requirements:
     - openssh  # [mpi == 'openmpi']
 
 test:
+  source_files:
+    - test
   files:
     - parallel_test.py  # [mpi != 'nompi']
   imports:
     - netCDF4
     - cftime
+  requires:
+    - cython
   commands:
     - ncinfo -h
     - nc4tonc3 -h
     - nc3tonc4 -h
     - mpirun -np 4 python parallel_test.py  # [mpi == 'mpich']
     - mpirun --oversubscribe -np 4 python parallel_test.py  # [mpi == 'openmpi']
+    - cd test && python run_all.py
 
 about:
   home: http://github.com/Unidata/netcdf4-python
