@@ -8,10 +8,6 @@ jobs:
     vmImage: ubuntu-latest
   strategy:
     matrix:
-      linux_64_mpimpichnumpy1.20python3.7.____cpython:
-        CONFIG: linux_64_mpimpichnumpy1.20python3.7.____cpython
-        UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
       linux_64_mpimpichnumpy1.20python3.8.____cpython:
         CONFIG: linux_64_mpimpichnumpy1.20python3.8.____cpython
         UPLOAD_PACKAGES: 'True'
@@ -24,8 +20,8 @@ jobs:
         CONFIG: linux_64_mpimpichnumpy1.21python3.10.____cpython
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_64_mpinompinumpy1.20python3.7.____cpython:
-        CONFIG: linux_64_mpinompinumpy1.20python3.7.____cpython
+      linux_64_mpimpichnumpy1.23python3.11.____cpython:
+        CONFIG: linux_64_mpimpichnumpy1.23python3.11.____cpython
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
       linux_64_mpinompinumpy1.20python3.8.____cpython:
@@ -40,8 +36,8 @@ jobs:
         CONFIG: linux_64_mpinompinumpy1.21python3.10.____cpython
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_64_mpiopenmpinumpy1.20python3.7.____cpython:
-        CONFIG: linux_64_mpiopenmpinumpy1.20python3.7.____cpython
+      linux_64_mpinompinumpy1.23python3.11.____cpython:
+        CONFIG: linux_64_mpinompinumpy1.23python3.11.____cpython
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
       linux_64_mpiopenmpinumpy1.20python3.8.____cpython:
@@ -56,10 +52,10 @@ jobs:
         CONFIG: linux_64_mpiopenmpinumpy1.21python3.10.____cpython
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
-      linux_aarch64_mpimpichnumpy1.20python3.7.____cpython:
-        CONFIG: linux_aarch64_mpimpichnumpy1.20python3.7.____cpython
+      linux_64_mpiopenmpinumpy1.23python3.11.____cpython:
+        CONFIG: linux_64_mpiopenmpinumpy1.23python3.11.____cpython
         UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-cos7-x86_64
       linux_aarch64_mpimpichnumpy1.20python3.8.____cpython:
         CONFIG: linux_aarch64_mpimpichnumpy1.20python3.8.____cpython
         UPLOAD_PACKAGES: 'True'
@@ -72,8 +68,8 @@ jobs:
         CONFIG: linux_aarch64_mpimpichnumpy1.21python3.10.____cpython
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64
-      linux_aarch64_mpinompinumpy1.20python3.7.____cpython:
-        CONFIG: linux_aarch64_mpinompinumpy1.20python3.7.____cpython
+      linux_aarch64_mpimpichnumpy1.23python3.11.____cpython:
+        CONFIG: linux_aarch64_mpimpichnumpy1.23python3.11.____cpython
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64
       linux_aarch64_mpinompinumpy1.20python3.8.____cpython:
@@ -88,8 +84,8 @@ jobs:
         CONFIG: linux_aarch64_mpinompinumpy1.21python3.10.____cpython
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64
-      linux_aarch64_mpiopenmpinumpy1.20python3.7.____cpython:
-        CONFIG: linux_aarch64_mpiopenmpinumpy1.20python3.7.____cpython
+      linux_aarch64_mpinompinumpy1.23python3.11.____cpython:
+        CONFIG: linux_aarch64_mpinompinumpy1.23python3.11.____cpython
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64
       linux_aarch64_mpiopenmpinumpy1.20python3.8.____cpython:
@@ -104,10 +100,10 @@ jobs:
         CONFIG: linux_aarch64_mpiopenmpinumpy1.21python3.10.____cpython
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64
-      linux_ppc64le_mpimpichnumpy1.20python3.7.____cpython:
-        CONFIG: linux_ppc64le_mpimpichnumpy1.20python3.7.____cpython
+      linux_aarch64_mpiopenmpinumpy1.23python3.11.____cpython:
+        CONFIG: linux_aarch64_mpiopenmpinumpy1.23python3.11.____cpython
         UPLOAD_PACKAGES: 'True'
-        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-ppc64le
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64
       linux_ppc64le_mpimpichnumpy1.20python3.8.____cpython:
         CONFIG: linux_ppc64le_mpimpichnumpy1.20python3.8.____cpython
         UPLOAD_PACKAGES: 'True'
@@ -120,8 +116,8 @@ jobs:
         CONFIG: linux_ppc64le_mpimpichnumpy1.21python3.10.____cpython
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-ppc64le
-      linux_ppc64le_mpinompinumpy1.20python3.7.____cpython:
-        CONFIG: linux_ppc64le_mpinompinumpy1.20python3.7.____cpython
+      linux_ppc64le_mpimpichnumpy1.23python3.11.____cpython:
+        CONFIG: linux_ppc64le_mpimpichnumpy1.23python3.11.____cpython
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-ppc64le
       linux_ppc64le_mpinompinumpy1.20python3.8.____cpython:
@@ -136,8 +132,8 @@ jobs:
         CONFIG: linux_ppc64le_mpinompinumpy1.21python3.10.____cpython
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-ppc64le
-      linux_ppc64le_mpiopenmpinumpy1.20python3.7.____cpython:
-        CONFIG: linux_ppc64le_mpiopenmpinumpy1.20python3.7.____cpython
+      linux_ppc64le_mpinompinumpy1.23python3.11.____cpython:
+        CONFIG: linux_ppc64le_mpinompinumpy1.23python3.11.____cpython
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-ppc64le
       linux_ppc64le_mpiopenmpinumpy1.20python3.8.____cpython:
@@ -152,7 +148,11 @@ jobs:
         CONFIG: linux_ppc64le_mpiopenmpinumpy1.21python3.10.____cpython
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-ppc64le
-    maxParallel: 30
+      linux_ppc64le_mpiopenmpinumpy1.23python3.11.____cpython:
+        CONFIG: linux_ppc64le_mpiopenmpinumpy1.23python3.11.____cpython
+        UPLOAD_PACKAGES: 'True'
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-ppc64le
+    maxParallel: 28
   timeoutInMinutes: 360
 
   steps:
