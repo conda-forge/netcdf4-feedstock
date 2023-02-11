@@ -3,7 +3,7 @@ BUILD:
 c_compiler:
 - gcc
 c_compiler_version:
-- '10'
+- '11'
 cdt_arch:
 - aarch64
 cdt_name:
@@ -17,7 +17,7 @@ docker_image:
 hdf5:
 - 1.12.2
 libnetcdf:
-- 4.8.1
+- 4.9.1
 mpi:
 - nompi
 mpich:
