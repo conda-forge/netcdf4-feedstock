@@ -1,11 +1,11 @@
-About netcdf4
-=============
+About netcdf4-feedstock
+=======================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/netcdf4-feedstock/blob/main/LICENSE.txt)
 
 Home: http://github.com/Unidata/netcdf4-python
 
 Package license: MIT
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/netcdf4-feedstock/blob/main/LICENSE.txt)
 
 Summary: Provides an object-oriented python interface to the netCDF version 4 library
 
