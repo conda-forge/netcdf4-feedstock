@@ -1,5 +1,5 @@
-{% set version = "1.6.3" %}
-{% set build = 2 %}
+{% set version = "1.6.4" %}
+{% set build = 0 %}
 
 # recipe-lint fails if mpi is undefined
 {% set mpi = mpi or 'nompi' %}
@@ -14,7 +14,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/n/netCDF4/netCDF4-{{ version }}.tar.gz
-  sha256: 8c98a3a8cda06920ee8bd24a71226ddf0328c22bd838b0afca9cb45fb4580d99
+  sha256: 66da6542cbc7a6045cd1d979397dfd5a3f6c880c76d52b8f98bb108c82ee8c6e
 
 build:
   skip: true  # [(win and vc<14) or (win and mpi != 'nompi')]
@@ -63,6 +63,7 @@ requirements:
     - python
     - setuptools
     - {{ pin_compatible('numpy') }}
+    - certifi
     - cftime
     # the 'nompi' build should work with both non-MPI and MPI variants of the
     # following libs
