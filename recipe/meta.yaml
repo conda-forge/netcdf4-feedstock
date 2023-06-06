@@ -63,6 +63,7 @@ requirements:
     - python
     - setuptools
     - {{ pin_compatible('numpy') }}
+    - certifi
     - cftime
     # the 'nompi' build should work with both non-MPI and MPI variants of the
     # following libs
