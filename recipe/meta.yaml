@@ -17,7 +17,8 @@ source:
   sha256: 824881d0aacfde5bd982d6adedd8574259c85553781e7b83e0ce82b890bfa0ef
 
 build:
-  skip: true  # [(win and vc<14) or (win and mpi != 'nompi')]
+  skip: True  # [(win and vc<14) or (win and mpi != 'nompi')]
+  skip: True  # [py<39]
   number: {{ build }}
 
   # add build string so packages can depend on
