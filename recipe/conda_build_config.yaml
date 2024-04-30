@@ -2,3 +2,8 @@ mpi:
   - nompi
   - mpich
   - openmpi
+channel_targets:
+  - conda-forge netcdf4_dev
+channel_sources:
+  - conda-forge,conda-forge/label/numpy_dev
+  - conda-forge,conda-forge/label/cftime_dev

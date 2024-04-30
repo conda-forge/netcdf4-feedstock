@@ -1,5 +1,5 @@
 {% set version = "1.6.5" %}
-{% set build = 0 %}
+{% set build = 1 %}
 
 # recipe-lint fails if mpi is undefined
 {% set mpi = mpi or 'nompi' %}
@@ -42,12 +42,12 @@ requirements:
     - python                                 # [build_platform != target_platform]
     - cross-python_{{ target_platform }}     # [build_platform != target_platform]
     - cython                                 # [build_platform != target_platform]
-    - numpy                                  # [build_platform != target_platform]
+    - numpy >=2.0.0rc1                       # [build_platform != target_platform]
     - {{ compiler('c') }}
   host:
     - python
     - pip
-    - numpy
+    - numpy >=2.0.0rc1
     - cython >=0.19
     - cftime >=1.0.1
     # need to list hdf5 and libnetcdf twice to get version pinning from conda_build_config
@@ -62,7 +62,7 @@ requirements:
   run:
     - python
     - setuptools
-    - {{ pin_compatible('numpy') }}
+    - numpy >=1.23.0
     - certifi
     - cftime
     # the 'nompi' build should work with both non-MPI and MPI variants of the
