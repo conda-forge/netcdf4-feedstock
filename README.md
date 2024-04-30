@@ -31,563 +31,451 @@ Current build status
         <table>
           <thead><tr><th>Variant</th><th>Status</th></tr></thead>
           <tbody><tr>
-              <td>linux_64_mpimpichnumpy1.22python3.10.____cpython</td>
+              <td>linux_64_mpimpichpython3.10.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_mpimpichnumpy1.22python3.10.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_mpimpichpython3.10.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_mpimpichnumpy1.22python3.8.____cpython</td>
+              <td>linux_64_mpimpichpython3.11.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_mpimpichnumpy1.22python3.8.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_mpimpichpython3.11.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_mpimpichnumpy1.22python3.9.____cpython</td>
+              <td>linux_64_mpimpichpython3.12.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_mpimpichnumpy1.22python3.9.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_mpimpichpython3.12.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_mpimpichnumpy1.23python3.11.____cpython</td>
+              <td>linux_64_mpimpichpython3.9.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_mpimpichnumpy1.23python3.11.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_mpimpichpython3.9.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_mpimpichnumpy1.26python3.12.____cpython</td>
+              <td>linux_64_mpinompipython3.10.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_mpimpichnumpy1.26python3.12.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_mpinompipython3.10.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_mpinompinumpy1.22python3.10.____cpython</td>
+              <td>linux_64_mpinompipython3.11.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_mpinompinumpy1.22python3.10.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_mpinompipython3.11.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_mpinompinumpy1.22python3.8.____cpython</td>
+              <td>linux_64_mpinompipython3.12.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_mpinompinumpy1.22python3.8.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_mpinompipython3.12.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_mpinompinumpy1.22python3.9.____cpython</td>
+              <td>linux_64_mpinompipython3.9.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_mpinompinumpy1.22python3.9.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_mpinompipython3.9.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_mpinompinumpy1.23python3.11.____cpython</td>
+              <td>linux_64_mpiopenmpipython3.10.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_mpinompinumpy1.23python3.11.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_mpiopenmpipython3.10.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_mpinompinumpy1.26python3.12.____cpython</td>
+              <td>linux_64_mpiopenmpipython3.11.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_mpinompinumpy1.26python3.12.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_mpiopenmpipython3.11.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_mpiopenmpinumpy1.22python3.10.____cpython</td>
+              <td>linux_64_mpiopenmpipython3.12.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_mpiopenmpinumpy1.22python3.10.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_mpiopenmpipython3.12.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_mpiopenmpinumpy1.22python3.8.____cpython</td>
+              <td>linux_64_mpiopenmpipython3.9.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_mpiopenmpinumpy1.22python3.8.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_mpiopenmpipython3.9.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_mpiopenmpinumpy1.22python3.9.____cpython</td>
+              <td>linux_aarch64_mpimpichpython3.10.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_mpiopenmpinumpy1.22python3.9.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_mpimpichpython3.10.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_mpiopenmpinumpy1.23python3.11.____cpython</td>
+              <td>linux_aarch64_mpimpichpython3.11.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_mpiopenmpinumpy1.23python3.11.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_mpimpichpython3.11.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_64_mpiopenmpinumpy1.26python3.12.____cpython</td>
+              <td>linux_aarch64_mpimpichpython3.12.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_64_mpiopenmpinumpy1.26python3.12.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_mpimpichpython3.12.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_aarch64_mpimpichnumpy1.22python3.10.____cpython</td>
+              <td>linux_aarch64_mpimpichpython3.9.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_mpimpichnumpy1.22python3.10.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_mpimpichpython3.9.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_aarch64_mpimpichnumpy1.22python3.8.____cpython</td>
+              <td>linux_aarch64_mpinompipython3.10.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_mpimpichnumpy1.22python3.8.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_mpinompipython3.10.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_aarch64_mpimpichnumpy1.22python3.9.____cpython</td>
+              <td>linux_aarch64_mpinompipython3.11.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_mpimpichnumpy1.22python3.9.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_mpinompipython3.11.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_aarch64_mpimpichnumpy1.23python3.11.____cpython</td>
+              <td>linux_aarch64_mpinompipython3.12.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_mpimpichnumpy1.23python3.11.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_mpinompipython3.12.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_aarch64_mpimpichnumpy1.26python3.12.____cpython</td>
+              <td>linux_aarch64_mpinompipython3.9.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_mpimpichnumpy1.26python3.12.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_mpinompipython3.9.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_aarch64_mpinompinumpy1.22python3.10.____cpython</td>
+              <td>linux_aarch64_mpiopenmpipython3.10.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_mpinompinumpy1.22python3.10.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_mpiopenmpipython3.10.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_aarch64_mpinompinumpy1.22python3.8.____cpython</td>
+              <td>linux_aarch64_mpiopenmpipython3.11.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_mpinompinumpy1.22python3.8.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_mpiopenmpipython3.11.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_aarch64_mpinompinumpy1.22python3.9.____cpython</td>
+              <td>linux_aarch64_mpiopenmpipython3.12.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_mpinompinumpy1.22python3.9.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_mpiopenmpipython3.12.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_aarch64_mpinompinumpy1.23python3.11.____cpython</td>
+              <td>linux_aarch64_mpiopenmpipython3.9.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_mpinompinumpy1.23python3.11.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_mpiopenmpipython3.9.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_aarch64_mpinompinumpy1.26python3.12.____cpython</td>
+              <td>linux_ppc64le_mpimpichpython3.10.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_mpinompinumpy1.26python3.12.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_mpimpichpython3.10.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_aarch64_mpiopenmpinumpy1.22python3.10.____cpython</td>
+              <td>linux_ppc64le_mpimpichpython3.11.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_mpiopenmpinumpy1.22python3.10.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_mpimpichpython3.11.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_aarch64_mpiopenmpinumpy1.22python3.8.____cpython</td>
+              <td>linux_ppc64le_mpimpichpython3.12.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_mpiopenmpinumpy1.22python3.8.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_mpimpichpython3.12.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_aarch64_mpiopenmpinumpy1.22python3.9.____cpython</td>
+              <td>linux_ppc64le_mpimpichpython3.9.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_mpiopenmpinumpy1.22python3.9.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_mpimpichpython3.9.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_aarch64_mpiopenmpinumpy1.23python3.11.____cpython</td>
+              <td>linux_ppc64le_mpinompipython3.10.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_mpiopenmpinumpy1.23python3.11.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_mpinompipython3.10.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_aarch64_mpiopenmpinumpy1.26python3.12.____cpython</td>
+              <td>linux_ppc64le_mpinompipython3.11.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_mpiopenmpinumpy1.26python3.12.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_mpinompipython3.11.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_ppc64le_mpimpichnumpy1.22python3.10.____cpython</td>
+              <td>linux_ppc64le_mpinompipython3.12.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_mpimpichnumpy1.22python3.10.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_mpinompipython3.12.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_ppc64le_mpimpichnumpy1.22python3.8.____cpython</td>
+              <td>linux_ppc64le_mpinompipython3.9.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_mpimpichnumpy1.22python3.8.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_mpinompipython3.9.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_ppc64le_mpimpichnumpy1.22python3.9.____cpython</td>
+              <td>linux_ppc64le_mpiopenmpipython3.10.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_mpimpichnumpy1.22python3.9.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_mpiopenmpipython3.10.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_ppc64le_mpimpichnumpy1.23python3.11.____cpython</td>
+              <td>linux_ppc64le_mpiopenmpipython3.11.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_mpimpichnumpy1.23python3.11.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_mpiopenmpipython3.11.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_ppc64le_mpimpichnumpy1.26python3.12.____cpython</td>
+              <td>linux_ppc64le_mpiopenmpipython3.12.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_mpimpichnumpy1.26python3.12.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_mpiopenmpipython3.12.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_ppc64le_mpinompinumpy1.22python3.10.____cpython</td>
+              <td>linux_ppc64le_mpiopenmpipython3.9.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_mpinompinumpy1.22python3.10.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_mpiopenmpipython3.9.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_ppc64le_mpinompinumpy1.22python3.8.____cpython</td>
+              <td>osx_64_mpimpichpython3.10.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_mpinompinumpy1.22python3.8.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_mpimpichpython3.10.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_ppc64le_mpinompinumpy1.22python3.9.____cpython</td>
+              <td>osx_64_mpimpichpython3.11.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_mpinompinumpy1.22python3.9.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_mpimpichpython3.11.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_ppc64le_mpinompinumpy1.23python3.11.____cpython</td>
+              <td>osx_64_mpimpichpython3.12.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_mpinompinumpy1.23python3.11.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_mpimpichpython3.12.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_ppc64le_mpinompinumpy1.26python3.12.____cpython</td>
+              <td>osx_64_mpimpichpython3.9.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_mpinompinumpy1.26python3.12.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_mpimpichpython3.9.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_ppc64le_mpiopenmpinumpy1.22python3.10.____cpython</td>
+              <td>osx_64_mpinompipython3.10.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_mpiopenmpinumpy1.22python3.10.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_mpinompipython3.10.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_ppc64le_mpiopenmpinumpy1.22python3.8.____cpython</td>
+              <td>osx_64_mpinompipython3.11.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_mpiopenmpinumpy1.22python3.8.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_mpinompipython3.11.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_ppc64le_mpiopenmpinumpy1.22python3.9.____cpython</td>
+              <td>osx_64_mpinompipython3.12.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_mpiopenmpinumpy1.22python3.9.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_mpinompipython3.12.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_ppc64le_mpiopenmpinumpy1.23python3.11.____cpython</td>
+              <td>osx_64_mpinompipython3.9.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_mpiopenmpinumpy1.23python3.11.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_mpinompipython3.9.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>linux_ppc64le_mpiopenmpinumpy1.26python3.12.____cpython</td>
+              <td>osx_64_mpiopenmpipython3.10.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_mpiopenmpinumpy1.26python3.12.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_mpiopenmpipython3.10.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_mpimpichnumpy1.22python3.10.____cpython</td>
+              <td>osx_64_mpiopenmpipython3.11.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_mpimpichnumpy1.22python3.10.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_mpiopenmpipython3.11.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_mpimpichnumpy1.22python3.8.____cpython</td>
+              <td>osx_64_mpiopenmpipython3.12.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_mpimpichnumpy1.22python3.8.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_mpiopenmpipython3.12.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_mpimpichnumpy1.22python3.9.____cpython</td>
+              <td>osx_64_mpiopenmpipython3.9.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_mpimpichnumpy1.22python3.9.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_mpiopenmpipython3.9.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_mpimpichnumpy1.23python3.11.____cpython</td>
+              <td>osx_arm64_mpimpichpython3.10.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_mpimpichnumpy1.23python3.11.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_mpimpichpython3.10.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_mpimpichnumpy1.26python3.12.____cpython</td>
+              <td>osx_arm64_mpimpichpython3.11.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_mpimpichnumpy1.26python3.12.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_mpimpichpython3.11.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_mpinompinumpy1.22python3.10.____cpython</td>
+              <td>osx_arm64_mpimpichpython3.12.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_mpinompinumpy1.22python3.10.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_mpimpichpython3.12.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_mpinompinumpy1.22python3.8.____cpython</td>
+              <td>osx_arm64_mpimpichpython3.9.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_mpinompinumpy1.22python3.8.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_mpimpichpython3.9.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_mpinompinumpy1.22python3.9.____cpython</td>
+              <td>osx_arm64_mpinompipython3.10.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_mpinompinumpy1.22python3.9.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_mpinompipython3.10.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_mpinompinumpy1.23python3.11.____cpython</td>
+              <td>osx_arm64_mpinompipython3.11.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_mpinompinumpy1.23python3.11.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_mpinompipython3.11.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_mpinompinumpy1.26python3.12.____cpython</td>
+              <td>osx_arm64_mpinompipython3.12.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_mpinompinumpy1.26python3.12.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_mpinompipython3.12.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_mpiopenmpinumpy1.22python3.10.____cpython</td>
+              <td>osx_arm64_mpinompipython3.9.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_mpiopenmpinumpy1.22python3.10.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_mpinompipython3.9.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_mpiopenmpinumpy1.22python3.8.____cpython</td>
+              <td>osx_arm64_mpiopenmpipython3.10.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_mpiopenmpinumpy1.22python3.8.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_mpiopenmpipython3.10.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_mpiopenmpinumpy1.22python3.9.____cpython</td>
+              <td>osx_arm64_mpiopenmpipython3.11.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_mpiopenmpinumpy1.22python3.9.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_mpiopenmpipython3.11.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_mpiopenmpinumpy1.23python3.11.____cpython</td>
+              <td>osx_arm64_mpiopenmpipython3.12.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_mpiopenmpinumpy1.23python3.11.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_mpiopenmpipython3.12.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_64_mpiopenmpinumpy1.26python3.12.____cpython</td>
+              <td>osx_arm64_mpiopenmpipython3.9.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_mpiopenmpinumpy1.26python3.12.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_mpiopenmpipython3.9.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64_mpimpichnumpy1.22python3.10.____cpython</td>
+              <td>win_64_mpinompipython3.10.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_mpimpichnumpy1.22python3.10.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=win&configuration=win%20win_64_mpinompipython3.10.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64_mpimpichnumpy1.22python3.8.____cpython</td>
+              <td>win_64_mpinompipython3.11.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_mpimpichnumpy1.22python3.8.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=win&configuration=win%20win_64_mpinompipython3.11.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64_mpimpichnumpy1.22python3.9.____cpython</td>
+              <td>win_64_mpinompipython3.12.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_mpimpichnumpy1.22python3.9.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=win&configuration=win%20win_64_mpinompipython3.12.____cpython" alt="variant">
                 </a>
               </td>
             </tr><tr>
-              <td>osx_arm64_mpimpichnumpy1.23python3.11.____cpython</td>
+              <td>win_64_mpinompipython3.9.____cpython</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_mpimpichnumpy1.23python3.11.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_arm64_mpimpichnumpy1.26python3.12.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_mpimpichnumpy1.26python3.12.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_arm64_mpinompinumpy1.22python3.10.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_mpinompinumpy1.22python3.10.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_arm64_mpinompinumpy1.22python3.8.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_mpinompinumpy1.22python3.8.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_arm64_mpinompinumpy1.22python3.9.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_mpinompinumpy1.22python3.9.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_arm64_mpinompinumpy1.23python3.11.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_mpinompinumpy1.23python3.11.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_arm64_mpinompinumpy1.26python3.12.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_mpinompinumpy1.26python3.12.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_arm64_mpiopenmpinumpy1.22python3.10.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_mpiopenmpinumpy1.22python3.10.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_arm64_mpiopenmpinumpy1.22python3.8.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_mpiopenmpinumpy1.22python3.8.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_arm64_mpiopenmpinumpy1.22python3.9.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_mpiopenmpinumpy1.22python3.9.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_arm64_mpiopenmpinumpy1.23python3.11.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_mpiopenmpinumpy1.23python3.11.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>osx_arm64_mpiopenmpinumpy1.26python3.12.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_mpiopenmpinumpy1.26python3.12.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>win_64_mpinompinumpy1.22python3.10.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=win&configuration=win%20win_64_mpinompinumpy1.22python3.10.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>win_64_mpinompinumpy1.22python3.8.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=win&configuration=win%20win_64_mpinompinumpy1.22python3.8.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>win_64_mpinompinumpy1.22python3.9.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=win&configuration=win%20win_64_mpinompinumpy1.22python3.9.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>win_64_mpinompinumpy1.23python3.11.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=win&configuration=win%20win_64_mpinompinumpy1.23python3.11.____cpython" alt="variant">
-                </a>
-              </td>
-            </tr><tr>
-              <td>win_64_mpinompinumpy1.26python3.12.____cpython</td>
-              <td>
-                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
-                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=win&configuration=win%20win_64_mpinompinumpy1.26python3.12.____cpython" alt="variant">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=win&configuration=win%20win_64_mpinompipython3.9.____cpython" alt="variant">
                 </a>
               </td>
             </tr>
@@ -608,14 +496,14 @@ Current release info
 Installing netcdf4
 ==================
 
-Installing `netcdf4` from the `conda-forge` channel can be achieved by adding `conda-forge` to your channels with:
+Installing `netcdf4` from the `conda-forge/label/netcdf4_dev` channel can be achieved by adding `conda-forge/label/netcdf4_dev` to your channels with:
 
 ```
-conda config --add channels conda-forge
+conda config --add channels conda-forge/label/netcdf4_dev
 conda config --set channel_priority strict
 ```
 
-Once the `conda-forge` channel has been enabled, `netcdf4` can be installed with `conda`:
+Once the `conda-forge/label/netcdf4_dev` channel has been enabled, `netcdf4` can be installed with `conda`:
 
 ```
 conda install netcdf4
@@ -630,26 +518,26 @@ mamba install netcdf4
 It is possible to list all of the versions of `netcdf4` available on your platform with `conda`:
 
 ```
-conda search netcdf4 --channel conda-forge
+conda search netcdf4 --channel conda-forge/label/netcdf4_dev
 ```
 
 or with `mamba`:
 
 ```
-mamba search netcdf4 --channel conda-forge
+mamba search netcdf4 --channel conda-forge/label/netcdf4_dev
 ```
 
 Alternatively, `mamba repoquery` may provide more information:
 
 ```
 # Search all versions available on your platform:
-mamba repoquery search netcdf4 --channel conda-forge
+mamba repoquery search netcdf4 --channel conda-forge/label/netcdf4_dev
 
 # List packages depending on `netcdf4`:
-mamba repoquery whoneeds netcdf4 --channel conda-forge
+mamba repoquery whoneeds netcdf4 --channel conda-forge/label/netcdf4_dev
 
 # List dependencies of `netcdf4`:
-mamba repoquery depends netcdf4 --channel conda-forge
+mamba repoquery depends netcdf4 --channel conda-forge/label/netcdf4_dev
 ```
 
 
@@ -671,7 +559,7 @@ available continuous integration services. Thanks to the awesome service provide
 [CircleCI](https://circleci.com/), [AppVeyor](https://www.appveyor.com/),
 [Drone](https://cloud.drone.io/welcome), and [TravisCI](https://travis-ci.com/)
 it is possible to build and upload installable packages to the
-[conda-forge](https://anaconda.org/conda-forge) [Anaconda-Cloud](https://anaconda.org/)
+[conda-forge](https://anaconda.org/conda-forge) [anaconda.org](https://anaconda.org/)
 channel for Linux, Windows and OSX respectively.
 
 To manage the continuous integration and simplify feedstock maintenance
