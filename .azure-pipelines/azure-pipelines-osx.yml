@@ -17,9 +17,6 @@ jobs:
       osx_64_mpimpichpython3.12.____cpython:
         CONFIG: osx_64_mpimpichpython3.12.____cpython
         UPLOAD_PACKAGES: 'True'
-      osx_64_mpimpichpython3.8.____cpython:
-        CONFIG: osx_64_mpimpichpython3.8.____cpython
-        UPLOAD_PACKAGES: 'True'
       osx_64_mpimpichpython3.9.____cpython:
         CONFIG: osx_64_mpimpichpython3.9.____cpython
         UPLOAD_PACKAGES: 'True'
@@ -31,9 +28,6 @@ jobs:
         UPLOAD_PACKAGES: 'True'
       osx_64_mpinompipython3.12.____cpython:
         CONFIG: osx_64_mpinompipython3.12.____cpython
-        UPLOAD_PACKAGES: 'True'
-      osx_64_mpinompipython3.8.____cpython:
-        CONFIG: osx_64_mpinompipython3.8.____cpython
         UPLOAD_PACKAGES: 'True'
       osx_64_mpinompipython3.9.____cpython:
         CONFIG: osx_64_mpinompipython3.9.____cpython
@@ -47,9 +41,6 @@ jobs:
       osx_64_mpiopenmpipython3.12.____cpython:
         CONFIG: osx_64_mpiopenmpipython3.12.____cpython
         UPLOAD_PACKAGES: 'True'
-      osx_64_mpiopenmpipython3.8.____cpython:
-        CONFIG: osx_64_mpiopenmpipython3.8.____cpython
-        UPLOAD_PACKAGES: 'True'
       osx_64_mpiopenmpipython3.9.____cpython:
         CONFIG: osx_64_mpiopenmpipython3.9.____cpython
         UPLOAD_PACKAGES: 'True'
@@ -61,9 +52,6 @@ jobs:
         UPLOAD_PACKAGES: 'True'
       osx_arm64_mpimpichpython3.12.____cpython:
         CONFIG: osx_arm64_mpimpichpython3.12.____cpython
-        UPLOAD_PACKAGES: 'True'
-      osx_arm64_mpimpichpython3.8.____cpython:
-        CONFIG: osx_arm64_mpimpichpython3.8.____cpython
         UPLOAD_PACKAGES: 'True'
       osx_arm64_mpimpichpython3.9.____cpython:
         CONFIG: osx_arm64_mpimpichpython3.9.____cpython
@@ -77,9 +65,6 @@ jobs:
       osx_arm64_mpinompipython3.12.____cpython:
         CONFIG: osx_arm64_mpinompipython3.12.____cpython
         UPLOAD_PACKAGES: 'True'
-      osx_arm64_mpinompipython3.8.____cpython:
-        CONFIG: osx_arm64_mpinompipython3.8.____cpython
-        UPLOAD_PACKAGES: 'True'
       osx_arm64_mpinompipython3.9.____cpython:
         CONFIG: osx_arm64_mpinompipython3.9.____cpython
         UPLOAD_PACKAGES: 'True'
@@ -91,9 +76,6 @@ jobs:
         UPLOAD_PACKAGES: 'True'
       osx_arm64_mpiopenmpipython3.12.____cpython:
         CONFIG: osx_arm64_mpiopenmpipython3.12.____cpython
-        UPLOAD_PACKAGES: 'True'
-      osx_arm64_mpiopenmpipython3.8.____cpython:
-        CONFIG: osx_arm64_mpiopenmpipython3.8.____cpython
         UPLOAD_PACKAGES: 'True'
       osx_arm64_mpiopenmpipython3.9.____cpython:
         CONFIG: osx_arm64_mpiopenmpipython3.9.____cpython

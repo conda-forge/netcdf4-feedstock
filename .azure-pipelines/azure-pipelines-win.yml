@@ -17,9 +17,6 @@ jobs:
       win_64_mpinompipython3.12.____cpython:
         CONFIG: win_64_mpinompipython3.12.____cpython
         UPLOAD_PACKAGES: 'True'
-      win_64_mpinompipython3.8.____cpython:
-        CONFIG: win_64_mpinompipython3.8.____cpython
-        UPLOAD_PACKAGES: 'True'
       win_64_mpinompipython3.9.____cpython:
         CONFIG: win_64_mpinompipython3.9.____cpython
         UPLOAD_PACKAGES: 'True'
