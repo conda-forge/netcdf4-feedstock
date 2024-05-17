@@ -1,5 +1,5 @@
 {% set version = "1.6.5" %}
-{% set build = 0 %}
+{% set build = 1 %}
 
 # recipe-lint fails if mpi is undefined
 {% set mpi = mpi or 'nompi' %}
@@ -44,6 +44,7 @@ requirements:
     - cython                                 # [build_platform != target_platform]
     - numpy                                  # [build_platform != target_platform]
     - {{ compiler('c') }}
+    - {{ stdlib("c") }}
   host:
     - python
     - pip
@@ -62,7 +63,6 @@ requirements:
   run:
     - python
     - setuptools
-    - {{ pin_compatible('numpy') }}
     - certifi
     - cftime
     # the 'nompi' build should work with both non-MPI and MPI variants of the
