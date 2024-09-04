@@ -59,6 +59,7 @@ requirements:
     - libnetcdf * {{ mpi_prefix }}_*
     - {{ mpi }}  # [mpi != 'nompi']
     - mpi4py  # [mpi != 'nompi']
+    - setuptools
     - zlib
   run:
     - python
