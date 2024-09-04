@@ -31,5 +31,6 @@ vc:
 zip_keys:
 - - python
   - numpy
+  - channel_sources
 zlib:
 - '1'
