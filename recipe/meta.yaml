@@ -59,14 +59,14 @@ requirements:
     - libnetcdf * {{ mpi_prefix }}_*
     - {{ mpi }}  # [mpi != 'nompi']
     - mpi4py  # [mpi != 'nompi']
-    - setuptools
+    - setuptools >=61
+    - setuptools_scm >=3.4    
     - zlib
   run:
-    - numpy
     - python
-    - setuptools
     - certifi
     - cftime
+    - numpy
     # the 'nompi' build should work with both non-MPI and MPI variants of the
     # following libs
     - hdf5  # [mpi == 'nompi']
