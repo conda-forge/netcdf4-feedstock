@@ -1,5 +1,5 @@
-{% set version = "1.7.2" %}
-{% set build = 4 %}
+{% set version = "1.7.3" %}
+{% set build = 0 %}
 
 # recipe-lint fails if mpi is undefined
 {% set mpi = mpi or 'nompi' %}
@@ -14,10 +14,11 @@ package:
 
 source:
   url: https://github.com/Unidata/netcdf4-python/archive/refs/tags/v{{ version }}rel.tar.gz
-  sha256: cce7d42a83f84b6ce6288bb2fb171d5ffd294f1a1ba2650807d238ae961e9629
+  sha256: dff77ab20e26e43426dd19256e71aacbd4c92bfb172cc30e647c9e34b4c53828
 
 build:
-  skip: true  # [(win and vc<14) or (win and mpi != 'nompi')]
+  python_version_independent: true  # [is_abi3]
+  skip: true  # [(win and vc<14) or (win and mpi != 'nompi') or (py>=312 and is_abi3)]
   number: {{ build }}
 
   # add build string so packages can depend on
@@ -36,9 +37,12 @@ build:
     - ncinfo = netCDF4.utils:ncinfo
     - nc4tonc3 = netCDF4.utils:nc4tonc3
     - nc3tonc4 = netCDF4.utils:nc3tonc4
+  script_env:
+    - NETCDF4_LIMITED_API=1
 
 requirements:
   build:
+    - python-abi3                            # [is_abi3]
     - python                                 # [build_platform != target_platform]
     - cross-python_{{ target_platform }}     # [build_platform != target_platform]
     - cython                                 # [build_platform != target_platform]
@@ -88,6 +92,7 @@ test:
   requires:
     - cython
     - packaging
+    - abi3audit  # [py>=311 and is_abi3]
   commands:
     - ncinfo -h
     - nc4tonc3 -h
@@ -95,6 +100,11 @@ test:
     - mpirun -np 4 python parallel_test.py  # [mpi == 'mpich']
     - mpirun --oversubscribe -np 4 python parallel_test.py  # [mpi == 'openmpi']
     - cd test && python run_all.py
+    - abi3audit $SP_DIR/netcdf4/*.abi3.so -s -v --assume-minimum-abi3 3.11  # [unix and py>=311 and is_abi3]
+    # only check a single file on windows because I can't figure out the correct wildcaard expression
+    # this should be okay as long as there's nothing platform specific in `setupext.py`
+    - abi3audit %SP_DIR%/netcdf4/_netCDF4.pyd -s -v --assume-minimum-abi3 3.11     # [win and py>=311 and is_abi3]
+
 
 about:
   home: http://github.com/Unidata/netcdf4-python
