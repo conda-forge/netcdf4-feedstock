@@ -1,5 +1,5 @@
-{% set version = "1.7.2" %}
-{% set build = 4 %}
+{% set version = "1.7.3" %}
+{% set build = 0 %}
 
 # recipe-lint fails if mpi is undefined
 {% set mpi = mpi or 'nompi' %}
@@ -14,7 +14,7 @@ package:
 
 source:
   url: https://github.com/Unidata/netcdf4-python/archive/refs/tags/v{{ version }}rel.tar.gz
-  sha256: cce7d42a83f84b6ce6288bb2fb171d5ffd294f1a1ba2650807d238ae961e9629
+  sha256: dff77ab20e26e43426dd19256e71aacbd4c92bfb172cc30e647c9e34b4c53828
 
 build:
   skip: true  # [(win and vc<14) or (win and mpi != 'nompi')]
