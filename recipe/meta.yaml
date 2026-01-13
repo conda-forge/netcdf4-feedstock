@@ -88,6 +88,7 @@ test:
   requires:
     - cython
     - packaging
+    - pytest
   commands:
     - ncinfo -h
     - nc4tonc3 -h
