@@ -1,0 +1,135 @@
+schema_version: 1
+
+context:
+  name: netcdf4
+  version: 1.7.4
+  # recipe-lint failed in v0 if mpi was undefined; keep the same defaulting behavior
+  mpi: ${{ mpi or "nompi" }}
+  # prioritize nompi via build number
+  build_number: ${{ 101 if mpi == "nompi" else 1 }}
+  mpi_prefix: ${{ "mpi_" + mpi if mpi != "nompi" else "nompi" }}
+
+package:
+  name: ${{ name }}
+  version: ${{ version }}
+
+source:
+  url: https://github.com/Unidata/netcdf4-python/archive/refs/tags/v${{ version }}rel.tar.gz
+  sha256: c792977eb762fd29fa46b78f44dd8c15729fe7733c2cd2ecd34552089734ce4b
+
+build:
+  # Windows builds are only supported for the nompi variant.
+  skip:
+    - win and mpi != "nompi"
+  number: ${{ build_number }}
+
+  # add build string so packages can depend on mpi/nompi variants explicitly:
+  # `netcdf4 * mpi_mpich_*` for mpich
+  # `netcdf4 * mpi_*` for any mpi
+  # `netcdf4 * nompi_*` for no mpi
+  string: ${{ mpi_prefix }}_py${{ python | version_to_buildstring }}h${{ hash }}_${{ build_number }}
+
+  python:
+    entry_points:
+      - ncinfo = netCDF4.utils:ncinfo
+      - nc4tonc3 = netCDF4.utils:nc4tonc3
+      - nc3tonc4 = netCDF4.utils:nc3tonc4
+
+requirements:
+  build:
+    - ${{ compiler("c") }}
+    - ${{ stdlib("c") }}
+    - if: build_platform != target_platform
+      then:
+        - python
+        - cross-python_${{ target_platform }}
+        - cython
+        - numpy
+  host:
+    - python
+    - pip
+    - numpy >=2.0.0
+    - cython >=0.29
+    - cftime >=1.0.1
+    # need to list hdf5 and libnetcdf twice to get version pinning from conda_build_config
+    # and build pinning from ${{ mpi_prefix }}
+    - hdf5
+    - hdf5 * ${{ mpi_prefix }}_*
+    - libnetcdf
+    - libnetcdf * ${{ mpi_prefix }}_*
+    - if: mpi != "nompi"
+      then:
+        - ${{ mpi }}
+        - mpi4py
+    - setuptools >=77.0.1
+    - setuptools_scm >=3.4
+    - zlib
+  run:
+    - python
+    - certifi
+    - cftime
+    - numpy
+    # the 'nompi' build should work with both non-MPI and MPI variants of the
+    # following libs
+    - if: mpi == "nompi"
+      then:
+        - hdf5
+        - libnetcdf
+    - if: mpi != "nompi"
+      then:
+        - hdf5 * ${{ mpi_prefix }}_*
+        - libnetcdf * ${{ mpi_prefix }}_*
+        - ${{ mpi }}
+        - mpi4py
+    - if: mpi == "openmpi"
+      then: openssh
+
+tests:
+  - python:
+      imports:
+        - netCDF4
+        - cftime
+
+  - script:
+      - ncinfo -h
+      - nc4tonc3 -h
+      - nc3tonc4 -h
+      - cd test && python run_all.py
+    requirements:
+      run:
+        - cython
+        - packaging
+        - pytest
+    files:
+      source:
+        - test/
+
+  # MPI functional test (no-op on nompi builds)
+  - script:
+      - if: mpi == "mpich"
+        then:
+          - mpirun -np 4 python parallel_test.py
+      - if: mpi == "openmpi"
+        then:
+          - mpirun --oversubscribe -np 4 python parallel_test.py
+      - if: mpi == "nompi"
+        then:
+          - echo "Skipping MPI tests (nompi variant)"
+    files:
+      recipe:
+        - parallel_test.py
+
+about:
+  homepage: http://github.com/Unidata/netcdf4-python
+  license: MIT
+  license_file: LICENSE
+  summary: Provides an object-oriented python interface to the netCDF version 4 library
+  repository: https://github.com/Unidata/netcdf4-python
+  documentation: https://unidata.github.io/netcdf4-python
+
+extra:
+  recipe-maintainers:
+    - ocefpaf
+    - pelson
+    - dopplershift
+    - xylar
