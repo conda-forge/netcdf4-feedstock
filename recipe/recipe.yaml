@@ -91,6 +91,9 @@ tests:
         - cftime
 
   - script:
+      # ncinfo -h is segfaulting in linux aarch64 mpich python 3.12 without a
+      # "warm-up" command
+      - python -c "from netCDF4.utils import ncinfo; ncinfo()"
       - ncinfo -h
       - nc4tonc3 -h
       - nc3tonc4 -h
