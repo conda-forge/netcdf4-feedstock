@@ -1,4 +1,4 @@
-{% set version = "1.7.3" %}
+{% set version = "1.7.4" %}
 {% set build = 0 %}
 
 # recipe-lint fails if mpi is undefined
@@ -14,7 +14,7 @@ package:
 
 source:
   url: https://github.com/Unidata/netcdf4-python/archive/refs/tags/v{{ version }}rel.tar.gz
-  sha256: dff77ab20e26e43426dd19256e71aacbd4c92bfb172cc30e647c9e34b4c53828
+  sha256: c792977eb762fd29fa46b78f44dd8c15729fe7733c2cd2ecd34552089734ce4b
 
 build:
   skip: true  # [(win and vc<14) or (win and mpi != 'nompi')]
@@ -48,8 +48,8 @@ requirements:
   host:
     - python
     - pip
-    - numpy
-    - cython >=0.19
+    - numpy >=2.0.0
+    - cython >=0.29
     - cftime >=1.0.1
     # need to list hdf5 and libnetcdf twice to get version pinning from conda_build_config
     # and build pinning from {{ mpi_prefix }}
@@ -59,7 +59,7 @@ requirements:
     - libnetcdf * {{ mpi_prefix }}_*
     - {{ mpi }}  # [mpi != 'nompi']
     - mpi4py  # [mpi != 'nompi']
-    - setuptools >=61
+    - setuptools >=77.0.1
     - setuptools_scm >=3.4    
     - zlib
   run:
