@@ -1,0 +1,13 @@
+diff --git a/include/netCDF4.pxi b/include/netCDF4.pxi
+index c894174..1580163 100644
+--- a/include/netCDF4.pxi
++++ b/include/netCDF4.pxi
+@@ -373,7 +373,7 @@ cdef extern from "mpi-compat.h":
+ # taken from numpy.pxi in numpy 1.0rc2.
+ cdef extern from "numpy/arrayobject.h":
+     ctypedef int npy_intp
+-    ctypedef extern class numpy.ndarray [object PyArrayObject]:
++    ctypedef extern class numpy.ndarray [object PyArrayObject, check_size ignore]:
+         pass
+     npy_intp PyArray_SIZE(ndarray arr) nogil
+     npy_intp PyArray_ISCONTIGUOUS(ndarray arr) nogil

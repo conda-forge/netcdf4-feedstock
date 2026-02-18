@@ -18,7 +18,7 @@ source:
   url: https://github.com/Unidata/netcdf4-python/archive/refs/tags/v${{ version }}rel.tar.gz
   sha256: c792977eb762fd29fa46b78f44dd8c15729fe7733c2cd2ecd34552089734ce4b
   patches:
-    - 0001-drop-NPY_NO_DEPRECATED_API.patch
+    - 0001-fix-numpy-ndarray-check-size.patch
 
 build:
   # Windows builds are only supported for the nompi variant.
@@ -97,7 +97,7 @@ tests:
       # "warm-up" command
       - python -c "from netCDF4.utils import ncinfo; ncinfo()"
       # Test for numpy binary incompatability
-      - python -c "import numpy;import warnings;warnings.filterwarnings('error');import netCDF4"
+      - python -c "import numpy;import warnings;warnings.filterwarnings('error', message='numpy\\.ndarray size changed, may indicate binary incompatibility.*');import netCDF4"
       - ncinfo -h
       - nc4tonc3 -h
       - nc3tonc4 -h
