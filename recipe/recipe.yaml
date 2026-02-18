@@ -17,6 +17,8 @@ package:
 source:
   url: https://github.com/Unidata/netcdf4-python/archive/refs/tags/v${{ version }}rel.tar.gz
   sha256: c792977eb762fd29fa46b78f44dd8c15729fe7733c2cd2ecd34552089734ce4b
+  patches:
+    - 0001-drop-NPY_NO_DEPRECATED_API.patch
 
 build:
   # Windows builds are only supported for the nompi variant.
@@ -45,7 +47,7 @@ requirements:
         - python
         - cross-python_${{ target_platform }}
         - cython
-        - numpy
+        - numpy >=2.0.0
   host:
     - python
     - pip
