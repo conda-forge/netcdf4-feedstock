@@ -45,7 +45,7 @@ requirements:
         - python
         - cross-python_${{ target_platform }}
         - cython
-        - numpy
+        - numpy >=2.0.0
   host:
     - python
     - pip
@@ -69,7 +69,7 @@ requirements:
     - python
     - certifi
     - cftime
-    - numpy
+    - numpy >=2.0.0
     # the 'nompi' build should work with both non-MPI and MPI variants of the
     # following libs
     - if: mpi == "nompi"
