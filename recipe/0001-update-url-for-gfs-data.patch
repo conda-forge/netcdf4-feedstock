@@ -1,0 +1,45 @@
+From 0e130336446cf01432bdad04aefb1c0dee18746e Mon Sep 17 00:00:00 2001
+From: jswhit2 <jwhitaker@Jeffreys-MacBook-Air.local>
+Date: Fri, 27 Feb 2026 13:10:45 -0700
+Subject: [PATCH] update URL for GFS data
+
+---
+ test/test_dap.py | 11 +++--------
+ 1 file changed, 3 insertions(+), 8 deletions(-)
+
+diff --git a/test/test_dap.py b/test/test_dap.py
+index 370184861..04cfd3647 100644
+--- a/test/test_dap.py
++++ b/test/test_dap.py
+@@ -8,9 +8,8 @@
+ # test accessing data over http with opendap.
+ 
+ yesterday = datetime.now() - timedelta(days=1)
+-URL = f'http://nomads.ncep.noaa.gov/dods/gfs_1p00/gfs{yesterday:%Y%m%d}/gfs_1p00_00z'
+-URL_https = 'https://www.neracoos.org/erddap/griddap/WW3_EastCoast_latest'
+-varname = 'hgtsfc'
++URL = f'https://tds.scigw.unidata.ucar.edu/thredds/dodsC/grib/NCEP/GFS/Global_onedegree_noaaport/GFS_Global_onedeg_noaaport_{yesterday:%Y%m%d}_1800.grib2'
++varname = 'Geopotential_height_surface'
+ data_min = -40; data_max = 5900
+ varshape = (181, 360)
+ 
+@@ -24,7 +23,7 @@ def tearDown(self):
+         pass
+ 
+     def runTest(self):
+-        """testing access of data over http using opendap"""
++        """testing access of data over https using opendap"""
+         ncfile = netCDF4.Dataset(URL)
+         assert varname in ncfile.variables.keys()
+         var = ncfile.variables[varname]
+@@ -33,10 +32,6 @@ def runTest(self):
+         assert np.abs(data.min()-data_min) < 10 
+         assert np.abs(data.max()-data_max) < 100 
+         ncfile.close()
+-        # test https support (linked curl lib must built with openssl support)
+-        ncfile = netCDF4.Dataset(URL_https)
+-        assert ncfile['hs'].long_name=='Significant Wave Height' 
+-        ncfile.close()
+ 
+ if __name__ == '__main__':
+     unittest.main()
