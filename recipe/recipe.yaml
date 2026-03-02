@@ -3,6 +3,7 @@ schema_version: 1
 context:
   name: netcdf4
   version: 1.7.4
+  python_min: "3.11"
   # recipe-lint failed in v0 if mpi was undefined; keep the same defaulting behavior
   mpi: ${{ mpi or "nompi" }}
   build: 4
@@ -25,8 +26,8 @@ build:
   # Windows builds are only supported for the nompi variant.
   skip:
     - win and mpi != "nompi"
+    - not (match(python, python_min ~ ".*") and is_abi3)
   number: ${{ build_number }}
-
   # add build string so packages can depend on mpi/nompi variants explicitly:
   # `netcdf4 * mpi_mpich_*` for mpich
   # `netcdf4 * mpi_*` for any mpi
@@ -34,6 +35,7 @@ build:
   string: ${{ mpi_prefix }}_py${{ python | version_to_buildstring }}h${{ hash }}_${{ build_number }}
 
   python:
+    version_independent: true
     entry_points:
       - ncinfo = netCDF4.utils:ncinfo
       - nc4tonc3 = netCDF4.utils:nc4tonc3
@@ -51,6 +53,7 @@ requirements:
         - numpy
   host:
     - python
+    - python-abi3
     - pip
     - numpy >=2.0.0
     - cython >=0.29
@@ -93,6 +96,10 @@ tests:
       imports:
         - netCDF4
         - cftime
+      pip_check: true
+      python_version:
+        - ${{ python_min }}.*
+        # - "*"
 
   - script:
       # ncinfo -h is segfaulting in linux aarch64 mpich python 3.12 without a
@@ -102,8 +109,17 @@ tests:
       - nc4tonc3 -h
       - nc3tonc4 -h
       - cd test && python run_all.py
+      - if: unix
+        then:
+          - export SP_DIR=$(python -c "import site; print(site.getsitepackages()[0])")
+          - abi3audit $SP_DIR/netCDF4/_netCDF4.*.so -s -v --assume-minimum-abi3 ${{ python_min }}
+      - if: win
+        then:
+          - set "SP_DIR=%PREFIX%\\Lib\\site-packages"
+          - abi3audit %SP_DIR%\\gsw\\_gsw_ufuncs.pyd -s -v --assume-minimum-abi3 ${{ python_min }}
     requirements:
       run:
+        - abi3audit
         - cython
         - packaging
         - pytest
