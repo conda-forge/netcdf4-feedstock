@@ -116,7 +116,7 @@ tests:
       - if: win
         then:
           - set "SP_DIR=%PREFIX%\\Lib\\site-packages"
-          - abi3audit %SP_DIR%\\gsw\\_gsw_ufuncs.pyd -s -v --assume-minimum-abi3 ${{ python_min }}
+          - abi3audit %SP_DIR%\\netCDF4\\_netCDF4*.pyd -s -v --assume-minimum-abi3 ${{ python_min }}
     requirements:
       run:
         - abi3audit
