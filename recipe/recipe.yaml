@@ -5,7 +5,7 @@ context:
   version: 1.7.4
   # recipe-lint failed in v0 if mpi was undefined; keep the same defaulting behavior
   mpi: ${{ mpi or "nompi" }}
-  build: 3
+  build: 4
   # prioritize nompi via build number
   build_number: ${{ build + 100 if mpi == "nompi" else build }}
   mpi_prefix: ${{ "mpi_" + mpi if mpi != "nompi" else "nompi" }}
@@ -19,6 +19,7 @@ source:
   sha256: c792977eb762fd29fa46b78f44dd8c15729fe7733c2cd2ecd34552089734ce4b
   patches:
     - 0001-update-url-for-gfs-data.patch
+    - backport_1474.patch
 
 build:
   # Windows builds are only supported for the nompi variant.
@@ -72,6 +73,7 @@ requirements:
     - certifi
     - cftime
     - numpy
+    - packaging
     # the 'nompi' build should work with both non-MPI and MPI variants of the
     # following libs
     - if: mpi == "nompi"
