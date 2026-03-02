@@ -1,0 +1,19 @@
+--- netcdf4-python-1.7.4rel.orig/src/netCDF4/_netCDF4.pyx	2026-01-04 23:08:24.000000000 -0300
++++ netcdf4-python-1.7.4rel/src/netCDF4/_netCDF4.pyx	2026-03-02 14:33:54.990965599 -0300
+@@ -1288,6 +1288,7 @@
+ # Initialize numpy
+ import posixpath
+ from cftime import date2num, num2date, date2index
++from packaging.version import Version
+ import numpy
+ cimport numpy
+ import weakref
+@@ -2410,7 +2411,7 @@
+ 
+         # flag to indicate that Variables in this Dataset support orthogonal indexing.
+         self.__orthogonal_indexing__ = True
+-        if diskless and __netcdf4libversion__ < '4.2.1':
++        if diskless and Version(__netcdf4libversion__) < Version('4.2.1'):
+             #diskless = False # don't raise error, instead silently ignore
+             raise ValueError('diskless mode requires netcdf lib >= 4.2.1, you have %s' % __netcdf4libversion__)
+         # convert filename into string (from os.path object for example),
