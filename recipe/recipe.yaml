@@ -26,7 +26,7 @@ build:
   # Windows builds are only supported for the nompi variant.
   skip:
     - win and mpi != "nompi"
-    - not (match(python, python_min ~ ".*") and is_abi3)
+    - is_abi3 and not match(python, python_min ~ ".*")
   number: ${{ build_number }}
   # add build string so packages can depend on mpi/nompi variants explicitly:
   # `netcdf4 * mpi_mpich_*` for mpich
@@ -35,7 +35,7 @@ build:
   string: ${{ mpi_prefix }}_py${{ python | version_to_buildstring }}h${{ hash }}_${{ build_number }}
 
   python:
-    version_independent: true
+    version_independent: ${{ is_abi3 }}
     entry_points:
       - ncinfo = netCDF4.utils:ncinfo
       - nc4tonc3 = netCDF4.utils:nc4tonc3
@@ -53,7 +53,9 @@ requirements:
         - numpy
   host:
     - python
-    - python-abi3
+    - if: is_abi3
+      then:
+        - python-abi3
     - pip
     - numpy >=2.0.0
     - cython >=0.29
@@ -92,15 +94,19 @@ requirements:
       then: openssh
 
 tests:
-  - python:
-      imports:
+  - if: is_abi3
+    then:
+      python:
+        imports:
+          - netCDF4
+        pip_check: true
+        python_version:
+          - ${{ python_min }}.*
+          - "*"
+    else:
+      python:
+        imports:
         - netCDF4
-        - cftime
-      pip_check: true
-      python_version:
-        - ${{ python_min }}.*
-        # - "*"
-
   - script:
       # ncinfo -h is segfaulting in linux aarch64 mpich python 3.12 without a
       # "warm-up" command
@@ -109,17 +115,19 @@ tests:
       - nc4tonc3 -h
       - nc3tonc4 -h
       - cd test && python run_all.py
-      - if: unix
+      - if: unix and is_abi3
         then:
           - export SP_DIR=$(python -c "import site; print(site.getsitepackages()[0])")
           - abi3audit $SP_DIR/netCDF4/_netCDF4.abi3.so -s -v --assume-minimum-abi3 ${{ python_min }}
-      - if: win
+      - if: win and is_abi3
         then:
           - set "SP_DIR=%PREFIX%\\Lib\\site-packages"
           - abi3audit %SP_DIR%\\netCDF4\\_netCDF4.pyd -s -v --assume-minimum-abi3 ${{ python_min }}
     requirements:
       run:
-        - abi3audit
+        - if: is_abi3
+          then:
+            - abi3audit
         - cython
         - packaging
         - pytest
