@@ -8,6 +8,18 @@ jobs:
     vmImage: ubuntu-latest
   strategy:
     matrix:
+      linux_64_is_abi3falsempimpichpython3.14.____cp314t:
+        CONFIG: linux_64_is_abi3falsempimpichpython3.14.____cp314t
+        UPLOAD_PACKAGES: 'True'
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
+      linux_64_is_abi3falsempinompipython3.14.____cp314t:
+        CONFIG: linux_64_is_abi3falsempinompipython3.14.____cp314t
+        UPLOAD_PACKAGES: 'True'
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
+      linux_64_is_abi3falsempiopenmpipython3.14.____cp314t:
+        CONFIG: linux_64_is_abi3falsempiopenmpipython3.14.____cp314t
+        UPLOAD_PACKAGES: 'True'
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
       linux_64_is_abi3truempimpichpython3.11.____cpython:
         CONFIG: linux_64_is_abi3truempimpichpython3.11.____cpython
         UPLOAD_PACKAGES: 'True'
@@ -20,6 +32,18 @@ jobs:
         CONFIG: linux_64_is_abi3truempiopenmpipython3.11.____cpython
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-x86_64:alma9
+      linux_aarch64_is_abi3falsempimpichpython3.14.____cp314t:
+        CONFIG: linux_aarch64_is_abi3falsempimpichpython3.14.____cp314t
+        UPLOAD_PACKAGES: 'True'
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma9
+      linux_aarch64_is_abi3falsempinompipython3.14.____cp314t:
+        CONFIG: linux_aarch64_is_abi3falsempinompipython3.14.____cp314t
+        UPLOAD_PACKAGES: 'True'
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma9
+      linux_aarch64_is_abi3falsempiopenmpipython3.14.____cp314t:
+        CONFIG: linux_aarch64_is_abi3falsempiopenmpipython3.14.____cp314t
+        UPLOAD_PACKAGES: 'True'
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma9
       linux_aarch64_is_abi3truempimpichpython3.11.____cpython:
         CONFIG: linux_aarch64_is_abi3truempimpichpython3.11.____cpython
         UPLOAD_PACKAGES: 'True'
@@ -32,6 +56,18 @@ jobs:
         CONFIG: linux_aarch64_is_abi3truempiopenmpipython3.11.____cpython
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma9
+      linux_ppc64le_is_abi3falsempimpichpython3.14.____cp314t:
+        CONFIG: linux_ppc64le_is_abi3falsempimpichpython3.14.____cp314t
+        UPLOAD_PACKAGES: 'True'
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-ppc64le:alma9
+      linux_ppc64le_is_abi3falsempinompipython3.14.____cp314t:
+        CONFIG: linux_ppc64le_is_abi3falsempinompipython3.14.____cp314t
+        UPLOAD_PACKAGES: 'True'
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-ppc64le:alma9
+      linux_ppc64le_is_abi3falsempiopenmpipython3.14.____cp314t:
+        CONFIG: linux_ppc64le_is_abi3falsempiopenmpipython3.14.____cp314t
+        UPLOAD_PACKAGES: 'True'
+        DOCKER_IMAGE: quay.io/condaforge/linux-anvil-ppc64le:alma9
       linux_ppc64le_is_abi3truempimpichpython3.11.____cpython:
         CONFIG: linux_ppc64le_is_abi3truempimpichpython3.11.____cpython
         UPLOAD_PACKAGES: 'True'

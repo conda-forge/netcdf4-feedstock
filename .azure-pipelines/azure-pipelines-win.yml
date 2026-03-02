@@ -8,6 +8,9 @@ jobs:
     vmImage: windows-2022
   strategy:
     matrix:
+      win_64_is_abi3falsempinompipython3.14.____cp314t:
+        CONFIG: win_64_is_abi3falsempinompipython3.14.____cp314t
+        UPLOAD_PACKAGES: 'True'
       win_64_is_abi3truempinompipython3.11.____cpython:
         CONFIG: win_64_is_abi3truempinompipython3.11.____cpython
         UPLOAD_PACKAGES: 'True'
