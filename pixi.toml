@@ -23,582 +23,198 @@ description = "List contents of all packages found in rattler-build build direct
 [tasks.build]
 cmd = "rattler-build build --recipe recipe"
 description = "Build netcdf4-feedstock directly (without setup scripts), no particular variant specified"
-[tasks."build-linux_64_mpimpichpython3.10.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_mpimpichpython3.10.____cpython.yaml"
-description = "Build netcdf4-feedstock with variant linux_64_mpimpichpython3.10.____cpython directly (without setup scripts)"
-[tasks."inspect-linux_64_mpimpichpython3.10.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_mpimpichpython3.10.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_64_mpimpichpython3.10.____cpython"
-[tasks."build-linux_64_mpimpichpython3.11.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_mpimpichpython3.11.____cpython.yaml"
-description = "Build netcdf4-feedstock with variant linux_64_mpimpichpython3.11.____cpython directly (without setup scripts)"
-[tasks."inspect-linux_64_mpimpichpython3.11.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_mpimpichpython3.11.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_64_mpimpichpython3.11.____cpython"
-[tasks."build-linux_64_mpimpichpython3.12.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_mpimpichpython3.12.____cpython.yaml"
-description = "Build netcdf4-feedstock with variant linux_64_mpimpichpython3.12.____cpython directly (without setup scripts)"
-[tasks."inspect-linux_64_mpimpichpython3.12.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_mpimpichpython3.12.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_64_mpimpichpython3.12.____cpython"
-[tasks."build-linux_64_mpimpichpython3.13.____cp313"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_mpimpichpython3.13.____cp313.yaml"
-description = "Build netcdf4-feedstock with variant linux_64_mpimpichpython3.13.____cp313 directly (without setup scripts)"
-[tasks."inspect-linux_64_mpimpichpython3.13.____cp313"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_mpimpichpython3.13.____cp313.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_64_mpimpichpython3.13.____cp313"
-[tasks."build-linux_64_mpimpichpython3.14.____cp314"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_mpimpichpython3.14.____cp314.yaml"
-description = "Build netcdf4-feedstock with variant linux_64_mpimpichpython3.14.____cp314 directly (without setup scripts)"
-[tasks."inspect-linux_64_mpimpichpython3.14.____cp314"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_mpimpichpython3.14.____cp314.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_64_mpimpichpython3.14.____cp314"
-[tasks."build-linux_64_mpimpichpython3.14.____cp314t"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_mpimpichpython3.14.____cp314t.yaml"
-description = "Build netcdf4-feedstock with variant linux_64_mpimpichpython3.14.____cp314t directly (without setup scripts)"
-[tasks."inspect-linux_64_mpimpichpython3.14.____cp314t"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_mpimpichpython3.14.____cp314t.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_64_mpimpichpython3.14.____cp314t"
-[tasks."build-linux_64_mpinompipython3.10.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_mpinompipython3.10.____cpython.yaml"
-description = "Build netcdf4-feedstock with variant linux_64_mpinompipython3.10.____cpython directly (without setup scripts)"
-[tasks."inspect-linux_64_mpinompipython3.10.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_mpinompipython3.10.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_64_mpinompipython3.10.____cpython"
-[tasks."build-linux_64_mpinompipython3.11.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_mpinompipython3.11.____cpython.yaml"
-description = "Build netcdf4-feedstock with variant linux_64_mpinompipython3.11.____cpython directly (without setup scripts)"
-[tasks."inspect-linux_64_mpinompipython3.11.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_mpinompipython3.11.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_64_mpinompipython3.11.____cpython"
-[tasks."build-linux_64_mpinompipython3.12.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_mpinompipython3.12.____cpython.yaml"
-description = "Build netcdf4-feedstock with variant linux_64_mpinompipython3.12.____cpython directly (without setup scripts)"
-[tasks."inspect-linux_64_mpinompipython3.12.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_mpinompipython3.12.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_64_mpinompipython3.12.____cpython"
-[tasks."build-linux_64_mpinompipython3.13.____cp313"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_mpinompipython3.13.____cp313.yaml"
-description = "Build netcdf4-feedstock with variant linux_64_mpinompipython3.13.____cp313 directly (without setup scripts)"
-[tasks."inspect-linux_64_mpinompipython3.13.____cp313"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_mpinompipython3.13.____cp313.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_64_mpinompipython3.13.____cp313"
-[tasks."build-linux_64_mpinompipython3.14.____cp314"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_mpinompipython3.14.____cp314.yaml"
-description = "Build netcdf4-feedstock with variant linux_64_mpinompipython3.14.____cp314 directly (without setup scripts)"
-[tasks."inspect-linux_64_mpinompipython3.14.____cp314"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_mpinompipython3.14.____cp314.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_64_mpinompipython3.14.____cp314"
-[tasks."build-linux_64_mpinompipython3.14.____cp314t"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_mpinompipython3.14.____cp314t.yaml"
-description = "Build netcdf4-feedstock with variant linux_64_mpinompipython3.14.____cp314t directly (without setup scripts)"
-[tasks."inspect-linux_64_mpinompipython3.14.____cp314t"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_mpinompipython3.14.____cp314t.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_64_mpinompipython3.14.____cp314t"
-[tasks."build-linux_64_mpiopenmpipython3.10.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_mpiopenmpipython3.10.____cpython.yaml"
-description = "Build netcdf4-feedstock with variant linux_64_mpiopenmpipython3.10.____cpython directly (without setup scripts)"
-[tasks."inspect-linux_64_mpiopenmpipython3.10.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_mpiopenmpipython3.10.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_64_mpiopenmpipython3.10.____cpython"
-[tasks."build-linux_64_mpiopenmpipython3.11.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_mpiopenmpipython3.11.____cpython.yaml"
-description = "Build netcdf4-feedstock with variant linux_64_mpiopenmpipython3.11.____cpython directly (without setup scripts)"
-[tasks."inspect-linux_64_mpiopenmpipython3.11.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_mpiopenmpipython3.11.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_64_mpiopenmpipython3.11.____cpython"
-[tasks."build-linux_64_mpiopenmpipython3.12.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_mpiopenmpipython3.12.____cpython.yaml"
-description = "Build netcdf4-feedstock with variant linux_64_mpiopenmpipython3.12.____cpython directly (without setup scripts)"
-[tasks."inspect-linux_64_mpiopenmpipython3.12.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_mpiopenmpipython3.12.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_64_mpiopenmpipython3.12.____cpython"
-[tasks."build-linux_64_mpiopenmpipython3.13.____cp313"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_mpiopenmpipython3.13.____cp313.yaml"
-description = "Build netcdf4-feedstock with variant linux_64_mpiopenmpipython3.13.____cp313 directly (without setup scripts)"
-[tasks."inspect-linux_64_mpiopenmpipython3.13.____cp313"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_mpiopenmpipython3.13.____cp313.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_64_mpiopenmpipython3.13.____cp313"
-[tasks."build-linux_64_mpiopenmpipython3.14.____cp314"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_mpiopenmpipython3.14.____cp314.yaml"
-description = "Build netcdf4-feedstock with variant linux_64_mpiopenmpipython3.14.____cp314 directly (without setup scripts)"
-[tasks."inspect-linux_64_mpiopenmpipython3.14.____cp314"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_mpiopenmpipython3.14.____cp314.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_64_mpiopenmpipython3.14.____cp314"
-[tasks."build-linux_64_mpiopenmpipython3.14.____cp314t"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_mpiopenmpipython3.14.____cp314t.yaml"
-description = "Build netcdf4-feedstock with variant linux_64_mpiopenmpipython3.14.____cp314t directly (without setup scripts)"
-[tasks."inspect-linux_64_mpiopenmpipython3.14.____cp314t"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_mpiopenmpipython3.14.____cp314t.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_64_mpiopenmpipython3.14.____cp314t"
-[tasks."build-linux_aarch64_mpimpichpython3.10.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_aarch64_mpimpichpython3.10.____cpython.yaml"
-description = "Build netcdf4-feedstock with variant linux_aarch64_mpimpichpython3.10.____cpython directly (without setup scripts)"
-[tasks."inspect-linux_aarch64_mpimpichpython3.10.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_aarch64_mpimpichpython3.10.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_aarch64_mpimpichpython3.10.____cpython"
-[tasks."build-linux_aarch64_mpimpichpython3.11.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_aarch64_mpimpichpython3.11.____cpython.yaml"
-description = "Build netcdf4-feedstock with variant linux_aarch64_mpimpichpython3.11.____cpython directly (without setup scripts)"
-[tasks."inspect-linux_aarch64_mpimpichpython3.11.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_aarch64_mpimpichpython3.11.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_aarch64_mpimpichpython3.11.____cpython"
-[tasks."build-linux_aarch64_mpimpichpython3.12.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_aarch64_mpimpichpython3.12.____cpython.yaml"
-description = "Build netcdf4-feedstock with variant linux_aarch64_mpimpichpython3.12.____cpython directly (without setup scripts)"
-[tasks."inspect-linux_aarch64_mpimpichpython3.12.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_aarch64_mpimpichpython3.12.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_aarch64_mpimpichpython3.12.____cpython"
-[tasks."build-linux_aarch64_mpimpichpython3.13.____cp313"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_aarch64_mpimpichpython3.13.____cp313.yaml"
-description = "Build netcdf4-feedstock with variant linux_aarch64_mpimpichpython3.13.____cp313 directly (without setup scripts)"
-[tasks."inspect-linux_aarch64_mpimpichpython3.13.____cp313"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_aarch64_mpimpichpython3.13.____cp313.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_aarch64_mpimpichpython3.13.____cp313"
-[tasks."build-linux_aarch64_mpimpichpython3.14.____cp314"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_aarch64_mpimpichpython3.14.____cp314.yaml"
-description = "Build netcdf4-feedstock with variant linux_aarch64_mpimpichpython3.14.____cp314 directly (without setup scripts)"
-[tasks."inspect-linux_aarch64_mpimpichpython3.14.____cp314"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_aarch64_mpimpichpython3.14.____cp314.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_aarch64_mpimpichpython3.14.____cp314"
-[tasks."build-linux_aarch64_mpimpichpython3.14.____cp314t"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_aarch64_mpimpichpython3.14.____cp314t.yaml"
-description = "Build netcdf4-feedstock with variant linux_aarch64_mpimpichpython3.14.____cp314t directly (without setup scripts)"
-[tasks."inspect-linux_aarch64_mpimpichpython3.14.____cp314t"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_aarch64_mpimpichpython3.14.____cp314t.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_aarch64_mpimpichpython3.14.____cp314t"
-[tasks."build-linux_aarch64_mpinompipython3.10.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_aarch64_mpinompipython3.10.____cpython.yaml"
-description = "Build netcdf4-feedstock with variant linux_aarch64_mpinompipython3.10.____cpython directly (without setup scripts)"
-[tasks."inspect-linux_aarch64_mpinompipython3.10.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_aarch64_mpinompipython3.10.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_aarch64_mpinompipython3.10.____cpython"
-[tasks."build-linux_aarch64_mpinompipython3.11.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_aarch64_mpinompipython3.11.____cpython.yaml"
-description = "Build netcdf4-feedstock with variant linux_aarch64_mpinompipython3.11.____cpython directly (without setup scripts)"
-[tasks."inspect-linux_aarch64_mpinompipython3.11.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_aarch64_mpinompipython3.11.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_aarch64_mpinompipython3.11.____cpython"
-[tasks."build-linux_aarch64_mpinompipython3.12.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_aarch64_mpinompipython3.12.____cpython.yaml"
-description = "Build netcdf4-feedstock with variant linux_aarch64_mpinompipython3.12.____cpython directly (without setup scripts)"
-[tasks."inspect-linux_aarch64_mpinompipython3.12.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_aarch64_mpinompipython3.12.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_aarch64_mpinompipython3.12.____cpython"
-[tasks."build-linux_aarch64_mpinompipython3.13.____cp313"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_aarch64_mpinompipython3.13.____cp313.yaml"
-description = "Build netcdf4-feedstock with variant linux_aarch64_mpinompipython3.13.____cp313 directly (without setup scripts)"
-[tasks."inspect-linux_aarch64_mpinompipython3.13.____cp313"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_aarch64_mpinompipython3.13.____cp313.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_aarch64_mpinompipython3.13.____cp313"
-[tasks."build-linux_aarch64_mpinompipython3.14.____cp314"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_aarch64_mpinompipython3.14.____cp314.yaml"
-description = "Build netcdf4-feedstock with variant linux_aarch64_mpinompipython3.14.____cp314 directly (without setup scripts)"
-[tasks."inspect-linux_aarch64_mpinompipython3.14.____cp314"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_aarch64_mpinompipython3.14.____cp314.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_aarch64_mpinompipython3.14.____cp314"
-[tasks."build-linux_aarch64_mpinompipython3.14.____cp314t"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_aarch64_mpinompipython3.14.____cp314t.yaml"
-description = "Build netcdf4-feedstock with variant linux_aarch64_mpinompipython3.14.____cp314t directly (without setup scripts)"
-[tasks."inspect-linux_aarch64_mpinompipython3.14.____cp314t"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_aarch64_mpinompipython3.14.____cp314t.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_aarch64_mpinompipython3.14.____cp314t"
-[tasks."build-linux_aarch64_mpiopenmpipython3.10.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_aarch64_mpiopenmpipython3.10.____cpython.yaml"
-description = "Build netcdf4-feedstock with variant linux_aarch64_mpiopenmpipython3.10.____cpython directly (without setup scripts)"
-[tasks."inspect-linux_aarch64_mpiopenmpipython3.10.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_aarch64_mpiopenmpipython3.10.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_aarch64_mpiopenmpipython3.10.____cpython"
-[tasks."build-linux_aarch64_mpiopenmpipython3.11.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_aarch64_mpiopenmpipython3.11.____cpython.yaml"
-description = "Build netcdf4-feedstock with variant linux_aarch64_mpiopenmpipython3.11.____cpython directly (without setup scripts)"
-[tasks."inspect-linux_aarch64_mpiopenmpipython3.11.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_aarch64_mpiopenmpipython3.11.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_aarch64_mpiopenmpipython3.11.____cpython"
-[tasks."build-linux_aarch64_mpiopenmpipython3.12.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_aarch64_mpiopenmpipython3.12.____cpython.yaml"
-description = "Build netcdf4-feedstock with variant linux_aarch64_mpiopenmpipython3.12.____cpython directly (without setup scripts)"
-[tasks."inspect-linux_aarch64_mpiopenmpipython3.12.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_aarch64_mpiopenmpipython3.12.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_aarch64_mpiopenmpipython3.12.____cpython"
-[tasks."build-linux_aarch64_mpiopenmpipython3.13.____cp313"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_aarch64_mpiopenmpipython3.13.____cp313.yaml"
-description = "Build netcdf4-feedstock with variant linux_aarch64_mpiopenmpipython3.13.____cp313 directly (without setup scripts)"
-[tasks."inspect-linux_aarch64_mpiopenmpipython3.13.____cp313"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_aarch64_mpiopenmpipython3.13.____cp313.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_aarch64_mpiopenmpipython3.13.____cp313"
-[tasks."build-linux_aarch64_mpiopenmpipython3.14.____cp314"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_aarch64_mpiopenmpipython3.14.____cp314.yaml"
-description = "Build netcdf4-feedstock with variant linux_aarch64_mpiopenmpipython3.14.____cp314 directly (without setup scripts)"
-[tasks."inspect-linux_aarch64_mpiopenmpipython3.14.____cp314"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_aarch64_mpiopenmpipython3.14.____cp314.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_aarch64_mpiopenmpipython3.14.____cp314"
-[tasks."build-linux_aarch64_mpiopenmpipython3.14.____cp314t"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_aarch64_mpiopenmpipython3.14.____cp314t.yaml"
-description = "Build netcdf4-feedstock with variant linux_aarch64_mpiopenmpipython3.14.____cp314t directly (without setup scripts)"
-[tasks."inspect-linux_aarch64_mpiopenmpipython3.14.____cp314t"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_aarch64_mpiopenmpipython3.14.____cp314t.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_aarch64_mpiopenmpipython3.14.____cp314t"
-[tasks."build-linux_ppc64le_mpimpichpython3.10.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_ppc64le_mpimpichpython3.10.____cpython.yaml"
-description = "Build netcdf4-feedstock with variant linux_ppc64le_mpimpichpython3.10.____cpython directly (without setup scripts)"
-[tasks."inspect-linux_ppc64le_mpimpichpython3.10.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_ppc64le_mpimpichpython3.10.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_ppc64le_mpimpichpython3.10.____cpython"
-[tasks."build-linux_ppc64le_mpimpichpython3.11.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_ppc64le_mpimpichpython3.11.____cpython.yaml"
-description = "Build netcdf4-feedstock with variant linux_ppc64le_mpimpichpython3.11.____cpython directly (without setup scripts)"
-[tasks."inspect-linux_ppc64le_mpimpichpython3.11.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_ppc64le_mpimpichpython3.11.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_ppc64le_mpimpichpython3.11.____cpython"
-[tasks."build-linux_ppc64le_mpimpichpython3.12.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_ppc64le_mpimpichpython3.12.____cpython.yaml"
-description = "Build netcdf4-feedstock with variant linux_ppc64le_mpimpichpython3.12.____cpython directly (without setup scripts)"
-[tasks."inspect-linux_ppc64le_mpimpichpython3.12.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_ppc64le_mpimpichpython3.12.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_ppc64le_mpimpichpython3.12.____cpython"
-[tasks."build-linux_ppc64le_mpimpichpython3.13.____cp313"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_ppc64le_mpimpichpython3.13.____cp313.yaml"
-description = "Build netcdf4-feedstock with variant linux_ppc64le_mpimpichpython3.13.____cp313 directly (without setup scripts)"
-[tasks."inspect-linux_ppc64le_mpimpichpython3.13.____cp313"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_ppc64le_mpimpichpython3.13.____cp313.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_ppc64le_mpimpichpython3.13.____cp313"
-[tasks."build-linux_ppc64le_mpimpichpython3.14.____cp314"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_ppc64le_mpimpichpython3.14.____cp314.yaml"
-description = "Build netcdf4-feedstock with variant linux_ppc64le_mpimpichpython3.14.____cp314 directly (without setup scripts)"
-[tasks."inspect-linux_ppc64le_mpimpichpython3.14.____cp314"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_ppc64le_mpimpichpython3.14.____cp314.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_ppc64le_mpimpichpython3.14.____cp314"
-[tasks."build-linux_ppc64le_mpimpichpython3.14.____cp314t"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_ppc64le_mpimpichpython3.14.____cp314t.yaml"
-description = "Build netcdf4-feedstock with variant linux_ppc64le_mpimpichpython3.14.____cp314t directly (without setup scripts)"
-[tasks."inspect-linux_ppc64le_mpimpichpython3.14.____cp314t"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_ppc64le_mpimpichpython3.14.____cp314t.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_ppc64le_mpimpichpython3.14.____cp314t"
-[tasks."build-linux_ppc64le_mpinompipython3.10.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_ppc64le_mpinompipython3.10.____cpython.yaml"
-description = "Build netcdf4-feedstock with variant linux_ppc64le_mpinompipython3.10.____cpython directly (without setup scripts)"
-[tasks."inspect-linux_ppc64le_mpinompipython3.10.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_ppc64le_mpinompipython3.10.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_ppc64le_mpinompipython3.10.____cpython"
-[tasks."build-linux_ppc64le_mpinompipython3.11.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_ppc64le_mpinompipython3.11.____cpython.yaml"
-description = "Build netcdf4-feedstock with variant linux_ppc64le_mpinompipython3.11.____cpython directly (without setup scripts)"
-[tasks."inspect-linux_ppc64le_mpinompipython3.11.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_ppc64le_mpinompipython3.11.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_ppc64le_mpinompipython3.11.____cpython"
-[tasks."build-linux_ppc64le_mpinompipython3.12.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_ppc64le_mpinompipython3.12.____cpython.yaml"
-description = "Build netcdf4-feedstock with variant linux_ppc64le_mpinompipython3.12.____cpython directly (without setup scripts)"
-[tasks."inspect-linux_ppc64le_mpinompipython3.12.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_ppc64le_mpinompipython3.12.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_ppc64le_mpinompipython3.12.____cpython"
-[tasks."build-linux_ppc64le_mpinompipython3.13.____cp313"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_ppc64le_mpinompipython3.13.____cp313.yaml"
-description = "Build netcdf4-feedstock with variant linux_ppc64le_mpinompipython3.13.____cp313 directly (without setup scripts)"
-[tasks."inspect-linux_ppc64le_mpinompipython3.13.____cp313"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_ppc64le_mpinompipython3.13.____cp313.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_ppc64le_mpinompipython3.13.____cp313"
-[tasks."build-linux_ppc64le_mpinompipython3.14.____cp314"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_ppc64le_mpinompipython3.14.____cp314.yaml"
-description = "Build netcdf4-feedstock with variant linux_ppc64le_mpinompipython3.14.____cp314 directly (without setup scripts)"
-[tasks."inspect-linux_ppc64le_mpinompipython3.14.____cp314"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_ppc64le_mpinompipython3.14.____cp314.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_ppc64le_mpinompipython3.14.____cp314"
-[tasks."build-linux_ppc64le_mpinompipython3.14.____cp314t"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_ppc64le_mpinompipython3.14.____cp314t.yaml"
-description = "Build netcdf4-feedstock with variant linux_ppc64le_mpinompipython3.14.____cp314t directly (without setup scripts)"
-[tasks."inspect-linux_ppc64le_mpinompipython3.14.____cp314t"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_ppc64le_mpinompipython3.14.____cp314t.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_ppc64le_mpinompipython3.14.____cp314t"
-[tasks."build-linux_ppc64le_mpiopenmpipython3.10.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_ppc64le_mpiopenmpipython3.10.____cpython.yaml"
-description = "Build netcdf4-feedstock with variant linux_ppc64le_mpiopenmpipython3.10.____cpython directly (without setup scripts)"
-[tasks."inspect-linux_ppc64le_mpiopenmpipython3.10.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_ppc64le_mpiopenmpipython3.10.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_ppc64le_mpiopenmpipython3.10.____cpython"
-[tasks."build-linux_ppc64le_mpiopenmpipython3.11.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_ppc64le_mpiopenmpipython3.11.____cpython.yaml"
-description = "Build netcdf4-feedstock with variant linux_ppc64le_mpiopenmpipython3.11.____cpython directly (without setup scripts)"
-[tasks."inspect-linux_ppc64le_mpiopenmpipython3.11.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_ppc64le_mpiopenmpipython3.11.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_ppc64le_mpiopenmpipython3.11.____cpython"
-[tasks."build-linux_ppc64le_mpiopenmpipython3.12.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_ppc64le_mpiopenmpipython3.12.____cpython.yaml"
-description = "Build netcdf4-feedstock with variant linux_ppc64le_mpiopenmpipython3.12.____cpython directly (without setup scripts)"
-[tasks."inspect-linux_ppc64le_mpiopenmpipython3.12.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_ppc64le_mpiopenmpipython3.12.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_ppc64le_mpiopenmpipython3.12.____cpython"
-[tasks."build-linux_ppc64le_mpiopenmpipython3.13.____cp313"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_ppc64le_mpiopenmpipython3.13.____cp313.yaml"
-description = "Build netcdf4-feedstock with variant linux_ppc64le_mpiopenmpipython3.13.____cp313 directly (without setup scripts)"
-[tasks."inspect-linux_ppc64le_mpiopenmpipython3.13.____cp313"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_ppc64le_mpiopenmpipython3.13.____cp313.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_ppc64le_mpiopenmpipython3.13.____cp313"
-[tasks."build-linux_ppc64le_mpiopenmpipython3.14.____cp314"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_ppc64le_mpiopenmpipython3.14.____cp314.yaml"
-description = "Build netcdf4-feedstock with variant linux_ppc64le_mpiopenmpipython3.14.____cp314 directly (without setup scripts)"
-[tasks."inspect-linux_ppc64le_mpiopenmpipython3.14.____cp314"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_ppc64le_mpiopenmpipython3.14.____cp314.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_ppc64le_mpiopenmpipython3.14.____cp314"
-[tasks."build-linux_ppc64le_mpiopenmpipython3.14.____cp314t"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_ppc64le_mpiopenmpipython3.14.____cp314t.yaml"
-description = "Build netcdf4-feedstock with variant linux_ppc64le_mpiopenmpipython3.14.____cp314t directly (without setup scripts)"
-[tasks."inspect-linux_ppc64le_mpiopenmpipython3.14.____cp314t"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_ppc64le_mpiopenmpipython3.14.____cp314t.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_ppc64le_mpiopenmpipython3.14.____cp314t"
-[tasks."build-osx_64_mpimpichpython3.10.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_mpimpichpython3.10.____cpython.yaml"
-description = "Build netcdf4-feedstock with variant osx_64_mpimpichpython3.10.____cpython directly (without setup scripts)"
-[tasks."inspect-osx_64_mpimpichpython3.10.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_mpimpichpython3.10.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant osx_64_mpimpichpython3.10.____cpython"
-[tasks."build-osx_64_mpimpichpython3.11.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_mpimpichpython3.11.____cpython.yaml"
-description = "Build netcdf4-feedstock with variant osx_64_mpimpichpython3.11.____cpython directly (without setup scripts)"
-[tasks."inspect-osx_64_mpimpichpython3.11.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_mpimpichpython3.11.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant osx_64_mpimpichpython3.11.____cpython"
-[tasks."build-osx_64_mpimpichpython3.12.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_mpimpichpython3.12.____cpython.yaml"
-description = "Build netcdf4-feedstock with variant osx_64_mpimpichpython3.12.____cpython directly (without setup scripts)"
-[tasks."inspect-osx_64_mpimpichpython3.12.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_mpimpichpython3.12.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant osx_64_mpimpichpython3.12.____cpython"
-[tasks."build-osx_64_mpimpichpython3.13.____cp313"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_mpimpichpython3.13.____cp313.yaml"
-description = "Build netcdf4-feedstock with variant osx_64_mpimpichpython3.13.____cp313 directly (without setup scripts)"
-[tasks."inspect-osx_64_mpimpichpython3.13.____cp313"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_mpimpichpython3.13.____cp313.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant osx_64_mpimpichpython3.13.____cp313"
-[tasks."build-osx_64_mpimpichpython3.14.____cp314"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_mpimpichpython3.14.____cp314.yaml"
-description = "Build netcdf4-feedstock with variant osx_64_mpimpichpython3.14.____cp314 directly (without setup scripts)"
-[tasks."inspect-osx_64_mpimpichpython3.14.____cp314"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_mpimpichpython3.14.____cp314.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant osx_64_mpimpichpython3.14.____cp314"
-[tasks."build-osx_64_mpimpichpython3.14.____cp314t"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_mpimpichpython3.14.____cp314t.yaml"
-description = "Build netcdf4-feedstock with variant osx_64_mpimpichpython3.14.____cp314t directly (without setup scripts)"
-[tasks."inspect-osx_64_mpimpichpython3.14.____cp314t"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_mpimpichpython3.14.____cp314t.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant osx_64_mpimpichpython3.14.____cp314t"
-[tasks."build-osx_64_mpinompipython3.10.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_mpinompipython3.10.____cpython.yaml"
-description = "Build netcdf4-feedstock with variant osx_64_mpinompipython3.10.____cpython directly (without setup scripts)"
-[tasks."inspect-osx_64_mpinompipython3.10.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_mpinompipython3.10.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant osx_64_mpinompipython3.10.____cpython"
-[tasks."build-osx_64_mpinompipython3.11.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_mpinompipython3.11.____cpython.yaml"
-description = "Build netcdf4-feedstock with variant osx_64_mpinompipython3.11.____cpython directly (without setup scripts)"
-[tasks."inspect-osx_64_mpinompipython3.11.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_mpinompipython3.11.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant osx_64_mpinompipython3.11.____cpython"
-[tasks."build-osx_64_mpinompipython3.12.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_mpinompipython3.12.____cpython.yaml"
-description = "Build netcdf4-feedstock with variant osx_64_mpinompipython3.12.____cpython directly (without setup scripts)"
-[tasks."inspect-osx_64_mpinompipython3.12.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_mpinompipython3.12.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant osx_64_mpinompipython3.12.____cpython"
-[tasks."build-osx_64_mpinompipython3.13.____cp313"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_mpinompipython3.13.____cp313.yaml"
-description = "Build netcdf4-feedstock with variant osx_64_mpinompipython3.13.____cp313 directly (without setup scripts)"
-[tasks."inspect-osx_64_mpinompipython3.13.____cp313"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_mpinompipython3.13.____cp313.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant osx_64_mpinompipython3.13.____cp313"
-[tasks."build-osx_64_mpinompipython3.14.____cp314"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_mpinompipython3.14.____cp314.yaml"
-description = "Build netcdf4-feedstock with variant osx_64_mpinompipython3.14.____cp314 directly (without setup scripts)"
-[tasks."inspect-osx_64_mpinompipython3.14.____cp314"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_mpinompipython3.14.____cp314.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant osx_64_mpinompipython3.14.____cp314"
-[tasks."build-osx_64_mpinompipython3.14.____cp314t"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_mpinompipython3.14.____cp314t.yaml"
-description = "Build netcdf4-feedstock with variant osx_64_mpinompipython3.14.____cp314t directly (without setup scripts)"
-[tasks."inspect-osx_64_mpinompipython3.14.____cp314t"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_mpinompipython3.14.____cp314t.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant osx_64_mpinompipython3.14.____cp314t"
-[tasks."build-osx_64_mpiopenmpipython3.10.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_mpiopenmpipython3.10.____cpython.yaml"
-description = "Build netcdf4-feedstock with variant osx_64_mpiopenmpipython3.10.____cpython directly (without setup scripts)"
-[tasks."inspect-osx_64_mpiopenmpipython3.10.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_mpiopenmpipython3.10.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant osx_64_mpiopenmpipython3.10.____cpython"
-[tasks."build-osx_64_mpiopenmpipython3.11.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_mpiopenmpipython3.11.____cpython.yaml"
-description = "Build netcdf4-feedstock with variant osx_64_mpiopenmpipython3.11.____cpython directly (without setup scripts)"
-[tasks."inspect-osx_64_mpiopenmpipython3.11.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_mpiopenmpipython3.11.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant osx_64_mpiopenmpipython3.11.____cpython"
-[tasks."build-osx_64_mpiopenmpipython3.12.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_mpiopenmpipython3.12.____cpython.yaml"
-description = "Build netcdf4-feedstock with variant osx_64_mpiopenmpipython3.12.____cpython directly (without setup scripts)"
-[tasks."inspect-osx_64_mpiopenmpipython3.12.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_mpiopenmpipython3.12.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant osx_64_mpiopenmpipython3.12.____cpython"
-[tasks."build-osx_64_mpiopenmpipython3.13.____cp313"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_mpiopenmpipython3.13.____cp313.yaml"
-description = "Build netcdf4-feedstock with variant osx_64_mpiopenmpipython3.13.____cp313 directly (without setup scripts)"
-[tasks."inspect-osx_64_mpiopenmpipython3.13.____cp313"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_mpiopenmpipython3.13.____cp313.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant osx_64_mpiopenmpipython3.13.____cp313"
-[tasks."build-osx_64_mpiopenmpipython3.14.____cp314"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_mpiopenmpipython3.14.____cp314.yaml"
-description = "Build netcdf4-feedstock with variant osx_64_mpiopenmpipython3.14.____cp314 directly (without setup scripts)"
-[tasks."inspect-osx_64_mpiopenmpipython3.14.____cp314"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_mpiopenmpipython3.14.____cp314.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant osx_64_mpiopenmpipython3.14.____cp314"
-[tasks."build-osx_64_mpiopenmpipython3.14.____cp314t"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_mpiopenmpipython3.14.____cp314t.yaml"
-description = "Build netcdf4-feedstock with variant osx_64_mpiopenmpipython3.14.____cp314t directly (without setup scripts)"
-[tasks."inspect-osx_64_mpiopenmpipython3.14.____cp314t"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_mpiopenmpipython3.14.____cp314t.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant osx_64_mpiopenmpipython3.14.____cp314t"
-[tasks."build-osx_arm64_mpimpichpython3.10.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_mpimpichpython3.10.____cpython.yaml"
-description = "Build netcdf4-feedstock with variant osx_arm64_mpimpichpython3.10.____cpython directly (without setup scripts)"
-[tasks."inspect-osx_arm64_mpimpichpython3.10.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_mpimpichpython3.10.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant osx_arm64_mpimpichpython3.10.____cpython"
-[tasks."build-osx_arm64_mpimpichpython3.11.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_mpimpichpython3.11.____cpython.yaml"
-description = "Build netcdf4-feedstock with variant osx_arm64_mpimpichpython3.11.____cpython directly (without setup scripts)"
-[tasks."inspect-osx_arm64_mpimpichpython3.11.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_mpimpichpython3.11.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant osx_arm64_mpimpichpython3.11.____cpython"
-[tasks."build-osx_arm64_mpimpichpython3.12.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_mpimpichpython3.12.____cpython.yaml"
-description = "Build netcdf4-feedstock with variant osx_arm64_mpimpichpython3.12.____cpython directly (without setup scripts)"
-[tasks."inspect-osx_arm64_mpimpichpython3.12.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_mpimpichpython3.12.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant osx_arm64_mpimpichpython3.12.____cpython"
-[tasks."build-osx_arm64_mpimpichpython3.13.____cp313"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_mpimpichpython3.13.____cp313.yaml"
-description = "Build netcdf4-feedstock with variant osx_arm64_mpimpichpython3.13.____cp313 directly (without setup scripts)"
-[tasks."inspect-osx_arm64_mpimpichpython3.13.____cp313"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_mpimpichpython3.13.____cp313.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant osx_arm64_mpimpichpython3.13.____cp313"
-[tasks."build-osx_arm64_mpimpichpython3.14.____cp314"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_mpimpichpython3.14.____cp314.yaml"
-description = "Build netcdf4-feedstock with variant osx_arm64_mpimpichpython3.14.____cp314 directly (without setup scripts)"
-[tasks."inspect-osx_arm64_mpimpichpython3.14.____cp314"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_mpimpichpython3.14.____cp314.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant osx_arm64_mpimpichpython3.14.____cp314"
-[tasks."build-osx_arm64_mpimpichpython3.14.____cp314t"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_mpimpichpython3.14.____cp314t.yaml"
-description = "Build netcdf4-feedstock with variant osx_arm64_mpimpichpython3.14.____cp314t directly (without setup scripts)"
-[tasks."inspect-osx_arm64_mpimpichpython3.14.____cp314t"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_mpimpichpython3.14.____cp314t.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant osx_arm64_mpimpichpython3.14.____cp314t"
-[tasks."build-osx_arm64_mpinompipython3.10.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_mpinompipython3.10.____cpython.yaml"
-description = "Build netcdf4-feedstock with variant osx_arm64_mpinompipython3.10.____cpython directly (without setup scripts)"
-[tasks."inspect-osx_arm64_mpinompipython3.10.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_mpinompipython3.10.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant osx_arm64_mpinompipython3.10.____cpython"
-[tasks."build-osx_arm64_mpinompipython3.11.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_mpinompipython3.11.____cpython.yaml"
-description = "Build netcdf4-feedstock with variant osx_arm64_mpinompipython3.11.____cpython directly (without setup scripts)"
-[tasks."inspect-osx_arm64_mpinompipython3.11.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_mpinompipython3.11.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant osx_arm64_mpinompipython3.11.____cpython"
-[tasks."build-osx_arm64_mpinompipython3.12.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_mpinompipython3.12.____cpython.yaml"
-description = "Build netcdf4-feedstock with variant osx_arm64_mpinompipython3.12.____cpython directly (without setup scripts)"
-[tasks."inspect-osx_arm64_mpinompipython3.12.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_mpinompipython3.12.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant osx_arm64_mpinompipython3.12.____cpython"
-[tasks."build-osx_arm64_mpinompipython3.13.____cp313"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_mpinompipython3.13.____cp313.yaml"
-description = "Build netcdf4-feedstock with variant osx_arm64_mpinompipython3.13.____cp313 directly (without setup scripts)"
-[tasks."inspect-osx_arm64_mpinompipython3.13.____cp313"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_mpinompipython3.13.____cp313.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant osx_arm64_mpinompipython3.13.____cp313"
-[tasks."build-osx_arm64_mpinompipython3.14.____cp314"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_mpinompipython3.14.____cp314.yaml"
-description = "Build netcdf4-feedstock with variant osx_arm64_mpinompipython3.14.____cp314 directly (without setup scripts)"
-[tasks."inspect-osx_arm64_mpinompipython3.14.____cp314"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_mpinompipython3.14.____cp314.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant osx_arm64_mpinompipython3.14.____cp314"
-[tasks."build-osx_arm64_mpinompipython3.14.____cp314t"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_mpinompipython3.14.____cp314t.yaml"
-description = "Build netcdf4-feedstock with variant osx_arm64_mpinompipython3.14.____cp314t directly (without setup scripts)"
-[tasks."inspect-osx_arm64_mpinompipython3.14.____cp314t"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_mpinompipython3.14.____cp314t.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant osx_arm64_mpinompipython3.14.____cp314t"
-[tasks."build-osx_arm64_mpiopenmpipython3.10.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_mpiopenmpipython3.10.____cpython.yaml"
-description = "Build netcdf4-feedstock with variant osx_arm64_mpiopenmpipython3.10.____cpython directly (without setup scripts)"
-[tasks."inspect-osx_arm64_mpiopenmpipython3.10.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_mpiopenmpipython3.10.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant osx_arm64_mpiopenmpipython3.10.____cpython"
-[tasks."build-osx_arm64_mpiopenmpipython3.11.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_mpiopenmpipython3.11.____cpython.yaml"
-description = "Build netcdf4-feedstock with variant osx_arm64_mpiopenmpipython3.11.____cpython directly (without setup scripts)"
-[tasks."inspect-osx_arm64_mpiopenmpipython3.11.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_mpiopenmpipython3.11.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant osx_arm64_mpiopenmpipython3.11.____cpython"
-[tasks."build-osx_arm64_mpiopenmpipython3.12.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_mpiopenmpipython3.12.____cpython.yaml"
-description = "Build netcdf4-feedstock with variant osx_arm64_mpiopenmpipython3.12.____cpython directly (without setup scripts)"
-[tasks."inspect-osx_arm64_mpiopenmpipython3.12.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_mpiopenmpipython3.12.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant osx_arm64_mpiopenmpipython3.12.____cpython"
-[tasks."build-osx_arm64_mpiopenmpipython3.13.____cp313"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_mpiopenmpipython3.13.____cp313.yaml"
-description = "Build netcdf4-feedstock with variant osx_arm64_mpiopenmpipython3.13.____cp313 directly (without setup scripts)"
-[tasks."inspect-osx_arm64_mpiopenmpipython3.13.____cp313"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_mpiopenmpipython3.13.____cp313.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant osx_arm64_mpiopenmpipython3.13.____cp313"
-[tasks."build-osx_arm64_mpiopenmpipython3.14.____cp314"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_mpiopenmpipython3.14.____cp314.yaml"
-description = "Build netcdf4-feedstock with variant osx_arm64_mpiopenmpipython3.14.____cp314 directly (without setup scripts)"
-[tasks."inspect-osx_arm64_mpiopenmpipython3.14.____cp314"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_mpiopenmpipython3.14.____cp314.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant osx_arm64_mpiopenmpipython3.14.____cp314"
-[tasks."build-osx_arm64_mpiopenmpipython3.14.____cp314t"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_mpiopenmpipython3.14.____cp314t.yaml"
-description = "Build netcdf4-feedstock with variant osx_arm64_mpiopenmpipython3.14.____cp314t directly (without setup scripts)"
-[tasks."inspect-osx_arm64_mpiopenmpipython3.14.____cp314t"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_mpiopenmpipython3.14.____cp314t.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant osx_arm64_mpiopenmpipython3.14.____cp314t"
-[tasks."build-win_64_mpinompipython3.10.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/win_64_mpinompipython3.10.____cpython.yaml"
-description = "Build netcdf4-feedstock with variant win_64_mpinompipython3.10.____cpython directly (without setup scripts)"
-[tasks."inspect-win_64_mpinompipython3.10.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/win_64_mpinompipython3.10.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant win_64_mpinompipython3.10.____cpython"
-[tasks."build-win_64_mpinompipython3.11.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/win_64_mpinompipython3.11.____cpython.yaml"
-description = "Build netcdf4-feedstock with variant win_64_mpinompipython3.11.____cpython directly (without setup scripts)"
-[tasks."inspect-win_64_mpinompipython3.11.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/win_64_mpinompipython3.11.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant win_64_mpinompipython3.11.____cpython"
-[tasks."build-win_64_mpinompipython3.12.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/win_64_mpinompipython3.12.____cpython.yaml"
-description = "Build netcdf4-feedstock with variant win_64_mpinompipython3.12.____cpython directly (without setup scripts)"
-[tasks."inspect-win_64_mpinompipython3.12.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/win_64_mpinompipython3.12.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant win_64_mpinompipython3.12.____cpython"
-[tasks."build-win_64_mpinompipython3.13.____cp313"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/win_64_mpinompipython3.13.____cp313.yaml"
-description = "Build netcdf4-feedstock with variant win_64_mpinompipython3.13.____cp313 directly (without setup scripts)"
-[tasks."inspect-win_64_mpinompipython3.13.____cp313"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/win_64_mpinompipython3.13.____cp313.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant win_64_mpinompipython3.13.____cp313"
-[tasks."build-win_64_mpinompipython3.14.____cp314"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/win_64_mpinompipython3.14.____cp314.yaml"
-description = "Build netcdf4-feedstock with variant win_64_mpinompipython3.14.____cp314 directly (without setup scripts)"
-[tasks."inspect-win_64_mpinompipython3.14.____cp314"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/win_64_mpinompipython3.14.____cp314.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant win_64_mpinompipython3.14.____cp314"
-[tasks."build-win_64_mpinompipython3.14.____cp314t"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/win_64_mpinompipython3.14.____cp314t.yaml"
-description = "Build netcdf4-feedstock with variant win_64_mpinompipython3.14.____cp314t directly (without setup scripts)"
-[tasks."inspect-win_64_mpinompipython3.14.____cp314t"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/win_64_mpinompipython3.14.____cp314t.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant win_64_mpinompipython3.14.____cp314t"
+[tasks."build-linux_64_is_abi3falsempimpichpython3.14.____cp314t"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_is_abi3falsempimpichpython3.14.____cp314t.yaml"
+description = "Build netcdf4-feedstock with variant linux_64_is_abi3falsempimpichpython3.14.____cp314t directly (without setup scripts)"
+[tasks."inspect-linux_64_is_abi3falsempimpichpython3.14.____cp314t"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_is_abi3falsempimpichpython3.14.____cp314t.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant linux_64_is_abi3falsempimpichpython3.14.____cp314t"
+[tasks."build-linux_64_is_abi3falsempinompipython3.14.____cp314t"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_is_abi3falsempinompipython3.14.____cp314t.yaml"
+description = "Build netcdf4-feedstock with variant linux_64_is_abi3falsempinompipython3.14.____cp314t directly (without setup scripts)"
+[tasks."inspect-linux_64_is_abi3falsempinompipython3.14.____cp314t"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_is_abi3falsempinompipython3.14.____cp314t.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant linux_64_is_abi3falsempinompipython3.14.____cp314t"
+[tasks."build-linux_64_is_abi3falsempiopenmpipython3.14.____cp314t"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_is_abi3falsempiopenmpipython3.14.____cp314t.yaml"
+description = "Build netcdf4-feedstock with variant linux_64_is_abi3falsempiopenmpipython3.14.____cp314t directly (without setup scripts)"
+[tasks."inspect-linux_64_is_abi3falsempiopenmpipython3.14.____cp314t"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_is_abi3falsempiopenmpipython3.14.____cp314t.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant linux_64_is_abi3falsempiopenmpipython3.14.____cp314t"
+[tasks."build-linux_64_is_abi3truempimpichpython3.11.____cpython"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_is_abi3truempimpichpython3.11.____cpython.yaml"
+description = "Build netcdf4-feedstock with variant linux_64_is_abi3truempimpichpython3.11.____cpython directly (without setup scripts)"
+[tasks."inspect-linux_64_is_abi3truempimpichpython3.11.____cpython"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_is_abi3truempimpichpython3.11.____cpython.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant linux_64_is_abi3truempimpichpython3.11.____cpython"
+[tasks."build-linux_64_is_abi3truempinompipython3.11.____cpython"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_is_abi3truempinompipython3.11.____cpython.yaml"
+description = "Build netcdf4-feedstock with variant linux_64_is_abi3truempinompipython3.11.____cpython directly (without setup scripts)"
+[tasks."inspect-linux_64_is_abi3truempinompipython3.11.____cpython"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_is_abi3truempinompipython3.11.____cpython.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant linux_64_is_abi3truempinompipython3.11.____cpython"
+[tasks."build-linux_64_is_abi3truempiopenmpipython3.11.____cpython"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_is_abi3truempiopenmpipython3.11.____cpython.yaml"
+description = "Build netcdf4-feedstock with variant linux_64_is_abi3truempiopenmpipython3.11.____cpython directly (without setup scripts)"
+[tasks."inspect-linux_64_is_abi3truempiopenmpipython3.11.____cpython"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_is_abi3truempiopenmpipython3.11.____cpython.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant linux_64_is_abi3truempiopenmpipython3.11.____cpython"
+[tasks."build-linux_aarch64_is_abi3falsempimpichpython3.14.____cp314t"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_aarch64_is_abi3falsempimpichpython3.14.____cp314t.yaml"
+description = "Build netcdf4-feedstock with variant linux_aarch64_is_abi3falsempimpichpython3.14.____cp314t directly (without setup scripts)"
+[tasks."inspect-linux_aarch64_is_abi3falsempimpichpython3.14.____cp314t"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_aarch64_is_abi3falsempimpichpython3.14.____cp314t.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant linux_aarch64_is_abi3falsempimpichpython3.14.____cp314t"
+[tasks."build-linux_aarch64_is_abi3falsempinompipython3.14.____cp314t"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_aarch64_is_abi3falsempinompipython3.14.____cp314t.yaml"
+description = "Build netcdf4-feedstock with variant linux_aarch64_is_abi3falsempinompipython3.14.____cp314t directly (without setup scripts)"
+[tasks."inspect-linux_aarch64_is_abi3falsempinompipython3.14.____cp314t"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_aarch64_is_abi3falsempinompipython3.14.____cp314t.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant linux_aarch64_is_abi3falsempinompipython3.14.____cp314t"
+[tasks."build-linux_aarch64_is_abi3falsempiopenmpipython3.14.____cp314t"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_aarch64_is_abi3falsempiopenmpipython3.14.____cp314t.yaml"
+description = "Build netcdf4-feedstock with variant linux_aarch64_is_abi3falsempiopenmpipython3.14.____cp314t directly (without setup scripts)"
+[tasks."inspect-linux_aarch64_is_abi3falsempiopenmpipython3.14.____cp314t"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_aarch64_is_abi3falsempiopenmpipython3.14.____cp314t.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant linux_aarch64_is_abi3falsempiopenmpipython3.14.____cp314t"
+[tasks."build-linux_aarch64_is_abi3truempimpichpython3.11.____cpython"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_aarch64_is_abi3truempimpichpython3.11.____cpython.yaml"
+description = "Build netcdf4-feedstock with variant linux_aarch64_is_abi3truempimpichpython3.11.____cpython directly (without setup scripts)"
+[tasks."inspect-linux_aarch64_is_abi3truempimpichpython3.11.____cpython"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_aarch64_is_abi3truempimpichpython3.11.____cpython.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant linux_aarch64_is_abi3truempimpichpython3.11.____cpython"
+[tasks."build-linux_aarch64_is_abi3truempinompipython3.11.____cpython"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_aarch64_is_abi3truempinompipython3.11.____cpython.yaml"
+description = "Build netcdf4-feedstock with variant linux_aarch64_is_abi3truempinompipython3.11.____cpython directly (without setup scripts)"
+[tasks."inspect-linux_aarch64_is_abi3truempinompipython3.11.____cpython"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_aarch64_is_abi3truempinompipython3.11.____cpython.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant linux_aarch64_is_abi3truempinompipython3.11.____cpython"
+[tasks."build-linux_aarch64_is_abi3truempiopenmpipython3.11.____cpython"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_aarch64_is_abi3truempiopenmpipython3.11.____cpython.yaml"
+description = "Build netcdf4-feedstock with variant linux_aarch64_is_abi3truempiopenmpipython3.11.____cpython directly (without setup scripts)"
+[tasks."inspect-linux_aarch64_is_abi3truempiopenmpipython3.11.____cpython"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_aarch64_is_abi3truempiopenmpipython3.11.____cpython.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant linux_aarch64_is_abi3truempiopenmpipython3.11.____cpython"
+[tasks."build-linux_ppc64le_is_abi3falsempimpichpython3.14.____cp314t"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_ppc64le_is_abi3falsempimpichpython3.14.____cp314t.yaml"
+description = "Build netcdf4-feedstock with variant linux_ppc64le_is_abi3falsempimpichpython3.14.____cp314t directly (without setup scripts)"
+[tasks."inspect-linux_ppc64le_is_abi3falsempimpichpython3.14.____cp314t"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_ppc64le_is_abi3falsempimpichpython3.14.____cp314t.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant linux_ppc64le_is_abi3falsempimpichpython3.14.____cp314t"
+[tasks."build-linux_ppc64le_is_abi3falsempinompipython3.14.____cp314t"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_ppc64le_is_abi3falsempinompipython3.14.____cp314t.yaml"
+description = "Build netcdf4-feedstock with variant linux_ppc64le_is_abi3falsempinompipython3.14.____cp314t directly (without setup scripts)"
+[tasks."inspect-linux_ppc64le_is_abi3falsempinompipython3.14.____cp314t"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_ppc64le_is_abi3falsempinompipython3.14.____cp314t.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant linux_ppc64le_is_abi3falsempinompipython3.14.____cp314t"
+[tasks."build-linux_ppc64le_is_abi3falsempiopenmpipython3.14.____cp314t"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_ppc64le_is_abi3falsempiopenmpipython3.14.____cp314t.yaml"
+description = "Build netcdf4-feedstock with variant linux_ppc64le_is_abi3falsempiopenmpipython3.14.____cp314t directly (without setup scripts)"
+[tasks."inspect-linux_ppc64le_is_abi3falsempiopenmpipython3.14.____cp314t"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_ppc64le_is_abi3falsempiopenmpipython3.14.____cp314t.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant linux_ppc64le_is_abi3falsempiopenmpipython3.14.____cp314t"
+[tasks."build-linux_ppc64le_is_abi3truempimpichpython3.11.____cpython"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_ppc64le_is_abi3truempimpichpython3.11.____cpython.yaml"
+description = "Build netcdf4-feedstock with variant linux_ppc64le_is_abi3truempimpichpython3.11.____cpython directly (without setup scripts)"
+[tasks."inspect-linux_ppc64le_is_abi3truempimpichpython3.11.____cpython"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_ppc64le_is_abi3truempimpichpython3.11.____cpython.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant linux_ppc64le_is_abi3truempimpichpython3.11.____cpython"
+[tasks."build-linux_ppc64le_is_abi3truempinompipython3.11.____cpython"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_ppc64le_is_abi3truempinompipython3.11.____cpython.yaml"
+description = "Build netcdf4-feedstock with variant linux_ppc64le_is_abi3truempinompipython3.11.____cpython directly (without setup scripts)"
+[tasks."inspect-linux_ppc64le_is_abi3truempinompipython3.11.____cpython"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_ppc64le_is_abi3truempinompipython3.11.____cpython.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant linux_ppc64le_is_abi3truempinompipython3.11.____cpython"
+[tasks."build-linux_ppc64le_is_abi3truempiopenmpipython3.11.____cpython"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_ppc64le_is_abi3truempiopenmpipython3.11.____cpython.yaml"
+description = "Build netcdf4-feedstock with variant linux_ppc64le_is_abi3truempiopenmpipython3.11.____cpython directly (without setup scripts)"
+[tasks."inspect-linux_ppc64le_is_abi3truempiopenmpipython3.11.____cpython"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_ppc64le_is_abi3truempiopenmpipython3.11.____cpython.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant linux_ppc64le_is_abi3truempiopenmpipython3.11.____cpython"
+[tasks."build-osx_64_is_abi3falsempimpichpython3.14.____cp314t"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_is_abi3falsempimpichpython3.14.____cp314t.yaml"
+description = "Build netcdf4-feedstock with variant osx_64_is_abi3falsempimpichpython3.14.____cp314t directly (without setup scripts)"
+[tasks."inspect-osx_64_is_abi3falsempimpichpython3.14.____cp314t"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_is_abi3falsempimpichpython3.14.____cp314t.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant osx_64_is_abi3falsempimpichpython3.14.____cp314t"
+[tasks."build-osx_64_is_abi3falsempinompipython3.14.____cp314t"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_is_abi3falsempinompipython3.14.____cp314t.yaml"
+description = "Build netcdf4-feedstock with variant osx_64_is_abi3falsempinompipython3.14.____cp314t directly (without setup scripts)"
+[tasks."inspect-osx_64_is_abi3falsempinompipython3.14.____cp314t"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_is_abi3falsempinompipython3.14.____cp314t.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant osx_64_is_abi3falsempinompipython3.14.____cp314t"
+[tasks."build-osx_64_is_abi3falsempiopenmpipython3.14.____cp314t"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_is_abi3falsempiopenmpipython3.14.____cp314t.yaml"
+description = "Build netcdf4-feedstock with variant osx_64_is_abi3falsempiopenmpipython3.14.____cp314t directly (without setup scripts)"
+[tasks."inspect-osx_64_is_abi3falsempiopenmpipython3.14.____cp314t"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_is_abi3falsempiopenmpipython3.14.____cp314t.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant osx_64_is_abi3falsempiopenmpipython3.14.____cp314t"
+[tasks."build-osx_64_is_abi3truempimpichpython3.11.____cpython"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_is_abi3truempimpichpython3.11.____cpython.yaml"
+description = "Build netcdf4-feedstock with variant osx_64_is_abi3truempimpichpython3.11.____cpython directly (without setup scripts)"
+[tasks."inspect-osx_64_is_abi3truempimpichpython3.11.____cpython"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_is_abi3truempimpichpython3.11.____cpython.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant osx_64_is_abi3truempimpichpython3.11.____cpython"
+[tasks."build-osx_64_is_abi3truempinompipython3.11.____cpython"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_is_abi3truempinompipython3.11.____cpython.yaml"
+description = "Build netcdf4-feedstock with variant osx_64_is_abi3truempinompipython3.11.____cpython directly (without setup scripts)"
+[tasks."inspect-osx_64_is_abi3truempinompipython3.11.____cpython"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_is_abi3truempinompipython3.11.____cpython.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant osx_64_is_abi3truempinompipython3.11.____cpython"
+[tasks."build-osx_64_is_abi3truempiopenmpipython3.11.____cpython"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_is_abi3truempiopenmpipython3.11.____cpython.yaml"
+description = "Build netcdf4-feedstock with variant osx_64_is_abi3truempiopenmpipython3.11.____cpython directly (without setup scripts)"
+[tasks."inspect-osx_64_is_abi3truempiopenmpipython3.11.____cpython"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_is_abi3truempiopenmpipython3.11.____cpython.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant osx_64_is_abi3truempiopenmpipython3.11.____cpython"
+[tasks."build-osx_arm64_is_abi3falsempimpichpython3.14.____cp314t"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_is_abi3falsempimpichpython3.14.____cp314t.yaml"
+description = "Build netcdf4-feedstock with variant osx_arm64_is_abi3falsempimpichpython3.14.____cp314t directly (without setup scripts)"
+[tasks."inspect-osx_arm64_is_abi3falsempimpichpython3.14.____cp314t"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_is_abi3falsempimpichpython3.14.____cp314t.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant osx_arm64_is_abi3falsempimpichpython3.14.____cp314t"
+[tasks."build-osx_arm64_is_abi3falsempinompipython3.14.____cp314t"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_is_abi3falsempinompipython3.14.____cp314t.yaml"
+description = "Build netcdf4-feedstock with variant osx_arm64_is_abi3falsempinompipython3.14.____cp314t directly (without setup scripts)"
+[tasks."inspect-osx_arm64_is_abi3falsempinompipython3.14.____cp314t"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_is_abi3falsempinompipython3.14.____cp314t.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant osx_arm64_is_abi3falsempinompipython3.14.____cp314t"
+[tasks."build-osx_arm64_is_abi3falsempiopenmpipython3.14.____cp314t"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_is_abi3falsempiopenmpipython3.14.____cp314t.yaml"
+description = "Build netcdf4-feedstock with variant osx_arm64_is_abi3falsempiopenmpipython3.14.____cp314t directly (without setup scripts)"
+[tasks."inspect-osx_arm64_is_abi3falsempiopenmpipython3.14.____cp314t"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_is_abi3falsempiopenmpipython3.14.____cp314t.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant osx_arm64_is_abi3falsempiopenmpipython3.14.____cp314t"
+[tasks."build-osx_arm64_is_abi3truempimpichpython3.11.____cpython"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_is_abi3truempimpichpython3.11.____cpython.yaml"
+description = "Build netcdf4-feedstock with variant osx_arm64_is_abi3truempimpichpython3.11.____cpython directly (without setup scripts)"
+[tasks."inspect-osx_arm64_is_abi3truempimpichpython3.11.____cpython"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_is_abi3truempimpichpython3.11.____cpython.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant osx_arm64_is_abi3truempimpichpython3.11.____cpython"
+[tasks."build-osx_arm64_is_abi3truempinompipython3.11.____cpython"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_is_abi3truempinompipython3.11.____cpython.yaml"
+description = "Build netcdf4-feedstock with variant osx_arm64_is_abi3truempinompipython3.11.____cpython directly (without setup scripts)"
+[tasks."inspect-osx_arm64_is_abi3truempinompipython3.11.____cpython"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_is_abi3truempinompipython3.11.____cpython.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant osx_arm64_is_abi3truempinompipython3.11.____cpython"
+[tasks."build-osx_arm64_is_abi3truempiopenmpipython3.11.____cpython"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_is_abi3truempiopenmpipython3.11.____cpython.yaml"
+description = "Build netcdf4-feedstock with variant osx_arm64_is_abi3truempiopenmpipython3.11.____cpython directly (without setup scripts)"
+[tasks."inspect-osx_arm64_is_abi3truempiopenmpipython3.11.____cpython"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_is_abi3truempiopenmpipython3.11.____cpython.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant osx_arm64_is_abi3truempiopenmpipython3.11.____cpython"
+[tasks."build-win_64_is_abi3falsempinompipython3.14.____cp314t"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/win_64_is_abi3falsempinompipython3.14.____cp314t.yaml"
+description = "Build netcdf4-feedstock with variant win_64_is_abi3falsempinompipython3.14.____cp314t directly (without setup scripts)"
+[tasks."inspect-win_64_is_abi3falsempinompipython3.14.____cp314t"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/win_64_is_abi3falsempinompipython3.14.____cp314t.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant win_64_is_abi3falsempinompipython3.14.____cp314t"
+[tasks."build-win_64_is_abi3truempinompipython3.11.____cpython"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/win_64_is_abi3truempinompipython3.11.____cpython.yaml"
+description = "Build netcdf4-feedstock with variant win_64_is_abi3truempinompipython3.11.____cpython directly (without setup scripts)"
+[tasks."inspect-win_64_is_abi3truempinompipython3.11.____cpython"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/win_64_is_abi3truempinompipython3.11.____cpython.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant win_64_is_abi3truempinompipython3.11.____cpython"
 
 [feature.smithy.dependencies]
 conda-smithy = "*"
