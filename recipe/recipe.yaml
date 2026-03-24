@@ -6,7 +6,7 @@ context:
   python_min: "3.11"
   # recipe-lint failed in v0 if mpi was undefined; keep the same defaulting behavior
   mpi: ${{ mpi or "nompi" }}
-  build: 5
+  build: 6
   # prioritize nompi via build number
   build_number: ${{ build + 100 if mpi == "nompi" else build }}
   mpi_prefix: ${{ "mpi_" + mpi if mpi != "nompi" else "nompi" }}
@@ -106,7 +106,7 @@ tests:
     else:
       python:
         imports:
-        - netCDF4
+          - netCDF4
   - script:
       # ncinfo -h is segfaulting in linux aarch64 mpich python 3.12 without a
       # "warm-up" command
