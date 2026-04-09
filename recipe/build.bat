@@ -9,5 +9,5 @@ echo netCDF4_libdir = %LIBRARY_LIB% >> %SITECFG%
 echo netCDF4_incdir = %LIBRARY_INC% >> %SITECFG%
 
 set NETCDF4_LIMITED_API=1
-"%PYTHON%" -m pip install --no-deps --ignore-installed .
+"%PYTHON%" -m pip install --no-deps --ignore-installed --no-build-isolation .
 if errorlevel 1 exit 1
