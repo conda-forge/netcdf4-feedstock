@@ -5,7 +5,7 @@
 
 [workspace]
 name = "netcdf4-feedstock"
-version = "3.58.0"  # conda-smithy version used to generate this file
+version = "3.59.1"  # conda-smithy version used to generate this file
 description = "Pixi configuration for conda-forge/netcdf4-feedstock"
 authors = ["@conda-forge/netcdf4"]
 channels = ["conda-forge"]
