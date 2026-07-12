@@ -11,7 +11,7 @@ hdf5:
 is_abi3:
 - false
 libnetcdf:
-- 4.10.0
+- 4.10.1
 mpi:
 - nompi
 mpich:

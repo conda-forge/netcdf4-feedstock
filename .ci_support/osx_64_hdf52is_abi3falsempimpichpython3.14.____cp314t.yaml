@@ -19,7 +19,7 @@ hdf5:
 is_abi3:
 - false
 libnetcdf:
-- 4.10.0
+- 4.10.1
 macos_machine:
 - x86_64-apple-darwin13.4.0
 mpi:
