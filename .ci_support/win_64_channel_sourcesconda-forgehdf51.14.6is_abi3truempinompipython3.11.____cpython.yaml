@@ -1,0 +1,36 @@
+c_compiler:
+- vs2022
+c_stdlib:
+- vs
+channel_sources:
+- conda-forge
+channel_targets:
+- conda-forge main
+hdf5:
+- 1.14.6
+is_abi3:
+- true
+libnetcdf:
+- 4.10.1
+mpi:
+- nompi
+mpich:
+- '5'
+openmpi:
+- '5'
+pin_run_as_build:
+  python:
+    min_pin: x.x
+    max_pin: x.x
+python:
+- 3.11.* *_cpython
+python_min:
+- '3.11'
+target_platform:
+- win-64
+zip_keys:
+- - python
+  - channel_sources
+  - is_abi3
+zlib:
+- '1'
