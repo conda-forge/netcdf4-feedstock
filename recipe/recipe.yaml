@@ -3,12 +3,9 @@ schema_version: 1
 context:
   name: netcdf4
   version: 1.7.4
-  python_min: "3.11"
   # recipe-lint failed in v0 if mpi was undefined; keep the same defaulting behavior
   mpi: ${{ mpi or "nompi" }}
-  build: 10
-  # prioritize nompi via build number
-  build_number: ${{ build + 100 if mpi == "nompi" else build }}
+  build_number: 11
   mpi_prefix: ${{ "mpi_" + mpi if mpi != "nompi" else "nompi" }}
 
 package:
@@ -28,12 +25,17 @@ build:
   skip:
     - win and mpi != "nompi"
     - is_abi3 and not match(python, python_min ~ ".*")
-  number: ${{ build_number }}
   # add build string so packages can depend on mpi/nompi variants explicitly:
   # `netcdf4 * mpi_mpich_*` for mpich
   # `netcdf4 * mpi_*` for any mpi
   # `netcdf4 * nompi_*` for no mpi
+  # prioritize nompi via build number
+  number: ${{ build_number | int + 100 if mpi == "nompi" else build_number }}
+  # build_number here is the resolved build.number, so the offset is already applied
   string: ${{ mpi_prefix }}_py${{ python | version_to_buildstring }}h${{ hash }}_${{ build_number }}
+  variant:
+    # prefer 'nompi' over other mpi variants
+    down_prioritize_variant: ${{ 0 if mpi == "nompi" else 1 }}
 
   python:
     version_independent: ${{ is_abi3 }}
@@ -117,13 +119,9 @@ tests:
       - nc3tonc4 -h
       - cd test && python run_all.py
       - if: unix and is_abi3
-        then:
-          - export SP_DIR=$(python -c "import site; print(site.getsitepackages()[0])")
-          - abi3audit $SP_DIR/netCDF4/_netCDF4.abi3.so -s -v --assume-minimum-abi3 ${{ python_min }}
+        then: abi3audit $SP_DIR/netCDF4/_netCDF4.abi3.so -s -v --assume-minimum-abi3 ${{ python_min }}
       - if: win and is_abi3
-        then:
-          - set "SP_DIR=%PREFIX%\\Lib\\site-packages"
-          - abi3audit %SP_DIR%\\netCDF4\\_netCDF4.pyd -s -v --assume-minimum-abi3 ${{ python_min }}
+        then: abi3audit %SP_DIR%\\netCDF4\\_netCDF4.pyd -s -v --assume-minimum-abi3 ${{ python_min }}
     requirements:
       run:
         - if: is_abi3
