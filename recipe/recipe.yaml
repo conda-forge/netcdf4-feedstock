@@ -8,7 +8,7 @@ context:
   mpi: ${{ mpi or "nompi" }}
   build: 10
   # prioritize nompi via build number
-  build_number: 10
+  build_number: ${{ build + 100 if mpi == "nompi" else build }}
   mpi_prefix: ${{ "mpi_" + mpi if mpi != "nompi" else "nompi" }}
 
 package:
