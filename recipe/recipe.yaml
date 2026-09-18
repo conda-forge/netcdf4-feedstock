@@ -6,7 +6,7 @@ context:
   python_min: "3.11"
   # recipe-lint failed in v0 if mpi was undefined; keep the same defaulting behavior
   mpi: ${{ mpi or "nompi" }}
-  build: 10
+  build: 11
   # prioritize nompi via build number
   build_number: ${{ build + 100 if mpi == "nompi" else build }}
   mpi_prefix: ${{ "mpi_" + mpi if mpi != "nompi" else "nompi" }}
@@ -34,6 +34,9 @@ build:
   # `netcdf4 * mpi_*` for any mpi
   # `netcdf4 * nompi_*` for no mpi
   string: ${{ mpi_prefix }}_py${{ python | version_to_buildstring }}h${{ hash }}_${{ build_number }}
+  variant:
+    # prefer 'nompi' over other mpi variants
+    down_prioritize_variant: ${{ 0 if mpi == "nompi" else 1 }}
 
   python:
     version_independent: ${{ is_abi3 }}
