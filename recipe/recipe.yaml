@@ -2,10 +2,10 @@ schema_version: 1
 
 context:
   name: netcdf4
-  version: 1.7.4
+  version: 1.7.5
   # recipe-lint failed in v0 if mpi was undefined; keep the same defaulting behavior
   mpi: ${{ mpi or "nompi" }}
-  build_number: 11
+  build_number: 0
   mpi_prefix: ${{ "mpi_" + mpi if mpi != "nompi" else "nompi" }}
 
 package:
@@ -14,7 +14,7 @@ package:
 
 source:
   url: https://github.com/Unidata/netcdf4-python/archive/refs/tags/v${{ version }}rel.tar.gz
-  sha256: c792977eb762fd29fa46b78f44dd8c15729fe7733c2cd2ecd34552089734ce4b
+  sha256: 01f3556dd8d5e7d773db259f47df0a8068f6feb81dffe23edc6ef50b39c006ef
   patches:
     - 0001-update-url-for-gfs-data.patch
     - backport_1474.patch
