@@ -5,7 +5,7 @@
 
 [workspace]
 name = "netcdf4-feedstock"
-version = "2026.9.10"  # conda-smithy version used to generate this file
+version = "2026.10.24"  # conda-smithy version used to generate this file
 description = "Pixi configuration for conda-forge/netcdf4-feedstock"
 authors = ["@conda-forge/netcdf4"]
 channels = ["conda-forge"]
@@ -37,582 +37,582 @@ description = "List contents of all packages found in rattler-build build direct
 [feature.build.tasks.build]
 cmd = "rattler-build build --recipe recipe"
 description = "Build netcdf4-feedstock directly (without setup scripts), no particular variant specified"
-[feature.build.tasks."build-linux_64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempimpichpython3.14.____cp314t"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempimpichpython3.14.____cp314t.yaml --target-platform linux-64"
-description = "Build netcdf4-feedstock with variant linux_64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempimpichpython3.14.____cp314t directly (without setup scripts)"
-[feature.build.tasks."debug-linux_64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempimpichpython3.14.____cp314t"]
-cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempimpichpython3.14.____cp314t.yaml --target-platform linux-64"
-description = "Debug netcdf4-feedstock with variant linux_64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempimpichpython3.14.____cp314t directly (without setup scripts)"
-[feature.build.tasks."inspect-linux_64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempimpichpython3.14.____cp314t"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempimpichpython3.14.____cp314t.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempimpichpython3.14.____cp314t"
-[feature.build.tasks."build-linux_64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempinompipython3.14.____cp314t"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempinompipython3.14.____cp314t.yaml --target-platform linux-64"
-description = "Build netcdf4-feedstock with variant linux_64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempinompipython3.14.____cp314t directly (without setup scripts)"
-[feature.build.tasks."debug-linux_64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempinompipython3.14.____cp314t"]
-cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempinompipython3.14.____cp314t.yaml --target-platform linux-64"
-description = "Debug netcdf4-feedstock with variant linux_64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempinompipython3.14.____cp314t directly (without setup scripts)"
-[feature.build.tasks."inspect-linux_64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempinompipython3.14.____cp314t"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempinompipython3.14.____cp314t.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempinompipython3.14.____cp314t"
-[feature.build.tasks."build-linux_64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t.yaml --target-platform linux-64"
-description = "Build netcdf4-feedstock with variant linux_64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t directly (without setup scripts)"
-[feature.build.tasks."debug-linux_64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t"]
-cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t.yaml --target-platform linux-64"
-description = "Debug netcdf4-feedstock with variant linux_64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t directly (without setup scripts)"
-[feature.build.tasks."inspect-linux_64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t"
-[feature.build.tasks."build-linux_64_channel_sourcesconda-forgehdf51.14.6is_abi3truempimpichpython3.11.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_channel_sourcesconda-forgehdf51.14.6is_abi3truempimpichpython3.11.____cpython.yaml --target-platform linux-64"
-description = "Build netcdf4-feedstock with variant linux_64_channel_sourcesconda-forgehdf51.14.6is_abi3truempimpichpython3.11.____cpython directly (without setup scripts)"
-[feature.build.tasks."debug-linux_64_channel_sourcesconda-forgehdf51.14.6is_abi3truempimpichpython3.11.____cpython"]
-cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_64_channel_sourcesconda-forgehdf51.14.6is_abi3truempimpichpython3.11.____cpython.yaml --target-platform linux-64"
-description = "Debug netcdf4-feedstock with variant linux_64_channel_sourcesconda-forgehdf51.14.6is_abi3truempimpichpython3.11.____cpython directly (without setup scripts)"
-[feature.build.tasks."inspect-linux_64_channel_sourcesconda-forgehdf51.14.6is_abi3truempimpichpython3.11.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_channel_sourcesconda-forgehdf51.14.6is_abi3truempimpichpython3.11.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_64_channel_sourcesconda-forgehdf51.14.6is_abi3truempimpichpython3.11.____cpython"
-[feature.build.tasks."build-linux_64_channel_sourcesconda-forgehdf51.14.6is_abi3truempinompipython3.11.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_channel_sourcesconda-forgehdf51.14.6is_abi3truempinompipython3.11.____cpython.yaml --target-platform linux-64"
-description = "Build netcdf4-feedstock with variant linux_64_channel_sourcesconda-forgehdf51.14.6is_abi3truempinompipython3.11.____cpython directly (without setup scripts)"
-[feature.build.tasks."debug-linux_64_channel_sourcesconda-forgehdf51.14.6is_abi3truempinompipython3.11.____cpython"]
-cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_64_channel_sourcesconda-forgehdf51.14.6is_abi3truempinompipython3.11.____cpython.yaml --target-platform linux-64"
-description = "Debug netcdf4-feedstock with variant linux_64_channel_sourcesconda-forgehdf51.14.6is_abi3truempinompipython3.11.____cpython directly (without setup scripts)"
-[feature.build.tasks."inspect-linux_64_channel_sourcesconda-forgehdf51.14.6is_abi3truempinompipython3.11.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_channel_sourcesconda-forgehdf51.14.6is_abi3truempinompipython3.11.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_64_channel_sourcesconda-forgehdf51.14.6is_abi3truempinompipython3.11.____cpython"
-[feature.build.tasks."build-linux_64_channel_sourcesconda-forgehdf51.14.6is_abi3truempiopenmpipython3.11.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_channel_sourcesconda-forgehdf51.14.6is_abi3truempiopenmpipython3.11.____cpython.yaml --target-platform linux-64"
-description = "Build netcdf4-feedstock with variant linux_64_channel_sourcesconda-forgehdf51.14.6is_abi3truempiopenmpipython3.11.____cpython directly (without setup scripts)"
-[feature.build.tasks."debug-linux_64_channel_sourcesconda-forgehdf51.14.6is_abi3truempiopenmpipython3.11.____cpython"]
-cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_64_channel_sourcesconda-forgehdf51.14.6is_abi3truempiopenmpipython3.11.____cpython.yaml --target-platform linux-64"
-description = "Debug netcdf4-feedstock with variant linux_64_channel_sourcesconda-forgehdf51.14.6is_abi3truempiopenmpipython3.11.____cpython directly (without setup scripts)"
-[feature.build.tasks."inspect-linux_64_channel_sourcesconda-forgehdf51.14.6is_abi3truempiopenmpipython3.11.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_channel_sourcesconda-forgehdf51.14.6is_abi3truempiopenmpipython3.11.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_64_channel_sourcesconda-forgehdf51.14.6is_abi3truempiopenmpipython3.11.____cpython"
-[feature.build.tasks."build-linux_64_channel_sourcesconda-forgehdf52is_abi3falsempimpichpython3.14.____cp314t"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_channel_sourcesconda-forgehdf52is_abi3falsempimpichpython3.14.____cp314t.yaml --target-platform linux-64"
-description = "Build netcdf4-feedstock with variant linux_64_channel_sourcesconda-forgehdf52is_abi3falsempimpichpython3.14.____cp314t directly (without setup scripts)"
-[feature.build.tasks."debug-linux_64_channel_sourcesconda-forgehdf52is_abi3falsempimpichpython3.14.____cp314t"]
-cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_64_channel_sourcesconda-forgehdf52is_abi3falsempimpichpython3.14.____cp314t.yaml --target-platform linux-64"
-description = "Debug netcdf4-feedstock with variant linux_64_channel_sourcesconda-forgehdf52is_abi3falsempimpichpython3.14.____cp314t directly (without setup scripts)"
-[feature.build.tasks."inspect-linux_64_channel_sourcesconda-forgehdf52is_abi3falsempimpichpython3.14.____cp314t"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_channel_sourcesconda-forgehdf52is_abi3falsempimpichpython3.14.____cp314t.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_64_channel_sourcesconda-forgehdf52is_abi3falsempimpichpython3.14.____cp314t"
-[feature.build.tasks."build-linux_64_channel_sourcesconda-forgehdf52is_abi3falsempinompipython3.14.____cp314t"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_channel_sourcesconda-forgehdf52is_abi3falsempinompipython3.14.____cp314t.yaml --target-platform linux-64"
-description = "Build netcdf4-feedstock with variant linux_64_channel_sourcesconda-forgehdf52is_abi3falsempinompipython3.14.____cp314t directly (without setup scripts)"
-[feature.build.tasks."debug-linux_64_channel_sourcesconda-forgehdf52is_abi3falsempinompipython3.14.____cp314t"]
-cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_64_channel_sourcesconda-forgehdf52is_abi3falsempinompipython3.14.____cp314t.yaml --target-platform linux-64"
-description = "Debug netcdf4-feedstock with variant linux_64_channel_sourcesconda-forgehdf52is_abi3falsempinompipython3.14.____cp314t directly (without setup scripts)"
-[feature.build.tasks."inspect-linux_64_channel_sourcesconda-forgehdf52is_abi3falsempinompipython3.14.____cp314t"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_channel_sourcesconda-forgehdf52is_abi3falsempinompipython3.14.____cp314t.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_64_channel_sourcesconda-forgehdf52is_abi3falsempinompipython3.14.____cp314t"
-[feature.build.tasks."build-linux_64_channel_sourcesconda-forgehdf52is_abi3falsempiopenmpipython3.14.____cp314t"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_channel_sourcesconda-forgehdf52is_abi3falsempiopenmpipython3.14.____cp314t.yaml --target-platform linux-64"
-description = "Build netcdf4-feedstock with variant linux_64_channel_sourcesconda-forgehdf52is_abi3falsempiopenmpipython3.14.____cp314t directly (without setup scripts)"
-[feature.build.tasks."debug-linux_64_channel_sourcesconda-forgehdf52is_abi3falsempiopenmpipython3.14.____cp314t"]
-cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_64_channel_sourcesconda-forgehdf52is_abi3falsempiopenmpipython3.14.____cp314t.yaml --target-platform linux-64"
-description = "Debug netcdf4-feedstock with variant linux_64_channel_sourcesconda-forgehdf52is_abi3falsempiopenmpipython3.14.____cp314t directly (without setup scripts)"
-[feature.build.tasks."inspect-linux_64_channel_sourcesconda-forgehdf52is_abi3falsempiopenmpipython3.14.____cp314t"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_channel_sourcesconda-forgehdf52is_abi3falsempiopenmpipython3.14.____cp314t.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_64_channel_sourcesconda-forgehdf52is_abi3falsempiopenmpipython3.14.____cp314t"
-[feature.build.tasks."build-linux_64_channel_sourcesconda-forgehdf52is_abi3truempimpichpython3.11.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_channel_sourcesconda-forgehdf52is_abi3truempimpichpython3.11.____cpython.yaml --target-platform linux-64"
-description = "Build netcdf4-feedstock with variant linux_64_channel_sourcesconda-forgehdf52is_abi3truempimpichpython3.11.____cpython directly (without setup scripts)"
-[feature.build.tasks."debug-linux_64_channel_sourcesconda-forgehdf52is_abi3truempimpichpython3.11.____cpython"]
-cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_64_channel_sourcesconda-forgehdf52is_abi3truempimpichpython3.11.____cpython.yaml --target-platform linux-64"
-description = "Debug netcdf4-feedstock with variant linux_64_channel_sourcesconda-forgehdf52is_abi3truempimpichpython3.11.____cpython directly (without setup scripts)"
-[feature.build.tasks."inspect-linux_64_channel_sourcesconda-forgehdf52is_abi3truempimpichpython3.11.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_channel_sourcesconda-forgehdf52is_abi3truempimpichpython3.11.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_64_channel_sourcesconda-forgehdf52is_abi3truempimpichpython3.11.____cpython"
-[feature.build.tasks."build-linux_64_channel_sourcesconda-forgehdf52is_abi3truempinompipython3.11.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_channel_sourcesconda-forgehdf52is_abi3truempinompipython3.11.____cpython.yaml --target-platform linux-64"
-description = "Build netcdf4-feedstock with variant linux_64_channel_sourcesconda-forgehdf52is_abi3truempinompipython3.11.____cpython directly (without setup scripts)"
-[feature.build.tasks."debug-linux_64_channel_sourcesconda-forgehdf52is_abi3truempinompipython3.11.____cpython"]
-cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_64_channel_sourcesconda-forgehdf52is_abi3truempinompipython3.11.____cpython.yaml --target-platform linux-64"
-description = "Debug netcdf4-feedstock with variant linux_64_channel_sourcesconda-forgehdf52is_abi3truempinompipython3.11.____cpython directly (without setup scripts)"
-[feature.build.tasks."inspect-linux_64_channel_sourcesconda-forgehdf52is_abi3truempinompipython3.11.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_channel_sourcesconda-forgehdf52is_abi3truempinompipython3.11.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_64_channel_sourcesconda-forgehdf52is_abi3truempinompipython3.11.____cpython"
-[feature.build.tasks."build-linux_64_channel_sourcesconda-forgehdf52is_abi3truempiopenmpipython3.11.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_channel_sourcesconda-forgehdf52is_abi3truempiopenmpipython3.11.____cpython.yaml --target-platform linux-64"
-description = "Build netcdf4-feedstock with variant linux_64_channel_sourcesconda-forgehdf52is_abi3truempiopenmpipython3.11.____cpython directly (without setup scripts)"
-[feature.build.tasks."debug-linux_64_channel_sourcesconda-forgehdf52is_abi3truempiopenmpipython3.11.____cpython"]
-cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_64_channel_sourcesconda-forgehdf52is_abi3truempiopenmpipython3.11.____cpython.yaml --target-platform linux-64"
-description = "Debug netcdf4-feedstock with variant linux_64_channel_sourcesconda-forgehdf52is_abi3truempiopenmpipython3.11.____cpython directly (without setup scripts)"
-[feature.build.tasks."inspect-linux_64_channel_sourcesconda-forgehdf52is_abi3truempiopenmpipython3.11.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_channel_sourcesconda-forgehdf52is_abi3truempiopenmpipython3.11.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_64_channel_sourcesconda-forgehdf52is_abi3truempiopenmpipython3.11.____cpython"
-[feature.build.tasks."build-linux_aarch64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempimpichpython3.14.____cp314t"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_aarch64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempimpichpython3.14.____cp314t.yaml --target-platform linux-aarch64"
-description = "Build netcdf4-feedstock with variant linux_aarch64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempimpichpython3.14.____cp314t directly (without setup scripts)"
-[feature.build.tasks."debug-linux_aarch64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempimpichpython3.14.____cp314t"]
-cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_aarch64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempimpichpython3.14.____cp314t.yaml --target-platform linux-aarch64"
-description = "Debug netcdf4-feedstock with variant linux_aarch64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempimpichpython3.14.____cp314t directly (without setup scripts)"
-[feature.build.tasks."inspect-linux_aarch64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempimpichpython3.14.____cp314t"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_aarch64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempimpichpython3.14.____cp314t.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_aarch64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempimpichpython3.14.____cp314t"
-[feature.build.tasks."build-linux_aarch64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempinompipython3.14.____cp314t"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_aarch64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempinompipython3.14.____cp314t.yaml --target-platform linux-aarch64"
-description = "Build netcdf4-feedstock with variant linux_aarch64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempinompipython3.14.____cp314t directly (without setup scripts)"
-[feature.build.tasks."debug-linux_aarch64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempinompipython3.14.____cp314t"]
-cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_aarch64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempinompipython3.14.____cp314t.yaml --target-platform linux-aarch64"
-description = "Debug netcdf4-feedstock with variant linux_aarch64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempinompipython3.14.____cp314t directly (without setup scripts)"
-[feature.build.tasks."inspect-linux_aarch64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempinompipython3.14.____cp314t"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_aarch64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempinompipython3.14.____cp314t.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_aarch64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempinompipython3.14.____cp314t"
-[feature.build.tasks."build-linux_aarch64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_aarch64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t.yaml --target-platform linux-aarch64"
-description = "Build netcdf4-feedstock with variant linux_aarch64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t directly (without setup scripts)"
-[feature.build.tasks."debug-linux_aarch64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t"]
-cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_aarch64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t.yaml --target-platform linux-aarch64"
-description = "Debug netcdf4-feedstock with variant linux_aarch64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t directly (without setup scripts)"
-[feature.build.tasks."inspect-linux_aarch64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_aarch64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_aarch64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t"
-[feature.build.tasks."build-linux_aarch64_channel_sourcesconda-forgehdf51.14.6is_abi3truempimpichpython3.11.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_aarch64_channel_sourcesconda-forgehdf51.14.6is_abi3truempimpichpython3.11.____cpython.yaml --target-platform linux-aarch64"
-description = "Build netcdf4-feedstock with variant linux_aarch64_channel_sourcesconda-forgehdf51.14.6is_abi3truempimpichpython3.11.____cpython directly (without setup scripts)"
-[feature.build.tasks."debug-linux_aarch64_channel_sourcesconda-forgehdf51.14.6is_abi3truempimpichpython3.11.____cpython"]
-cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_aarch64_channel_sourcesconda-forgehdf51.14.6is_abi3truempimpichpython3.11.____cpython.yaml --target-platform linux-aarch64"
-description = "Debug netcdf4-feedstock with variant linux_aarch64_channel_sourcesconda-forgehdf51.14.6is_abi3truempimpichpython3.11.____cpython directly (without setup scripts)"
-[feature.build.tasks."inspect-linux_aarch64_channel_sourcesconda-forgehdf51.14.6is_abi3truempimpichpython3.11.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_aarch64_channel_sourcesconda-forgehdf51.14.6is_abi3truempimpichpython3.11.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_aarch64_channel_sourcesconda-forgehdf51.14.6is_abi3truempimpichpython3.11.____cpython"
-[feature.build.tasks."build-linux_aarch64_channel_sourcesconda-forgehdf51.14.6is_abi3truempinompipython3.11.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_aarch64_channel_sourcesconda-forgehdf51.14.6is_abi3truempinompipython3.11.____cpython.yaml --target-platform linux-aarch64"
-description = "Build netcdf4-feedstock with variant linux_aarch64_channel_sourcesconda-forgehdf51.14.6is_abi3truempinompipython3.11.____cpython directly (without setup scripts)"
-[feature.build.tasks."debug-linux_aarch64_channel_sourcesconda-forgehdf51.14.6is_abi3truempinompipython3.11.____cpython"]
-cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_aarch64_channel_sourcesconda-forgehdf51.14.6is_abi3truempinompipython3.11.____cpython.yaml --target-platform linux-aarch64"
-description = "Debug netcdf4-feedstock with variant linux_aarch64_channel_sourcesconda-forgehdf51.14.6is_abi3truempinompipython3.11.____cpython directly (without setup scripts)"
-[feature.build.tasks."inspect-linux_aarch64_channel_sourcesconda-forgehdf51.14.6is_abi3truempinompipython3.11.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_aarch64_channel_sourcesconda-forgehdf51.14.6is_abi3truempinompipython3.11.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_aarch64_channel_sourcesconda-forgehdf51.14.6is_abi3truempinompipython3.11.____cpython"
-[feature.build.tasks."build-linux_aarch64_channel_sourcesconda-forgehdf51.14.6is_abi3truempiopenmpipython3.11.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_aarch64_channel_sourcesconda-forgehdf51.14.6is_abi3truempiopenmpipython3.11.____cpython.yaml --target-platform linux-aarch64"
-description = "Build netcdf4-feedstock with variant linux_aarch64_channel_sourcesconda-forgehdf51.14.6is_abi3truempiopenmpipython3.11.____cpython directly (without setup scripts)"
-[feature.build.tasks."debug-linux_aarch64_channel_sourcesconda-forgehdf51.14.6is_abi3truempiopenmpipython3.11.____cpython"]
-cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_aarch64_channel_sourcesconda-forgehdf51.14.6is_abi3truempiopenmpipython3.11.____cpython.yaml --target-platform linux-aarch64"
-description = "Debug netcdf4-feedstock with variant linux_aarch64_channel_sourcesconda-forgehdf51.14.6is_abi3truempiopenmpipython3.11.____cpython directly (without setup scripts)"
-[feature.build.tasks."inspect-linux_aarch64_channel_sourcesconda-forgehdf51.14.6is_abi3truempiopenmpipython3.11.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_aarch64_channel_sourcesconda-forgehdf51.14.6is_abi3truempiopenmpipython3.11.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_aarch64_channel_sourcesconda-forgehdf51.14.6is_abi3truempiopenmpipython3.11.____cpython"
-[feature.build.tasks."build-linux_aarch64_channel_sourcesconda-forgehdf52is_abi3falsempimpichpython3.14.____cp314t"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_aarch64_channel_sourcesconda-forgehdf52is_abi3falsempimpichpython3.14.____cp314t.yaml --target-platform linux-aarch64"
-description = "Build netcdf4-feedstock with variant linux_aarch64_channel_sourcesconda-forgehdf52is_abi3falsempimpichpython3.14.____cp314t directly (without setup scripts)"
-[feature.build.tasks."debug-linux_aarch64_channel_sourcesconda-forgehdf52is_abi3falsempimpichpython3.14.____cp314t"]
-cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_aarch64_channel_sourcesconda-forgehdf52is_abi3falsempimpichpython3.14.____cp314t.yaml --target-platform linux-aarch64"
-description = "Debug netcdf4-feedstock with variant linux_aarch64_channel_sourcesconda-forgehdf52is_abi3falsempimpichpython3.14.____cp314t directly (without setup scripts)"
-[feature.build.tasks."inspect-linux_aarch64_channel_sourcesconda-forgehdf52is_abi3falsempimpichpython3.14.____cp314t"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_aarch64_channel_sourcesconda-forgehdf52is_abi3falsempimpichpython3.14.____cp314t.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_aarch64_channel_sourcesconda-forgehdf52is_abi3falsempimpichpython3.14.____cp314t"
-[feature.build.tasks."build-linux_aarch64_channel_sourcesconda-forgehdf52is_abi3falsempinompipython3.14.____cp314t"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_aarch64_channel_sourcesconda-forgehdf52is_abi3falsempinompipython3.14.____cp314t.yaml --target-platform linux-aarch64"
-description = "Build netcdf4-feedstock with variant linux_aarch64_channel_sourcesconda-forgehdf52is_abi3falsempinompipython3.14.____cp314t directly (without setup scripts)"
-[feature.build.tasks."debug-linux_aarch64_channel_sourcesconda-forgehdf52is_abi3falsempinompipython3.14.____cp314t"]
-cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_aarch64_channel_sourcesconda-forgehdf52is_abi3falsempinompipython3.14.____cp314t.yaml --target-platform linux-aarch64"
-description = "Debug netcdf4-feedstock with variant linux_aarch64_channel_sourcesconda-forgehdf52is_abi3falsempinompipython3.14.____cp314t directly (without setup scripts)"
-[feature.build.tasks."inspect-linux_aarch64_channel_sourcesconda-forgehdf52is_abi3falsempinompipython3.14.____cp314t"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_aarch64_channel_sourcesconda-forgehdf52is_abi3falsempinompipython3.14.____cp314t.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_aarch64_channel_sourcesconda-forgehdf52is_abi3falsempinompipython3.14.____cp314t"
-[feature.build.tasks."build-linux_aarch64_channel_sourcesconda-forgehdf52is_abi3falsempiopenmpipython3.14.____cp314t"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_aarch64_channel_sourcesconda-forgehdf52is_abi3falsempiopenmpipython3.14.____cp314t.yaml --target-platform linux-aarch64"
-description = "Build netcdf4-feedstock with variant linux_aarch64_channel_sourcesconda-forgehdf52is_abi3falsempiopenmpipython3.14.____cp314t directly (without setup scripts)"
-[feature.build.tasks."debug-linux_aarch64_channel_sourcesconda-forgehdf52is_abi3falsempiopenmpipython3.14.____cp314t"]
-cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_aarch64_channel_sourcesconda-forgehdf52is_abi3falsempiopenmpipython3.14.____cp314t.yaml --target-platform linux-aarch64"
-description = "Debug netcdf4-feedstock with variant linux_aarch64_channel_sourcesconda-forgehdf52is_abi3falsempiopenmpipython3.14.____cp314t directly (without setup scripts)"
-[feature.build.tasks."inspect-linux_aarch64_channel_sourcesconda-forgehdf52is_abi3falsempiopenmpipython3.14.____cp314t"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_aarch64_channel_sourcesconda-forgehdf52is_abi3falsempiopenmpipython3.14.____cp314t.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_aarch64_channel_sourcesconda-forgehdf52is_abi3falsempiopenmpipython3.14.____cp314t"
-[feature.build.tasks."build-linux_aarch64_channel_sourcesconda-forgehdf52is_abi3truempimpichpython3.11.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_aarch64_channel_sourcesconda-forgehdf52is_abi3truempimpichpython3.11.____cpython.yaml --target-platform linux-aarch64"
-description = "Build netcdf4-feedstock with variant linux_aarch64_channel_sourcesconda-forgehdf52is_abi3truempimpichpython3.11.____cpython directly (without setup scripts)"
-[feature.build.tasks."debug-linux_aarch64_channel_sourcesconda-forgehdf52is_abi3truempimpichpython3.11.____cpython"]
-cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_aarch64_channel_sourcesconda-forgehdf52is_abi3truempimpichpython3.11.____cpython.yaml --target-platform linux-aarch64"
-description = "Debug netcdf4-feedstock with variant linux_aarch64_channel_sourcesconda-forgehdf52is_abi3truempimpichpython3.11.____cpython directly (without setup scripts)"
-[feature.build.tasks."inspect-linux_aarch64_channel_sourcesconda-forgehdf52is_abi3truempimpichpython3.11.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_aarch64_channel_sourcesconda-forgehdf52is_abi3truempimpichpython3.11.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_aarch64_channel_sourcesconda-forgehdf52is_abi3truempimpichpython3.11.____cpython"
-[feature.build.tasks."build-linux_aarch64_channel_sourcesconda-forgehdf52is_abi3truempinompipython3.11.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_aarch64_channel_sourcesconda-forgehdf52is_abi3truempinompipython3.11.____cpython.yaml --target-platform linux-aarch64"
-description = "Build netcdf4-feedstock with variant linux_aarch64_channel_sourcesconda-forgehdf52is_abi3truempinompipython3.11.____cpython directly (without setup scripts)"
-[feature.build.tasks."debug-linux_aarch64_channel_sourcesconda-forgehdf52is_abi3truempinompipython3.11.____cpython"]
-cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_aarch64_channel_sourcesconda-forgehdf52is_abi3truempinompipython3.11.____cpython.yaml --target-platform linux-aarch64"
-description = "Debug netcdf4-feedstock with variant linux_aarch64_channel_sourcesconda-forgehdf52is_abi3truempinompipython3.11.____cpython directly (without setup scripts)"
-[feature.build.tasks."inspect-linux_aarch64_channel_sourcesconda-forgehdf52is_abi3truempinompipython3.11.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_aarch64_channel_sourcesconda-forgehdf52is_abi3truempinompipython3.11.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_aarch64_channel_sourcesconda-forgehdf52is_abi3truempinompipython3.11.____cpython"
-[feature.build.tasks."build-linux_aarch64_channel_sourcesconda-forgehdf52is_abi3truempiopenmpipython3.11.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_aarch64_channel_sourcesconda-forgehdf52is_abi3truempiopenmpipython3.11.____cpython.yaml --target-platform linux-aarch64"
-description = "Build netcdf4-feedstock with variant linux_aarch64_channel_sourcesconda-forgehdf52is_abi3truempiopenmpipython3.11.____cpython directly (without setup scripts)"
-[feature.build.tasks."debug-linux_aarch64_channel_sourcesconda-forgehdf52is_abi3truempiopenmpipython3.11.____cpython"]
-cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_aarch64_channel_sourcesconda-forgehdf52is_abi3truempiopenmpipython3.11.____cpython.yaml --target-platform linux-aarch64"
-description = "Debug netcdf4-feedstock with variant linux_aarch64_channel_sourcesconda-forgehdf52is_abi3truempiopenmpipython3.11.____cpython directly (without setup scripts)"
-[feature.build.tasks."inspect-linux_aarch64_channel_sourcesconda-forgehdf52is_abi3truempiopenmpipython3.11.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_aarch64_channel_sourcesconda-forgehdf52is_abi3truempiopenmpipython3.11.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_aarch64_channel_sourcesconda-forgehdf52is_abi3truempiopenmpipython3.11.____cpython"
-[feature.build.tasks."build-linux_ppc64le_channel_sourcesconda-forgehdf51.14.6is_abi3falsempimpichpython3.14.____cp314t"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_ppc64le_channel_sourcesconda-forgehdf51.14.6is_abi3falsempimpichpython3.14.____cp314t.yaml --target-platform linux-ppc64le"
-description = "Build netcdf4-feedstock with variant linux_ppc64le_channel_sourcesconda-forgehdf51.14.6is_abi3falsempimpichpython3.14.____cp314t directly (without setup scripts)"
-[feature.build.tasks."debug-linux_ppc64le_channel_sourcesconda-forgehdf51.14.6is_abi3falsempimpichpython3.14.____cp314t"]
-cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_ppc64le_channel_sourcesconda-forgehdf51.14.6is_abi3falsempimpichpython3.14.____cp314t.yaml --target-platform linux-ppc64le"
-description = "Debug netcdf4-feedstock with variant linux_ppc64le_channel_sourcesconda-forgehdf51.14.6is_abi3falsempimpichpython3.14.____cp314t directly (without setup scripts)"
-[feature.build.tasks."inspect-linux_ppc64le_channel_sourcesconda-forgehdf51.14.6is_abi3falsempimpichpython3.14.____cp314t"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_ppc64le_channel_sourcesconda-forgehdf51.14.6is_abi3falsempimpichpython3.14.____cp314t.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_ppc64le_channel_sourcesconda-forgehdf51.14.6is_abi3falsempimpichpython3.14.____cp314t"
-[feature.build.tasks."build-linux_ppc64le_channel_sourcesconda-forgehdf51.14.6is_abi3falsempinompipython3.14.____cp314t"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_ppc64le_channel_sourcesconda-forgehdf51.14.6is_abi3falsempinompipython3.14.____cp314t.yaml --target-platform linux-ppc64le"
-description = "Build netcdf4-feedstock with variant linux_ppc64le_channel_sourcesconda-forgehdf51.14.6is_abi3falsempinompipython3.14.____cp314t directly (without setup scripts)"
-[feature.build.tasks."debug-linux_ppc64le_channel_sourcesconda-forgehdf51.14.6is_abi3falsempinompipython3.14.____cp314t"]
-cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_ppc64le_channel_sourcesconda-forgehdf51.14.6is_abi3falsempinompipython3.14.____cp314t.yaml --target-platform linux-ppc64le"
-description = "Debug netcdf4-feedstock with variant linux_ppc64le_channel_sourcesconda-forgehdf51.14.6is_abi3falsempinompipython3.14.____cp314t directly (without setup scripts)"
-[feature.build.tasks."inspect-linux_ppc64le_channel_sourcesconda-forgehdf51.14.6is_abi3falsempinompipython3.14.____cp314t"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_ppc64le_channel_sourcesconda-forgehdf51.14.6is_abi3falsempinompipython3.14.____cp314t.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_ppc64le_channel_sourcesconda-forgehdf51.14.6is_abi3falsempinompipython3.14.____cp314t"
-[feature.build.tasks."build-linux_ppc64le_channel_sourcesconda-forgehdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_ppc64le_channel_sourcesconda-forgehdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t.yaml --target-platform linux-ppc64le"
-description = "Build netcdf4-feedstock with variant linux_ppc64le_channel_sourcesconda-forgehdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t directly (without setup scripts)"
-[feature.build.tasks."debug-linux_ppc64le_channel_sourcesconda-forgehdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t"]
-cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_ppc64le_channel_sourcesconda-forgehdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t.yaml --target-platform linux-ppc64le"
-description = "Debug netcdf4-feedstock with variant linux_ppc64le_channel_sourcesconda-forgehdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t directly (without setup scripts)"
-[feature.build.tasks."inspect-linux_ppc64le_channel_sourcesconda-forgehdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_ppc64le_channel_sourcesconda-forgehdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_ppc64le_channel_sourcesconda-forgehdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t"
-[feature.build.tasks."build-linux_ppc64le_channel_sourcesconda-forgehdf51.14.6is_abi3truempimpichpython3.11.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_ppc64le_channel_sourcesconda-forgehdf51.14.6is_abi3truempimpichpython3.11.____cpython.yaml --target-platform linux-ppc64le"
-description = "Build netcdf4-feedstock with variant linux_ppc64le_channel_sourcesconda-forgehdf51.14.6is_abi3truempimpichpython3.11.____cpython directly (without setup scripts)"
-[feature.build.tasks."debug-linux_ppc64le_channel_sourcesconda-forgehdf51.14.6is_abi3truempimpichpython3.11.____cpython"]
-cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_ppc64le_channel_sourcesconda-forgehdf51.14.6is_abi3truempimpichpython3.11.____cpython.yaml --target-platform linux-ppc64le"
-description = "Debug netcdf4-feedstock with variant linux_ppc64le_channel_sourcesconda-forgehdf51.14.6is_abi3truempimpichpython3.11.____cpython directly (without setup scripts)"
-[feature.build.tasks."inspect-linux_ppc64le_channel_sourcesconda-forgehdf51.14.6is_abi3truempimpichpython3.11.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_ppc64le_channel_sourcesconda-forgehdf51.14.6is_abi3truempimpichpython3.11.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_ppc64le_channel_sourcesconda-forgehdf51.14.6is_abi3truempimpichpython3.11.____cpython"
-[feature.build.tasks."build-linux_ppc64le_channel_sourcesconda-forgehdf51.14.6is_abi3truempinompipython3.11.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_ppc64le_channel_sourcesconda-forgehdf51.14.6is_abi3truempinompipython3.11.____cpython.yaml --target-platform linux-ppc64le"
-description = "Build netcdf4-feedstock with variant linux_ppc64le_channel_sourcesconda-forgehdf51.14.6is_abi3truempinompipython3.11.____cpython directly (without setup scripts)"
-[feature.build.tasks."debug-linux_ppc64le_channel_sourcesconda-forgehdf51.14.6is_abi3truempinompipython3.11.____cpython"]
-cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_ppc64le_channel_sourcesconda-forgehdf51.14.6is_abi3truempinompipython3.11.____cpython.yaml --target-platform linux-ppc64le"
-description = "Debug netcdf4-feedstock with variant linux_ppc64le_channel_sourcesconda-forgehdf51.14.6is_abi3truempinompipython3.11.____cpython directly (without setup scripts)"
-[feature.build.tasks."inspect-linux_ppc64le_channel_sourcesconda-forgehdf51.14.6is_abi3truempinompipython3.11.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_ppc64le_channel_sourcesconda-forgehdf51.14.6is_abi3truempinompipython3.11.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_ppc64le_channel_sourcesconda-forgehdf51.14.6is_abi3truempinompipython3.11.____cpython"
-[feature.build.tasks."build-linux_ppc64le_channel_sourcesconda-forgehdf51.14.6is_abi3truempiopenmpipython3.11.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_ppc64le_channel_sourcesconda-forgehdf51.14.6is_abi3truempiopenmpipython3.11.____cpython.yaml --target-platform linux-ppc64le"
-description = "Build netcdf4-feedstock with variant linux_ppc64le_channel_sourcesconda-forgehdf51.14.6is_abi3truempiopenmpipython3.11.____cpython directly (without setup scripts)"
-[feature.build.tasks."debug-linux_ppc64le_channel_sourcesconda-forgehdf51.14.6is_abi3truempiopenmpipython3.11.____cpython"]
-cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_ppc64le_channel_sourcesconda-forgehdf51.14.6is_abi3truempiopenmpipython3.11.____cpython.yaml --target-platform linux-ppc64le"
-description = "Debug netcdf4-feedstock with variant linux_ppc64le_channel_sourcesconda-forgehdf51.14.6is_abi3truempiopenmpipython3.11.____cpython directly (without setup scripts)"
-[feature.build.tasks."inspect-linux_ppc64le_channel_sourcesconda-forgehdf51.14.6is_abi3truempiopenmpipython3.11.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_ppc64le_channel_sourcesconda-forgehdf51.14.6is_abi3truempiopenmpipython3.11.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_ppc64le_channel_sourcesconda-forgehdf51.14.6is_abi3truempiopenmpipython3.11.____cpython"
-[feature.build.tasks."build-linux_ppc64le_channel_sourcesconda-forgehdf52is_abi3falsempimpichpython3.14.____cp314t"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_ppc64le_channel_sourcesconda-forgehdf52is_abi3falsempimpichpython3.14.____cp314t.yaml --target-platform linux-ppc64le"
-description = "Build netcdf4-feedstock with variant linux_ppc64le_channel_sourcesconda-forgehdf52is_abi3falsempimpichpython3.14.____cp314t directly (without setup scripts)"
-[feature.build.tasks."debug-linux_ppc64le_channel_sourcesconda-forgehdf52is_abi3falsempimpichpython3.14.____cp314t"]
-cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_ppc64le_channel_sourcesconda-forgehdf52is_abi3falsempimpichpython3.14.____cp314t.yaml --target-platform linux-ppc64le"
-description = "Debug netcdf4-feedstock with variant linux_ppc64le_channel_sourcesconda-forgehdf52is_abi3falsempimpichpython3.14.____cp314t directly (without setup scripts)"
-[feature.build.tasks."inspect-linux_ppc64le_channel_sourcesconda-forgehdf52is_abi3falsempimpichpython3.14.____cp314t"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_ppc64le_channel_sourcesconda-forgehdf52is_abi3falsempimpichpython3.14.____cp314t.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_ppc64le_channel_sourcesconda-forgehdf52is_abi3falsempimpichpython3.14.____cp314t"
-[feature.build.tasks."build-linux_ppc64le_channel_sourcesconda-forgehdf52is_abi3falsempinompipython3.14.____cp314t"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_ppc64le_channel_sourcesconda-forgehdf52is_abi3falsempinompipython3.14.____cp314t.yaml --target-platform linux-ppc64le"
-description = "Build netcdf4-feedstock with variant linux_ppc64le_channel_sourcesconda-forgehdf52is_abi3falsempinompipython3.14.____cp314t directly (without setup scripts)"
-[feature.build.tasks."debug-linux_ppc64le_channel_sourcesconda-forgehdf52is_abi3falsempinompipython3.14.____cp314t"]
-cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_ppc64le_channel_sourcesconda-forgehdf52is_abi3falsempinompipython3.14.____cp314t.yaml --target-platform linux-ppc64le"
-description = "Debug netcdf4-feedstock with variant linux_ppc64le_channel_sourcesconda-forgehdf52is_abi3falsempinompipython3.14.____cp314t directly (without setup scripts)"
-[feature.build.tasks."inspect-linux_ppc64le_channel_sourcesconda-forgehdf52is_abi3falsempinompipython3.14.____cp314t"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_ppc64le_channel_sourcesconda-forgehdf52is_abi3falsempinompipython3.14.____cp314t.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_ppc64le_channel_sourcesconda-forgehdf52is_abi3falsempinompipython3.14.____cp314t"
-[feature.build.tasks."build-linux_ppc64le_channel_sourcesconda-forgehdf52is_abi3falsempiopenmpipython3.14.____cp314t"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_ppc64le_channel_sourcesconda-forgehdf52is_abi3falsempiopenmpipython3.14.____cp314t.yaml --target-platform linux-ppc64le"
-description = "Build netcdf4-feedstock with variant linux_ppc64le_channel_sourcesconda-forgehdf52is_abi3falsempiopenmpipython3.14.____cp314t directly (without setup scripts)"
-[feature.build.tasks."debug-linux_ppc64le_channel_sourcesconda-forgehdf52is_abi3falsempiopenmpipython3.14.____cp314t"]
-cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_ppc64le_channel_sourcesconda-forgehdf52is_abi3falsempiopenmpipython3.14.____cp314t.yaml --target-platform linux-ppc64le"
-description = "Debug netcdf4-feedstock with variant linux_ppc64le_channel_sourcesconda-forgehdf52is_abi3falsempiopenmpipython3.14.____cp314t directly (without setup scripts)"
-[feature.build.tasks."inspect-linux_ppc64le_channel_sourcesconda-forgehdf52is_abi3falsempiopenmpipython3.14.____cp314t"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_ppc64le_channel_sourcesconda-forgehdf52is_abi3falsempiopenmpipython3.14.____cp314t.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_ppc64le_channel_sourcesconda-forgehdf52is_abi3falsempiopenmpipython3.14.____cp314t"
-[feature.build.tasks."build-linux_ppc64le_channel_sourcesconda-forgehdf52is_abi3truempimpichpython3.11.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_ppc64le_channel_sourcesconda-forgehdf52is_abi3truempimpichpython3.11.____cpython.yaml --target-platform linux-ppc64le"
-description = "Build netcdf4-feedstock with variant linux_ppc64le_channel_sourcesconda-forgehdf52is_abi3truempimpichpython3.11.____cpython directly (without setup scripts)"
-[feature.build.tasks."debug-linux_ppc64le_channel_sourcesconda-forgehdf52is_abi3truempimpichpython3.11.____cpython"]
-cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_ppc64le_channel_sourcesconda-forgehdf52is_abi3truempimpichpython3.11.____cpython.yaml --target-platform linux-ppc64le"
-description = "Debug netcdf4-feedstock with variant linux_ppc64le_channel_sourcesconda-forgehdf52is_abi3truempimpichpython3.11.____cpython directly (without setup scripts)"
-[feature.build.tasks."inspect-linux_ppc64le_channel_sourcesconda-forgehdf52is_abi3truempimpichpython3.11.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_ppc64le_channel_sourcesconda-forgehdf52is_abi3truempimpichpython3.11.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_ppc64le_channel_sourcesconda-forgehdf52is_abi3truempimpichpython3.11.____cpython"
-[feature.build.tasks."build-linux_ppc64le_channel_sourcesconda-forgehdf52is_abi3truempinompipython3.11.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_ppc64le_channel_sourcesconda-forgehdf52is_abi3truempinompipython3.11.____cpython.yaml --target-platform linux-ppc64le"
-description = "Build netcdf4-feedstock with variant linux_ppc64le_channel_sourcesconda-forgehdf52is_abi3truempinompipython3.11.____cpython directly (without setup scripts)"
-[feature.build.tasks."debug-linux_ppc64le_channel_sourcesconda-forgehdf52is_abi3truempinompipython3.11.____cpython"]
-cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_ppc64le_channel_sourcesconda-forgehdf52is_abi3truempinompipython3.11.____cpython.yaml --target-platform linux-ppc64le"
-description = "Debug netcdf4-feedstock with variant linux_ppc64le_channel_sourcesconda-forgehdf52is_abi3truempinompipython3.11.____cpython directly (without setup scripts)"
-[feature.build.tasks."inspect-linux_ppc64le_channel_sourcesconda-forgehdf52is_abi3truempinompipython3.11.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_ppc64le_channel_sourcesconda-forgehdf52is_abi3truempinompipython3.11.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_ppc64le_channel_sourcesconda-forgehdf52is_abi3truempinompipython3.11.____cpython"
-[feature.build.tasks."build-linux_ppc64le_channel_sourcesconda-forgehdf52is_abi3truempiopenmpipython3.11.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/linux_ppc64le_channel_sourcesconda-forgehdf52is_abi3truempiopenmpipython3.11.____cpython.yaml --target-platform linux-ppc64le"
-description = "Build netcdf4-feedstock with variant linux_ppc64le_channel_sourcesconda-forgehdf52is_abi3truempiopenmpipython3.11.____cpython directly (without setup scripts)"
-[feature.build.tasks."debug-linux_ppc64le_channel_sourcesconda-forgehdf52is_abi3truempiopenmpipython3.11.____cpython"]
-cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_ppc64le_channel_sourcesconda-forgehdf52is_abi3truempiopenmpipython3.11.____cpython.yaml --target-platform linux-ppc64le"
-description = "Debug netcdf4-feedstock with variant linux_ppc64le_channel_sourcesconda-forgehdf52is_abi3truempiopenmpipython3.11.____cpython directly (without setup scripts)"
-[feature.build.tasks."inspect-linux_ppc64le_channel_sourcesconda-forgehdf52is_abi3truempiopenmpipython3.11.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_ppc64le_channel_sourcesconda-forgehdf52is_abi3truempiopenmpipython3.11.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant linux_ppc64le_channel_sourcesconda-forgehdf52is_abi3truempiopenmpipython3.11.____cpython"
-[feature.build.tasks."build-osx_64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempimpichpython3.14.____cp314t"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempimpichpython3.14.____cp314t.yaml --target-platform osx-64"
-description = "Build netcdf4-feedstock with variant osx_64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempimpichpython3.14.____cp314t directly (without setup scripts)"
-[feature.build.tasks."debug-osx_64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempimpichpython3.14.____cp314t"]
-cmd = "rattler-build debug setup --recipe recipe -m .ci_support/osx_64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempimpichpython3.14.____cp314t.yaml --target-platform osx-64"
-description = "Debug netcdf4-feedstock with variant osx_64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempimpichpython3.14.____cp314t directly (without setup scripts)"
-[feature.build.tasks."inspect-osx_64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempimpichpython3.14.____cp314t"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempimpichpython3.14.____cp314t.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant osx_64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempimpichpython3.14.____cp314t"
-[feature.build.tasks."build-osx_64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempinompipython3.14.____cp314t"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempinompipython3.14.____cp314t.yaml --target-platform osx-64"
-description = "Build netcdf4-feedstock with variant osx_64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempinompipython3.14.____cp314t directly (without setup scripts)"
-[feature.build.tasks."debug-osx_64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempinompipython3.14.____cp314t"]
-cmd = "rattler-build debug setup --recipe recipe -m .ci_support/osx_64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempinompipython3.14.____cp314t.yaml --target-platform osx-64"
-description = "Debug netcdf4-feedstock with variant osx_64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempinompipython3.14.____cp314t directly (without setup scripts)"
-[feature.build.tasks."inspect-osx_64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempinompipython3.14.____cp314t"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempinompipython3.14.____cp314t.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant osx_64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempinompipython3.14.____cp314t"
-[feature.build.tasks."build-osx_64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t.yaml --target-platform osx-64"
-description = "Build netcdf4-feedstock with variant osx_64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t directly (without setup scripts)"
-[feature.build.tasks."debug-osx_64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t"]
-cmd = "rattler-build debug setup --recipe recipe -m .ci_support/osx_64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t.yaml --target-platform osx-64"
-description = "Debug netcdf4-feedstock with variant osx_64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t directly (without setup scripts)"
-[feature.build.tasks."inspect-osx_64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant osx_64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t"
-[feature.build.tasks."build-osx_64_channel_sourcesconda-forgehdf51.14.6is_abi3truempimpichpython3.11.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_channel_sourcesconda-forgehdf51.14.6is_abi3truempimpichpython3.11.____cpython.yaml --target-platform osx-64"
-description = "Build netcdf4-feedstock with variant osx_64_channel_sourcesconda-forgehdf51.14.6is_abi3truempimpichpython3.11.____cpython directly (without setup scripts)"
-[feature.build.tasks."debug-osx_64_channel_sourcesconda-forgehdf51.14.6is_abi3truempimpichpython3.11.____cpython"]
-cmd = "rattler-build debug setup --recipe recipe -m .ci_support/osx_64_channel_sourcesconda-forgehdf51.14.6is_abi3truempimpichpython3.11.____cpython.yaml --target-platform osx-64"
-description = "Debug netcdf4-feedstock with variant osx_64_channel_sourcesconda-forgehdf51.14.6is_abi3truempimpichpython3.11.____cpython directly (without setup scripts)"
-[feature.build.tasks."inspect-osx_64_channel_sourcesconda-forgehdf51.14.6is_abi3truempimpichpython3.11.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_channel_sourcesconda-forgehdf51.14.6is_abi3truempimpichpython3.11.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant osx_64_channel_sourcesconda-forgehdf51.14.6is_abi3truempimpichpython3.11.____cpython"
-[feature.build.tasks."build-osx_64_channel_sourcesconda-forgehdf51.14.6is_abi3truempinompipython3.11.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_channel_sourcesconda-forgehdf51.14.6is_abi3truempinompipython3.11.____cpython.yaml --target-platform osx-64"
-description = "Build netcdf4-feedstock with variant osx_64_channel_sourcesconda-forgehdf51.14.6is_abi3truempinompipython3.11.____cpython directly (without setup scripts)"
-[feature.build.tasks."debug-osx_64_channel_sourcesconda-forgehdf51.14.6is_abi3truempinompipython3.11.____cpython"]
-cmd = "rattler-build debug setup --recipe recipe -m .ci_support/osx_64_channel_sourcesconda-forgehdf51.14.6is_abi3truempinompipython3.11.____cpython.yaml --target-platform osx-64"
-description = "Debug netcdf4-feedstock with variant osx_64_channel_sourcesconda-forgehdf51.14.6is_abi3truempinompipython3.11.____cpython directly (without setup scripts)"
-[feature.build.tasks."inspect-osx_64_channel_sourcesconda-forgehdf51.14.6is_abi3truempinompipython3.11.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_channel_sourcesconda-forgehdf51.14.6is_abi3truempinompipython3.11.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant osx_64_channel_sourcesconda-forgehdf51.14.6is_abi3truempinompipython3.11.____cpython"
-[feature.build.tasks."build-osx_64_channel_sourcesconda-forgehdf51.14.6is_abi3truempiopenmpipython3.11.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_channel_sourcesconda-forgehdf51.14.6is_abi3truempiopenmpipython3.11.____cpython.yaml --target-platform osx-64"
-description = "Build netcdf4-feedstock with variant osx_64_channel_sourcesconda-forgehdf51.14.6is_abi3truempiopenmpipython3.11.____cpython directly (without setup scripts)"
-[feature.build.tasks."debug-osx_64_channel_sourcesconda-forgehdf51.14.6is_abi3truempiopenmpipython3.11.____cpython"]
-cmd = "rattler-build debug setup --recipe recipe -m .ci_support/osx_64_channel_sourcesconda-forgehdf51.14.6is_abi3truempiopenmpipython3.11.____cpython.yaml --target-platform osx-64"
-description = "Debug netcdf4-feedstock with variant osx_64_channel_sourcesconda-forgehdf51.14.6is_abi3truempiopenmpipython3.11.____cpython directly (without setup scripts)"
-[feature.build.tasks."inspect-osx_64_channel_sourcesconda-forgehdf51.14.6is_abi3truempiopenmpipython3.11.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_channel_sourcesconda-forgehdf51.14.6is_abi3truempiopenmpipython3.11.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant osx_64_channel_sourcesconda-forgehdf51.14.6is_abi3truempiopenmpipython3.11.____cpython"
-[feature.build.tasks."build-osx_64_channel_sourcesconda-forgehdf52is_abi3falsempimpichpython3.14.____cp314t"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_channel_sourcesconda-forgehdf52is_abi3falsempimpichpython3.14.____cp314t.yaml --target-platform osx-64"
-description = "Build netcdf4-feedstock with variant osx_64_channel_sourcesconda-forgehdf52is_abi3falsempimpichpython3.14.____cp314t directly (without setup scripts)"
-[feature.build.tasks."debug-osx_64_channel_sourcesconda-forgehdf52is_abi3falsempimpichpython3.14.____cp314t"]
-cmd = "rattler-build debug setup --recipe recipe -m .ci_support/osx_64_channel_sourcesconda-forgehdf52is_abi3falsempimpichpython3.14.____cp314t.yaml --target-platform osx-64"
-description = "Debug netcdf4-feedstock with variant osx_64_channel_sourcesconda-forgehdf52is_abi3falsempimpichpython3.14.____cp314t directly (without setup scripts)"
-[feature.build.tasks."inspect-osx_64_channel_sourcesconda-forgehdf52is_abi3falsempimpichpython3.14.____cp314t"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_channel_sourcesconda-forgehdf52is_abi3falsempimpichpython3.14.____cp314t.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant osx_64_channel_sourcesconda-forgehdf52is_abi3falsempimpichpython3.14.____cp314t"
-[feature.build.tasks."build-osx_64_channel_sourcesconda-forgehdf52is_abi3falsempinompipython3.14.____cp314t"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_channel_sourcesconda-forgehdf52is_abi3falsempinompipython3.14.____cp314t.yaml --target-platform osx-64"
-description = "Build netcdf4-feedstock with variant osx_64_channel_sourcesconda-forgehdf52is_abi3falsempinompipython3.14.____cp314t directly (without setup scripts)"
-[feature.build.tasks."debug-osx_64_channel_sourcesconda-forgehdf52is_abi3falsempinompipython3.14.____cp314t"]
-cmd = "rattler-build debug setup --recipe recipe -m .ci_support/osx_64_channel_sourcesconda-forgehdf52is_abi3falsempinompipython3.14.____cp314t.yaml --target-platform osx-64"
-description = "Debug netcdf4-feedstock with variant osx_64_channel_sourcesconda-forgehdf52is_abi3falsempinompipython3.14.____cp314t directly (without setup scripts)"
-[feature.build.tasks."inspect-osx_64_channel_sourcesconda-forgehdf52is_abi3falsempinompipython3.14.____cp314t"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_channel_sourcesconda-forgehdf52is_abi3falsempinompipython3.14.____cp314t.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant osx_64_channel_sourcesconda-forgehdf52is_abi3falsempinompipython3.14.____cp314t"
-[feature.build.tasks."build-osx_64_channel_sourcesconda-forgehdf52is_abi3falsempiopenmpipython3.14.____cp314t"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_channel_sourcesconda-forgehdf52is_abi3falsempiopenmpipython3.14.____cp314t.yaml --target-platform osx-64"
-description = "Build netcdf4-feedstock with variant osx_64_channel_sourcesconda-forgehdf52is_abi3falsempiopenmpipython3.14.____cp314t directly (without setup scripts)"
-[feature.build.tasks."debug-osx_64_channel_sourcesconda-forgehdf52is_abi3falsempiopenmpipython3.14.____cp314t"]
-cmd = "rattler-build debug setup --recipe recipe -m .ci_support/osx_64_channel_sourcesconda-forgehdf52is_abi3falsempiopenmpipython3.14.____cp314t.yaml --target-platform osx-64"
-description = "Debug netcdf4-feedstock with variant osx_64_channel_sourcesconda-forgehdf52is_abi3falsempiopenmpipython3.14.____cp314t directly (without setup scripts)"
-[feature.build.tasks."inspect-osx_64_channel_sourcesconda-forgehdf52is_abi3falsempiopenmpipython3.14.____cp314t"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_channel_sourcesconda-forgehdf52is_abi3falsempiopenmpipython3.14.____cp314t.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant osx_64_channel_sourcesconda-forgehdf52is_abi3falsempiopenmpipython3.14.____cp314t"
-[feature.build.tasks."build-osx_64_channel_sourcesconda-forgehdf52is_abi3truempimpichpython3.11.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_channel_sourcesconda-forgehdf52is_abi3truempimpichpython3.11.____cpython.yaml --target-platform osx-64"
-description = "Build netcdf4-feedstock with variant osx_64_channel_sourcesconda-forgehdf52is_abi3truempimpichpython3.11.____cpython directly (without setup scripts)"
-[feature.build.tasks."debug-osx_64_channel_sourcesconda-forgehdf52is_abi3truempimpichpython3.11.____cpython"]
-cmd = "rattler-build debug setup --recipe recipe -m .ci_support/osx_64_channel_sourcesconda-forgehdf52is_abi3truempimpichpython3.11.____cpython.yaml --target-platform osx-64"
-description = "Debug netcdf4-feedstock with variant osx_64_channel_sourcesconda-forgehdf52is_abi3truempimpichpython3.11.____cpython directly (without setup scripts)"
-[feature.build.tasks."inspect-osx_64_channel_sourcesconda-forgehdf52is_abi3truempimpichpython3.11.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_channel_sourcesconda-forgehdf52is_abi3truempimpichpython3.11.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant osx_64_channel_sourcesconda-forgehdf52is_abi3truempimpichpython3.11.____cpython"
-[feature.build.tasks."build-osx_64_channel_sourcesconda-forgehdf52is_abi3truempinompipython3.11.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_channel_sourcesconda-forgehdf52is_abi3truempinompipython3.11.____cpython.yaml --target-platform osx-64"
-description = "Build netcdf4-feedstock with variant osx_64_channel_sourcesconda-forgehdf52is_abi3truempinompipython3.11.____cpython directly (without setup scripts)"
-[feature.build.tasks."debug-osx_64_channel_sourcesconda-forgehdf52is_abi3truempinompipython3.11.____cpython"]
-cmd = "rattler-build debug setup --recipe recipe -m .ci_support/osx_64_channel_sourcesconda-forgehdf52is_abi3truempinompipython3.11.____cpython.yaml --target-platform osx-64"
-description = "Debug netcdf4-feedstock with variant osx_64_channel_sourcesconda-forgehdf52is_abi3truempinompipython3.11.____cpython directly (without setup scripts)"
-[feature.build.tasks."inspect-osx_64_channel_sourcesconda-forgehdf52is_abi3truempinompipython3.11.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_channel_sourcesconda-forgehdf52is_abi3truempinompipython3.11.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant osx_64_channel_sourcesconda-forgehdf52is_abi3truempinompipython3.11.____cpython"
-[feature.build.tasks."build-osx_64_channel_sourcesconda-forgehdf52is_abi3truempiopenmpipython3.11.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_channel_sourcesconda-forgehdf52is_abi3truempiopenmpipython3.11.____cpython.yaml --target-platform osx-64"
-description = "Build netcdf4-feedstock with variant osx_64_channel_sourcesconda-forgehdf52is_abi3truempiopenmpipython3.11.____cpython directly (without setup scripts)"
-[feature.build.tasks."debug-osx_64_channel_sourcesconda-forgehdf52is_abi3truempiopenmpipython3.11.____cpython"]
-cmd = "rattler-build debug setup --recipe recipe -m .ci_support/osx_64_channel_sourcesconda-forgehdf52is_abi3truempiopenmpipython3.11.____cpython.yaml --target-platform osx-64"
-description = "Debug netcdf4-feedstock with variant osx_64_channel_sourcesconda-forgehdf52is_abi3truempiopenmpipython3.11.____cpython directly (without setup scripts)"
-[feature.build.tasks."inspect-osx_64_channel_sourcesconda-forgehdf52is_abi3truempiopenmpipython3.11.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_channel_sourcesconda-forgehdf52is_abi3truempiopenmpipython3.11.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant osx_64_channel_sourcesconda-forgehdf52is_abi3truempiopenmpipython3.11.____cpython"
-[feature.build.tasks."build-osx_arm64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempimpichpython3.14.____cp314t"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempimpichpython3.14.____cp314t.yaml --target-platform osx-arm64"
-description = "Build netcdf4-feedstock with variant osx_arm64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempimpichpython3.14.____cp314t directly (without setup scripts)"
-[feature.build.tasks."debug-osx_arm64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempimpichpython3.14.____cp314t"]
-cmd = "rattler-build debug setup --recipe recipe -m .ci_support/osx_arm64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempimpichpython3.14.____cp314t.yaml --target-platform osx-arm64"
-description = "Debug netcdf4-feedstock with variant osx_arm64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempimpichpython3.14.____cp314t directly (without setup scripts)"
-[feature.build.tasks."inspect-osx_arm64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempimpichpython3.14.____cp314t"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempimpichpython3.14.____cp314t.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant osx_arm64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempimpichpython3.14.____cp314t"
-[feature.build.tasks."build-osx_arm64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempinompipython3.14.____cp314t"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempinompipython3.14.____cp314t.yaml --target-platform osx-arm64"
-description = "Build netcdf4-feedstock with variant osx_arm64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempinompipython3.14.____cp314t directly (without setup scripts)"
-[feature.build.tasks."debug-osx_arm64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempinompipython3.14.____cp314t"]
-cmd = "rattler-build debug setup --recipe recipe -m .ci_support/osx_arm64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempinompipython3.14.____cp314t.yaml --target-platform osx-arm64"
-description = "Debug netcdf4-feedstock with variant osx_arm64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempinompipython3.14.____cp314t directly (without setup scripts)"
-[feature.build.tasks."inspect-osx_arm64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempinompipython3.14.____cp314t"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempinompipython3.14.____cp314t.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant osx_arm64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempinompipython3.14.____cp314t"
-[feature.build.tasks."build-osx_arm64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t.yaml --target-platform osx-arm64"
-description = "Build netcdf4-feedstock with variant osx_arm64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t directly (without setup scripts)"
-[feature.build.tasks."debug-osx_arm64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t"]
-cmd = "rattler-build debug setup --recipe recipe -m .ci_support/osx_arm64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t.yaml --target-platform osx-arm64"
-description = "Debug netcdf4-feedstock with variant osx_arm64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t directly (without setup scripts)"
-[feature.build.tasks."inspect-osx_arm64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant osx_arm64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t"
-[feature.build.tasks."build-osx_arm64_channel_sourcesconda-forgehdf51.14.6is_abi3truempimpichpython3.11.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_channel_sourcesconda-forgehdf51.14.6is_abi3truempimpichpython3.11.____cpython.yaml --target-platform osx-arm64"
-description = "Build netcdf4-feedstock with variant osx_arm64_channel_sourcesconda-forgehdf51.14.6is_abi3truempimpichpython3.11.____cpython directly (without setup scripts)"
-[feature.build.tasks."debug-osx_arm64_channel_sourcesconda-forgehdf51.14.6is_abi3truempimpichpython3.11.____cpython"]
-cmd = "rattler-build debug setup --recipe recipe -m .ci_support/osx_arm64_channel_sourcesconda-forgehdf51.14.6is_abi3truempimpichpython3.11.____cpython.yaml --target-platform osx-arm64"
-description = "Debug netcdf4-feedstock with variant osx_arm64_channel_sourcesconda-forgehdf51.14.6is_abi3truempimpichpython3.11.____cpython directly (without setup scripts)"
-[feature.build.tasks."inspect-osx_arm64_channel_sourcesconda-forgehdf51.14.6is_abi3truempimpichpython3.11.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_channel_sourcesconda-forgehdf51.14.6is_abi3truempimpichpython3.11.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant osx_arm64_channel_sourcesconda-forgehdf51.14.6is_abi3truempimpichpython3.11.____cpython"
-[feature.build.tasks."build-osx_arm64_channel_sourcesconda-forgehdf51.14.6is_abi3truempinompipython3.11.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_channel_sourcesconda-forgehdf51.14.6is_abi3truempinompipython3.11.____cpython.yaml --target-platform osx-arm64"
-description = "Build netcdf4-feedstock with variant osx_arm64_channel_sourcesconda-forgehdf51.14.6is_abi3truempinompipython3.11.____cpython directly (without setup scripts)"
-[feature.build.tasks."debug-osx_arm64_channel_sourcesconda-forgehdf51.14.6is_abi3truempinompipython3.11.____cpython"]
-cmd = "rattler-build debug setup --recipe recipe -m .ci_support/osx_arm64_channel_sourcesconda-forgehdf51.14.6is_abi3truempinompipython3.11.____cpython.yaml --target-platform osx-arm64"
-description = "Debug netcdf4-feedstock with variant osx_arm64_channel_sourcesconda-forgehdf51.14.6is_abi3truempinompipython3.11.____cpython directly (without setup scripts)"
-[feature.build.tasks."inspect-osx_arm64_channel_sourcesconda-forgehdf51.14.6is_abi3truempinompipython3.11.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_channel_sourcesconda-forgehdf51.14.6is_abi3truempinompipython3.11.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant osx_arm64_channel_sourcesconda-forgehdf51.14.6is_abi3truempinompipython3.11.____cpython"
-[feature.build.tasks."build-osx_arm64_channel_sourcesconda-forgehdf51.14.6is_abi3truempiopenmpipython3.11.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_channel_sourcesconda-forgehdf51.14.6is_abi3truempiopenmpipython3.11.____cpython.yaml --target-platform osx-arm64"
-description = "Build netcdf4-feedstock with variant osx_arm64_channel_sourcesconda-forgehdf51.14.6is_abi3truempiopenmpipython3.11.____cpython directly (without setup scripts)"
-[feature.build.tasks."debug-osx_arm64_channel_sourcesconda-forgehdf51.14.6is_abi3truempiopenmpipython3.11.____cpython"]
-cmd = "rattler-build debug setup --recipe recipe -m .ci_support/osx_arm64_channel_sourcesconda-forgehdf51.14.6is_abi3truempiopenmpipython3.11.____cpython.yaml --target-platform osx-arm64"
-description = "Debug netcdf4-feedstock with variant osx_arm64_channel_sourcesconda-forgehdf51.14.6is_abi3truempiopenmpipython3.11.____cpython directly (without setup scripts)"
-[feature.build.tasks."inspect-osx_arm64_channel_sourcesconda-forgehdf51.14.6is_abi3truempiopenmpipython3.11.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_channel_sourcesconda-forgehdf51.14.6is_abi3truempiopenmpipython3.11.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant osx_arm64_channel_sourcesconda-forgehdf51.14.6is_abi3truempiopenmpipython3.11.____cpython"
-[feature.build.tasks."build-osx_arm64_channel_sourcesconda-forgehdf52is_abi3falsempimpichpython3.14.____cp314t"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_channel_sourcesconda-forgehdf52is_abi3falsempimpichpython3.14.____cp314t.yaml --target-platform osx-arm64"
-description = "Build netcdf4-feedstock with variant osx_arm64_channel_sourcesconda-forgehdf52is_abi3falsempimpichpython3.14.____cp314t directly (without setup scripts)"
-[feature.build.tasks."debug-osx_arm64_channel_sourcesconda-forgehdf52is_abi3falsempimpichpython3.14.____cp314t"]
-cmd = "rattler-build debug setup --recipe recipe -m .ci_support/osx_arm64_channel_sourcesconda-forgehdf52is_abi3falsempimpichpython3.14.____cp314t.yaml --target-platform osx-arm64"
-description = "Debug netcdf4-feedstock with variant osx_arm64_channel_sourcesconda-forgehdf52is_abi3falsempimpichpython3.14.____cp314t directly (without setup scripts)"
-[feature.build.tasks."inspect-osx_arm64_channel_sourcesconda-forgehdf52is_abi3falsempimpichpython3.14.____cp314t"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_channel_sourcesconda-forgehdf52is_abi3falsempimpichpython3.14.____cp314t.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant osx_arm64_channel_sourcesconda-forgehdf52is_abi3falsempimpichpython3.14.____cp314t"
-[feature.build.tasks."build-osx_arm64_channel_sourcesconda-forgehdf52is_abi3falsempinompipython3.14.____cp314t"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_channel_sourcesconda-forgehdf52is_abi3falsempinompipython3.14.____cp314t.yaml --target-platform osx-arm64"
-description = "Build netcdf4-feedstock with variant osx_arm64_channel_sourcesconda-forgehdf52is_abi3falsempinompipython3.14.____cp314t directly (without setup scripts)"
-[feature.build.tasks."debug-osx_arm64_channel_sourcesconda-forgehdf52is_abi3falsempinompipython3.14.____cp314t"]
-cmd = "rattler-build debug setup --recipe recipe -m .ci_support/osx_arm64_channel_sourcesconda-forgehdf52is_abi3falsempinompipython3.14.____cp314t.yaml --target-platform osx-arm64"
-description = "Debug netcdf4-feedstock with variant osx_arm64_channel_sourcesconda-forgehdf52is_abi3falsempinompipython3.14.____cp314t directly (without setup scripts)"
-[feature.build.tasks."inspect-osx_arm64_channel_sourcesconda-forgehdf52is_abi3falsempinompipython3.14.____cp314t"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_channel_sourcesconda-forgehdf52is_abi3falsempinompipython3.14.____cp314t.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant osx_arm64_channel_sourcesconda-forgehdf52is_abi3falsempinompipython3.14.____cp314t"
-[feature.build.tasks."build-osx_arm64_channel_sourcesconda-forgehdf52is_abi3falsempiopenmpipython3.14.____cp314t"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_channel_sourcesconda-forgehdf52is_abi3falsempiopenmpipython3.14.____cp314t.yaml --target-platform osx-arm64"
-description = "Build netcdf4-feedstock with variant osx_arm64_channel_sourcesconda-forgehdf52is_abi3falsempiopenmpipython3.14.____cp314t directly (without setup scripts)"
-[feature.build.tasks."debug-osx_arm64_channel_sourcesconda-forgehdf52is_abi3falsempiopenmpipython3.14.____cp314t"]
-cmd = "rattler-build debug setup --recipe recipe -m .ci_support/osx_arm64_channel_sourcesconda-forgehdf52is_abi3falsempiopenmpipython3.14.____cp314t.yaml --target-platform osx-arm64"
-description = "Debug netcdf4-feedstock with variant osx_arm64_channel_sourcesconda-forgehdf52is_abi3falsempiopenmpipython3.14.____cp314t directly (without setup scripts)"
-[feature.build.tasks."inspect-osx_arm64_channel_sourcesconda-forgehdf52is_abi3falsempiopenmpipython3.14.____cp314t"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_channel_sourcesconda-forgehdf52is_abi3falsempiopenmpipython3.14.____cp314t.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant osx_arm64_channel_sourcesconda-forgehdf52is_abi3falsempiopenmpipython3.14.____cp314t"
-[feature.build.tasks."build-osx_arm64_channel_sourcesconda-forgehdf52is_abi3truempimpichpython3.11.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_channel_sourcesconda-forgehdf52is_abi3truempimpichpython3.11.____cpython.yaml --target-platform osx-arm64"
-description = "Build netcdf4-feedstock with variant osx_arm64_channel_sourcesconda-forgehdf52is_abi3truempimpichpython3.11.____cpython directly (without setup scripts)"
-[feature.build.tasks."debug-osx_arm64_channel_sourcesconda-forgehdf52is_abi3truempimpichpython3.11.____cpython"]
-cmd = "rattler-build debug setup --recipe recipe -m .ci_support/osx_arm64_channel_sourcesconda-forgehdf52is_abi3truempimpichpython3.11.____cpython.yaml --target-platform osx-arm64"
-description = "Debug netcdf4-feedstock with variant osx_arm64_channel_sourcesconda-forgehdf52is_abi3truempimpichpython3.11.____cpython directly (without setup scripts)"
-[feature.build.tasks."inspect-osx_arm64_channel_sourcesconda-forgehdf52is_abi3truempimpichpython3.11.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_channel_sourcesconda-forgehdf52is_abi3truempimpichpython3.11.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant osx_arm64_channel_sourcesconda-forgehdf52is_abi3truempimpichpython3.11.____cpython"
-[feature.build.tasks."build-osx_arm64_channel_sourcesconda-forgehdf52is_abi3truempinompipython3.11.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_channel_sourcesconda-forgehdf52is_abi3truempinompipython3.11.____cpython.yaml --target-platform osx-arm64"
-description = "Build netcdf4-feedstock with variant osx_arm64_channel_sourcesconda-forgehdf52is_abi3truempinompipython3.11.____cpython directly (without setup scripts)"
-[feature.build.tasks."debug-osx_arm64_channel_sourcesconda-forgehdf52is_abi3truempinompipython3.11.____cpython"]
-cmd = "rattler-build debug setup --recipe recipe -m .ci_support/osx_arm64_channel_sourcesconda-forgehdf52is_abi3truempinompipython3.11.____cpython.yaml --target-platform osx-arm64"
-description = "Debug netcdf4-feedstock with variant osx_arm64_channel_sourcesconda-forgehdf52is_abi3truempinompipython3.11.____cpython directly (without setup scripts)"
-[feature.build.tasks."inspect-osx_arm64_channel_sourcesconda-forgehdf52is_abi3truempinompipython3.11.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_channel_sourcesconda-forgehdf52is_abi3truempinompipython3.11.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant osx_arm64_channel_sourcesconda-forgehdf52is_abi3truempinompipython3.11.____cpython"
-[feature.build.tasks."build-osx_arm64_channel_sourcesconda-forgehdf52is_abi3truempiopenmpipython3.11.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_channel_sourcesconda-forgehdf52is_abi3truempiopenmpipython3.11.____cpython.yaml --target-platform osx-arm64"
-description = "Build netcdf4-feedstock with variant osx_arm64_channel_sourcesconda-forgehdf52is_abi3truempiopenmpipython3.11.____cpython directly (without setup scripts)"
-[feature.build.tasks."debug-osx_arm64_channel_sourcesconda-forgehdf52is_abi3truempiopenmpipython3.11.____cpython"]
-cmd = "rattler-build debug setup --recipe recipe -m .ci_support/osx_arm64_channel_sourcesconda-forgehdf52is_abi3truempiopenmpipython3.11.____cpython.yaml --target-platform osx-arm64"
-description = "Debug netcdf4-feedstock with variant osx_arm64_channel_sourcesconda-forgehdf52is_abi3truempiopenmpipython3.11.____cpython directly (without setup scripts)"
-[feature.build.tasks."inspect-osx_arm64_channel_sourcesconda-forgehdf52is_abi3truempiopenmpipython3.11.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_channel_sourcesconda-forgehdf52is_abi3truempiopenmpipython3.11.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant osx_arm64_channel_sourcesconda-forgehdf52is_abi3truempiopenmpipython3.11.____cpython"
-[feature.build.tasks."build-win_64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempinompipython3.14.____cp314t"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/win_64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempinompipython3.14.____cp314t.yaml --target-platform win-64"
-description = "Build netcdf4-feedstock with variant win_64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempinompipython3.14.____cp314t directly (without setup scripts)"
-[feature.build.tasks."debug-win_64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempinompipython3.14.____cp314t"]
-cmd = "rattler-build debug setup --recipe recipe -m .ci_support/win_64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempinompipython3.14.____cp314t.yaml --target-platform win-64"
-description = "Debug netcdf4-feedstock with variant win_64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempinompipython3.14.____cp314t directly (without setup scripts)"
-[feature.build.tasks."inspect-win_64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempinompipython3.14.____cp314t"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/win_64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempinompipython3.14.____cp314t.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant win_64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempinompipython3.14.____cp314t"
-[feature.build.tasks."build-win_64_channel_sourcesconda-forgehdf51.14.6is_abi3truempinompipython3.11.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/win_64_channel_sourcesconda-forgehdf51.14.6is_abi3truempinompipython3.11.____cpython.yaml --target-platform win-64"
-description = "Build netcdf4-feedstock with variant win_64_channel_sourcesconda-forgehdf51.14.6is_abi3truempinompipython3.11.____cpython directly (without setup scripts)"
-[feature.build.tasks."debug-win_64_channel_sourcesconda-forgehdf51.14.6is_abi3truempinompipython3.11.____cpython"]
-cmd = "rattler-build debug setup --recipe recipe -m .ci_support/win_64_channel_sourcesconda-forgehdf51.14.6is_abi3truempinompipython3.11.____cpython.yaml --target-platform win-64"
-description = "Debug netcdf4-feedstock with variant win_64_channel_sourcesconda-forgehdf51.14.6is_abi3truempinompipython3.11.____cpython directly (without setup scripts)"
-[feature.build.tasks."inspect-win_64_channel_sourcesconda-forgehdf51.14.6is_abi3truempinompipython3.11.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/win_64_channel_sourcesconda-forgehdf51.14.6is_abi3truempinompipython3.11.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant win_64_channel_sourcesconda-forgehdf51.14.6is_abi3truempinompipython3.11.____cpython"
-[feature.build.tasks."build-win_64_channel_sourcesconda-forgehdf52is_abi3falsempinompipython3.14.____cp314t"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/win_64_channel_sourcesconda-forgehdf52is_abi3falsempinompipython3.14.____cp314t.yaml --target-platform win-64"
-description = "Build netcdf4-feedstock with variant win_64_channel_sourcesconda-forgehdf52is_abi3falsempinompipython3.14.____cp314t directly (without setup scripts)"
-[feature.build.tasks."debug-win_64_channel_sourcesconda-forgehdf52is_abi3falsempinompipython3.14.____cp314t"]
-cmd = "rattler-build debug setup --recipe recipe -m .ci_support/win_64_channel_sourcesconda-forgehdf52is_abi3falsempinompipython3.14.____cp314t.yaml --target-platform win-64"
-description = "Debug netcdf4-feedstock with variant win_64_channel_sourcesconda-forgehdf52is_abi3falsempinompipython3.14.____cp314t directly (without setup scripts)"
-[feature.build.tasks."inspect-win_64_channel_sourcesconda-forgehdf52is_abi3falsempinompipython3.14.____cp314t"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/win_64_channel_sourcesconda-forgehdf52is_abi3falsempinompipython3.14.____cp314t.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant win_64_channel_sourcesconda-forgehdf52is_abi3falsempinompipython3.14.____cp314t"
-[feature.build.tasks."build-win_64_channel_sourcesconda-forgehdf52is_abi3truempinompipython3.11.____cpython"]
-cmd = "rattler-build build --recipe recipe -m .ci_support/win_64_channel_sourcesconda-forgehdf52is_abi3truempinompipython3.11.____cpython.yaml --target-platform win-64"
-description = "Build netcdf4-feedstock with variant win_64_channel_sourcesconda-forgehdf52is_abi3truempinompipython3.11.____cpython directly (without setup scripts)"
-[feature.build.tasks."debug-win_64_channel_sourcesconda-forgehdf52is_abi3truempinompipython3.11.____cpython"]
-cmd = "rattler-build debug setup --recipe recipe -m .ci_support/win_64_channel_sourcesconda-forgehdf52is_abi3truempinompipython3.11.____cpython.yaml --target-platform win-64"
-description = "Debug netcdf4-feedstock with variant win_64_channel_sourcesconda-forgehdf52is_abi3truempinompipython3.11.____cpython directly (without setup scripts)"
-[feature.build.tasks."inspect-win_64_channel_sourcesconda-forgehdf52is_abi3truempinompipython3.11.____cpython"]
-cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/win_64_channel_sourcesconda-forgehdf52is_abi3truempinompipython3.11.____cpython.yaml"
-description = "List contents of netcdf4-feedstock packages built for variant win_64_channel_sourcesconda-forgehdf52is_abi3truempinompipython3.11.____cpython"
+[feature.build.tasks."build-linux_64_hdf51.14.6is_abi3falsempimpichpython3.14.____cp314t"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_hdf51.14.6is_abi3falsempimpichpython3.14.____cp314t.yaml --target-platform linux-64"
+description = "Build netcdf4-feedstock with variant linux_64_hdf51.14.6is_abi3falsempimpichpython3.14.____cp314t directly (without setup scripts)"
+[feature.build.tasks."debug-linux_64_hdf51.14.6is_abi3falsempimpichpython3.14.____cp314t"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_64_hdf51.14.6is_abi3falsempimpichpython3.14.____cp314t.yaml --target-platform linux-64"
+description = "Debug netcdf4-feedstock with variant linux_64_hdf51.14.6is_abi3falsempimpichpython3.14.____cp314t directly (without setup scripts)"
+[feature.build.tasks."inspect-linux_64_hdf51.14.6is_abi3falsempimpichpython3.14.____cp314t"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_hdf51.14.6is_abi3falsempimpichpython3.14.____cp314t.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant linux_64_hdf51.14.6is_abi3falsempimpichpython3.14.____cp314t"
+[feature.build.tasks."build-linux_64_hdf51.14.6is_abi3falsempinompipython3.14.____cp314t"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_hdf51.14.6is_abi3falsempinompipython3.14.____cp314t.yaml --target-platform linux-64"
+description = "Build netcdf4-feedstock with variant linux_64_hdf51.14.6is_abi3falsempinompipython3.14.____cp314t directly (without setup scripts)"
+[feature.build.tasks."debug-linux_64_hdf51.14.6is_abi3falsempinompipython3.14.____cp314t"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_64_hdf51.14.6is_abi3falsempinompipython3.14.____cp314t.yaml --target-platform linux-64"
+description = "Debug netcdf4-feedstock with variant linux_64_hdf51.14.6is_abi3falsempinompipython3.14.____cp314t directly (without setup scripts)"
+[feature.build.tasks."inspect-linux_64_hdf51.14.6is_abi3falsempinompipython3.14.____cp314t"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_hdf51.14.6is_abi3falsempinompipython3.14.____cp314t.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant linux_64_hdf51.14.6is_abi3falsempinompipython3.14.____cp314t"
+[feature.build.tasks."build-linux_64_hdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_hdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t.yaml --target-platform linux-64"
+description = "Build netcdf4-feedstock with variant linux_64_hdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t directly (without setup scripts)"
+[feature.build.tasks."debug-linux_64_hdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_64_hdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t.yaml --target-platform linux-64"
+description = "Debug netcdf4-feedstock with variant linux_64_hdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t directly (without setup scripts)"
+[feature.build.tasks."inspect-linux_64_hdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_hdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant linux_64_hdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t"
+[feature.build.tasks."build-linux_64_hdf51.14.6is_abi3truempimpichpython3.11.____cpython"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_hdf51.14.6is_abi3truempimpichpython3.11.____cpython.yaml --target-platform linux-64"
+description = "Build netcdf4-feedstock with variant linux_64_hdf51.14.6is_abi3truempimpichpython3.11.____cpython directly (without setup scripts)"
+[feature.build.tasks."debug-linux_64_hdf51.14.6is_abi3truempimpichpython3.11.____cpython"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_64_hdf51.14.6is_abi3truempimpichpython3.11.____cpython.yaml --target-platform linux-64"
+description = "Debug netcdf4-feedstock with variant linux_64_hdf51.14.6is_abi3truempimpichpython3.11.____cpython directly (without setup scripts)"
+[feature.build.tasks."inspect-linux_64_hdf51.14.6is_abi3truempimpichpython3.11.____cpython"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_hdf51.14.6is_abi3truempimpichpython3.11.____cpython.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant linux_64_hdf51.14.6is_abi3truempimpichpython3.11.____cpython"
+[feature.build.tasks."build-linux_64_hdf51.14.6is_abi3truempinompipython3.11.____cpython"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_hdf51.14.6is_abi3truempinompipython3.11.____cpython.yaml --target-platform linux-64"
+description = "Build netcdf4-feedstock with variant linux_64_hdf51.14.6is_abi3truempinompipython3.11.____cpython directly (without setup scripts)"
+[feature.build.tasks."debug-linux_64_hdf51.14.6is_abi3truempinompipython3.11.____cpython"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_64_hdf51.14.6is_abi3truempinompipython3.11.____cpython.yaml --target-platform linux-64"
+description = "Debug netcdf4-feedstock with variant linux_64_hdf51.14.6is_abi3truempinompipython3.11.____cpython directly (without setup scripts)"
+[feature.build.tasks."inspect-linux_64_hdf51.14.6is_abi3truempinompipython3.11.____cpython"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_hdf51.14.6is_abi3truempinompipython3.11.____cpython.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant linux_64_hdf51.14.6is_abi3truempinompipython3.11.____cpython"
+[feature.build.tasks."build-linux_64_hdf51.14.6is_abi3truempiopenmpipython3.11.____cpython"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_hdf51.14.6is_abi3truempiopenmpipython3.11.____cpython.yaml --target-platform linux-64"
+description = "Build netcdf4-feedstock with variant linux_64_hdf51.14.6is_abi3truempiopenmpipython3.11.____cpython directly (without setup scripts)"
+[feature.build.tasks."debug-linux_64_hdf51.14.6is_abi3truempiopenmpipython3.11.____cpython"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_64_hdf51.14.6is_abi3truempiopenmpipython3.11.____cpython.yaml --target-platform linux-64"
+description = "Debug netcdf4-feedstock with variant linux_64_hdf51.14.6is_abi3truempiopenmpipython3.11.____cpython directly (without setup scripts)"
+[feature.build.tasks."inspect-linux_64_hdf51.14.6is_abi3truempiopenmpipython3.11.____cpython"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_hdf51.14.6is_abi3truempiopenmpipython3.11.____cpython.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant linux_64_hdf51.14.6is_abi3truempiopenmpipython3.11.____cpython"
+[feature.build.tasks."build-linux_64_hdf52is_abi3falsempimpichpython3.14.____cp314t"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_hdf52is_abi3falsempimpichpython3.14.____cp314t.yaml --target-platform linux-64"
+description = "Build netcdf4-feedstock with variant linux_64_hdf52is_abi3falsempimpichpython3.14.____cp314t directly (without setup scripts)"
+[feature.build.tasks."debug-linux_64_hdf52is_abi3falsempimpichpython3.14.____cp314t"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_64_hdf52is_abi3falsempimpichpython3.14.____cp314t.yaml --target-platform linux-64"
+description = "Debug netcdf4-feedstock with variant linux_64_hdf52is_abi3falsempimpichpython3.14.____cp314t directly (without setup scripts)"
+[feature.build.tasks."inspect-linux_64_hdf52is_abi3falsempimpichpython3.14.____cp314t"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_hdf52is_abi3falsempimpichpython3.14.____cp314t.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant linux_64_hdf52is_abi3falsempimpichpython3.14.____cp314t"
+[feature.build.tasks."build-linux_64_hdf52is_abi3falsempinompipython3.14.____cp314t"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_hdf52is_abi3falsempinompipython3.14.____cp314t.yaml --target-platform linux-64"
+description = "Build netcdf4-feedstock with variant linux_64_hdf52is_abi3falsempinompipython3.14.____cp314t directly (without setup scripts)"
+[feature.build.tasks."debug-linux_64_hdf52is_abi3falsempinompipython3.14.____cp314t"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_64_hdf52is_abi3falsempinompipython3.14.____cp314t.yaml --target-platform linux-64"
+description = "Debug netcdf4-feedstock with variant linux_64_hdf52is_abi3falsempinompipython3.14.____cp314t directly (without setup scripts)"
+[feature.build.tasks."inspect-linux_64_hdf52is_abi3falsempinompipython3.14.____cp314t"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_hdf52is_abi3falsempinompipython3.14.____cp314t.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant linux_64_hdf52is_abi3falsempinompipython3.14.____cp314t"
+[feature.build.tasks."build-linux_64_hdf52is_abi3falsempiopenmpipython3.14.____cp314t"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_hdf52is_abi3falsempiopenmpipython3.14.____cp314t.yaml --target-platform linux-64"
+description = "Build netcdf4-feedstock with variant linux_64_hdf52is_abi3falsempiopenmpipython3.14.____cp314t directly (without setup scripts)"
+[feature.build.tasks."debug-linux_64_hdf52is_abi3falsempiopenmpipython3.14.____cp314t"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_64_hdf52is_abi3falsempiopenmpipython3.14.____cp314t.yaml --target-platform linux-64"
+description = "Debug netcdf4-feedstock with variant linux_64_hdf52is_abi3falsempiopenmpipython3.14.____cp314t directly (without setup scripts)"
+[feature.build.tasks."inspect-linux_64_hdf52is_abi3falsempiopenmpipython3.14.____cp314t"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_hdf52is_abi3falsempiopenmpipython3.14.____cp314t.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant linux_64_hdf52is_abi3falsempiopenmpipython3.14.____cp314t"
+[feature.build.tasks."build-linux_64_hdf52is_abi3truempimpichpython3.11.____cpython"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_hdf52is_abi3truempimpichpython3.11.____cpython.yaml --target-platform linux-64"
+description = "Build netcdf4-feedstock with variant linux_64_hdf52is_abi3truempimpichpython3.11.____cpython directly (without setup scripts)"
+[feature.build.tasks."debug-linux_64_hdf52is_abi3truempimpichpython3.11.____cpython"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_64_hdf52is_abi3truempimpichpython3.11.____cpython.yaml --target-platform linux-64"
+description = "Debug netcdf4-feedstock with variant linux_64_hdf52is_abi3truempimpichpython3.11.____cpython directly (without setup scripts)"
+[feature.build.tasks."inspect-linux_64_hdf52is_abi3truempimpichpython3.11.____cpython"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_hdf52is_abi3truempimpichpython3.11.____cpython.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant linux_64_hdf52is_abi3truempimpichpython3.11.____cpython"
+[feature.build.tasks."build-linux_64_hdf52is_abi3truempinompipython3.11.____cpython"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_hdf52is_abi3truempinompipython3.11.____cpython.yaml --target-platform linux-64"
+description = "Build netcdf4-feedstock with variant linux_64_hdf52is_abi3truempinompipython3.11.____cpython directly (without setup scripts)"
+[feature.build.tasks."debug-linux_64_hdf52is_abi3truempinompipython3.11.____cpython"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_64_hdf52is_abi3truempinompipython3.11.____cpython.yaml --target-platform linux-64"
+description = "Debug netcdf4-feedstock with variant linux_64_hdf52is_abi3truempinompipython3.11.____cpython directly (without setup scripts)"
+[feature.build.tasks."inspect-linux_64_hdf52is_abi3truempinompipython3.11.____cpython"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_hdf52is_abi3truempinompipython3.11.____cpython.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant linux_64_hdf52is_abi3truempinompipython3.11.____cpython"
+[feature.build.tasks."build-linux_64_hdf52is_abi3truempiopenmpipython3.11.____cpython"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_64_hdf52is_abi3truempiopenmpipython3.11.____cpython.yaml --target-platform linux-64"
+description = "Build netcdf4-feedstock with variant linux_64_hdf52is_abi3truempiopenmpipython3.11.____cpython directly (without setup scripts)"
+[feature.build.tasks."debug-linux_64_hdf52is_abi3truempiopenmpipython3.11.____cpython"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_64_hdf52is_abi3truempiopenmpipython3.11.____cpython.yaml --target-platform linux-64"
+description = "Debug netcdf4-feedstock with variant linux_64_hdf52is_abi3truempiopenmpipython3.11.____cpython directly (without setup scripts)"
+[feature.build.tasks."inspect-linux_64_hdf52is_abi3truempiopenmpipython3.11.____cpython"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_64_hdf52is_abi3truempiopenmpipython3.11.____cpython.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant linux_64_hdf52is_abi3truempiopenmpipython3.11.____cpython"
+[feature.build.tasks."build-linux_aarch64_hdf51.14.6is_abi3falsempimpichpython3.14.____cp314t"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_aarch64_hdf51.14.6is_abi3falsempimpichpython3.14.____cp314t.yaml --target-platform linux-aarch64"
+description = "Build netcdf4-feedstock with variant linux_aarch64_hdf51.14.6is_abi3falsempimpichpython3.14.____cp314t directly (without setup scripts)"
+[feature.build.tasks."debug-linux_aarch64_hdf51.14.6is_abi3falsempimpichpython3.14.____cp314t"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_aarch64_hdf51.14.6is_abi3falsempimpichpython3.14.____cp314t.yaml --target-platform linux-aarch64"
+description = "Debug netcdf4-feedstock with variant linux_aarch64_hdf51.14.6is_abi3falsempimpichpython3.14.____cp314t directly (without setup scripts)"
+[feature.build.tasks."inspect-linux_aarch64_hdf51.14.6is_abi3falsempimpichpython3.14.____cp314t"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_aarch64_hdf51.14.6is_abi3falsempimpichpython3.14.____cp314t.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant linux_aarch64_hdf51.14.6is_abi3falsempimpichpython3.14.____cp314t"
+[feature.build.tasks."build-linux_aarch64_hdf51.14.6is_abi3falsempinompipython3.14.____cp314t"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_aarch64_hdf51.14.6is_abi3falsempinompipython3.14.____cp314t.yaml --target-platform linux-aarch64"
+description = "Build netcdf4-feedstock with variant linux_aarch64_hdf51.14.6is_abi3falsempinompipython3.14.____cp314t directly (without setup scripts)"
+[feature.build.tasks."debug-linux_aarch64_hdf51.14.6is_abi3falsempinompipython3.14.____cp314t"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_aarch64_hdf51.14.6is_abi3falsempinompipython3.14.____cp314t.yaml --target-platform linux-aarch64"
+description = "Debug netcdf4-feedstock with variant linux_aarch64_hdf51.14.6is_abi3falsempinompipython3.14.____cp314t directly (without setup scripts)"
+[feature.build.tasks."inspect-linux_aarch64_hdf51.14.6is_abi3falsempinompipython3.14.____cp314t"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_aarch64_hdf51.14.6is_abi3falsempinompipython3.14.____cp314t.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant linux_aarch64_hdf51.14.6is_abi3falsempinompipython3.14.____cp314t"
+[feature.build.tasks."build-linux_aarch64_hdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_aarch64_hdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t.yaml --target-platform linux-aarch64"
+description = "Build netcdf4-feedstock with variant linux_aarch64_hdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t directly (without setup scripts)"
+[feature.build.tasks."debug-linux_aarch64_hdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_aarch64_hdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t.yaml --target-platform linux-aarch64"
+description = "Debug netcdf4-feedstock with variant linux_aarch64_hdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t directly (without setup scripts)"
+[feature.build.tasks."inspect-linux_aarch64_hdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_aarch64_hdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant linux_aarch64_hdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t"
+[feature.build.tasks."build-linux_aarch64_hdf51.14.6is_abi3truempimpichpython3.11.____cpython"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_aarch64_hdf51.14.6is_abi3truempimpichpython3.11.____cpython.yaml --target-platform linux-aarch64"
+description = "Build netcdf4-feedstock with variant linux_aarch64_hdf51.14.6is_abi3truempimpichpython3.11.____cpython directly (without setup scripts)"
+[feature.build.tasks."debug-linux_aarch64_hdf51.14.6is_abi3truempimpichpython3.11.____cpython"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_aarch64_hdf51.14.6is_abi3truempimpichpython3.11.____cpython.yaml --target-platform linux-aarch64"
+description = "Debug netcdf4-feedstock with variant linux_aarch64_hdf51.14.6is_abi3truempimpichpython3.11.____cpython directly (without setup scripts)"
+[feature.build.tasks."inspect-linux_aarch64_hdf51.14.6is_abi3truempimpichpython3.11.____cpython"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_aarch64_hdf51.14.6is_abi3truempimpichpython3.11.____cpython.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant linux_aarch64_hdf51.14.6is_abi3truempimpichpython3.11.____cpython"
+[feature.build.tasks."build-linux_aarch64_hdf51.14.6is_abi3truempinompipython3.11.____cpython"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_aarch64_hdf51.14.6is_abi3truempinompipython3.11.____cpython.yaml --target-platform linux-aarch64"
+description = "Build netcdf4-feedstock with variant linux_aarch64_hdf51.14.6is_abi3truempinompipython3.11.____cpython directly (without setup scripts)"
+[feature.build.tasks."debug-linux_aarch64_hdf51.14.6is_abi3truempinompipython3.11.____cpython"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_aarch64_hdf51.14.6is_abi3truempinompipython3.11.____cpython.yaml --target-platform linux-aarch64"
+description = "Debug netcdf4-feedstock with variant linux_aarch64_hdf51.14.6is_abi3truempinompipython3.11.____cpython directly (without setup scripts)"
+[feature.build.tasks."inspect-linux_aarch64_hdf51.14.6is_abi3truempinompipython3.11.____cpython"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_aarch64_hdf51.14.6is_abi3truempinompipython3.11.____cpython.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant linux_aarch64_hdf51.14.6is_abi3truempinompipython3.11.____cpython"
+[feature.build.tasks."build-linux_aarch64_hdf51.14.6is_abi3truempiopenmpipython3.11.____cpython"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_aarch64_hdf51.14.6is_abi3truempiopenmpipython3.11.____cpython.yaml --target-platform linux-aarch64"
+description = "Build netcdf4-feedstock with variant linux_aarch64_hdf51.14.6is_abi3truempiopenmpipython3.11.____cpython directly (without setup scripts)"
+[feature.build.tasks."debug-linux_aarch64_hdf51.14.6is_abi3truempiopenmpipython3.11.____cpython"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_aarch64_hdf51.14.6is_abi3truempiopenmpipython3.11.____cpython.yaml --target-platform linux-aarch64"
+description = "Debug netcdf4-feedstock with variant linux_aarch64_hdf51.14.6is_abi3truempiopenmpipython3.11.____cpython directly (without setup scripts)"
+[feature.build.tasks."inspect-linux_aarch64_hdf51.14.6is_abi3truempiopenmpipython3.11.____cpython"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_aarch64_hdf51.14.6is_abi3truempiopenmpipython3.11.____cpython.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant linux_aarch64_hdf51.14.6is_abi3truempiopenmpipython3.11.____cpython"
+[feature.build.tasks."build-linux_aarch64_hdf52is_abi3falsempimpichpython3.14.____cp314t"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_aarch64_hdf52is_abi3falsempimpichpython3.14.____cp314t.yaml --target-platform linux-aarch64"
+description = "Build netcdf4-feedstock with variant linux_aarch64_hdf52is_abi3falsempimpichpython3.14.____cp314t directly (without setup scripts)"
+[feature.build.tasks."debug-linux_aarch64_hdf52is_abi3falsempimpichpython3.14.____cp314t"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_aarch64_hdf52is_abi3falsempimpichpython3.14.____cp314t.yaml --target-platform linux-aarch64"
+description = "Debug netcdf4-feedstock with variant linux_aarch64_hdf52is_abi3falsempimpichpython3.14.____cp314t directly (without setup scripts)"
+[feature.build.tasks."inspect-linux_aarch64_hdf52is_abi3falsempimpichpython3.14.____cp314t"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_aarch64_hdf52is_abi3falsempimpichpython3.14.____cp314t.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant linux_aarch64_hdf52is_abi3falsempimpichpython3.14.____cp314t"
+[feature.build.tasks."build-linux_aarch64_hdf52is_abi3falsempinompipython3.14.____cp314t"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_aarch64_hdf52is_abi3falsempinompipython3.14.____cp314t.yaml --target-platform linux-aarch64"
+description = "Build netcdf4-feedstock with variant linux_aarch64_hdf52is_abi3falsempinompipython3.14.____cp314t directly (without setup scripts)"
+[feature.build.tasks."debug-linux_aarch64_hdf52is_abi3falsempinompipython3.14.____cp314t"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_aarch64_hdf52is_abi3falsempinompipython3.14.____cp314t.yaml --target-platform linux-aarch64"
+description = "Debug netcdf4-feedstock with variant linux_aarch64_hdf52is_abi3falsempinompipython3.14.____cp314t directly (without setup scripts)"
+[feature.build.tasks."inspect-linux_aarch64_hdf52is_abi3falsempinompipython3.14.____cp314t"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_aarch64_hdf52is_abi3falsempinompipython3.14.____cp314t.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant linux_aarch64_hdf52is_abi3falsempinompipython3.14.____cp314t"
+[feature.build.tasks."build-linux_aarch64_hdf52is_abi3falsempiopenmpipython3.14.____cp314t"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_aarch64_hdf52is_abi3falsempiopenmpipython3.14.____cp314t.yaml --target-platform linux-aarch64"
+description = "Build netcdf4-feedstock with variant linux_aarch64_hdf52is_abi3falsempiopenmpipython3.14.____cp314t directly (without setup scripts)"
+[feature.build.tasks."debug-linux_aarch64_hdf52is_abi3falsempiopenmpipython3.14.____cp314t"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_aarch64_hdf52is_abi3falsempiopenmpipython3.14.____cp314t.yaml --target-platform linux-aarch64"
+description = "Debug netcdf4-feedstock with variant linux_aarch64_hdf52is_abi3falsempiopenmpipython3.14.____cp314t directly (without setup scripts)"
+[feature.build.tasks."inspect-linux_aarch64_hdf52is_abi3falsempiopenmpipython3.14.____cp314t"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_aarch64_hdf52is_abi3falsempiopenmpipython3.14.____cp314t.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant linux_aarch64_hdf52is_abi3falsempiopenmpipython3.14.____cp314t"
+[feature.build.tasks."build-linux_aarch64_hdf52is_abi3truempimpichpython3.11.____cpython"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_aarch64_hdf52is_abi3truempimpichpython3.11.____cpython.yaml --target-platform linux-aarch64"
+description = "Build netcdf4-feedstock with variant linux_aarch64_hdf52is_abi3truempimpichpython3.11.____cpython directly (without setup scripts)"
+[feature.build.tasks."debug-linux_aarch64_hdf52is_abi3truempimpichpython3.11.____cpython"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_aarch64_hdf52is_abi3truempimpichpython3.11.____cpython.yaml --target-platform linux-aarch64"
+description = "Debug netcdf4-feedstock with variant linux_aarch64_hdf52is_abi3truempimpichpython3.11.____cpython directly (without setup scripts)"
+[feature.build.tasks."inspect-linux_aarch64_hdf52is_abi3truempimpichpython3.11.____cpython"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_aarch64_hdf52is_abi3truempimpichpython3.11.____cpython.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant linux_aarch64_hdf52is_abi3truempimpichpython3.11.____cpython"
+[feature.build.tasks."build-linux_aarch64_hdf52is_abi3truempinompipython3.11.____cpython"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_aarch64_hdf52is_abi3truempinompipython3.11.____cpython.yaml --target-platform linux-aarch64"
+description = "Build netcdf4-feedstock with variant linux_aarch64_hdf52is_abi3truempinompipython3.11.____cpython directly (without setup scripts)"
+[feature.build.tasks."debug-linux_aarch64_hdf52is_abi3truempinompipython3.11.____cpython"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_aarch64_hdf52is_abi3truempinompipython3.11.____cpython.yaml --target-platform linux-aarch64"
+description = "Debug netcdf4-feedstock with variant linux_aarch64_hdf52is_abi3truempinompipython3.11.____cpython directly (without setup scripts)"
+[feature.build.tasks."inspect-linux_aarch64_hdf52is_abi3truempinompipython3.11.____cpython"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_aarch64_hdf52is_abi3truempinompipython3.11.____cpython.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant linux_aarch64_hdf52is_abi3truempinompipython3.11.____cpython"
+[feature.build.tasks."build-linux_aarch64_hdf52is_abi3truempiopenmpipython3.11.____cpython"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_aarch64_hdf52is_abi3truempiopenmpipython3.11.____cpython.yaml --target-platform linux-aarch64"
+description = "Build netcdf4-feedstock with variant linux_aarch64_hdf52is_abi3truempiopenmpipython3.11.____cpython directly (without setup scripts)"
+[feature.build.tasks."debug-linux_aarch64_hdf52is_abi3truempiopenmpipython3.11.____cpython"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_aarch64_hdf52is_abi3truempiopenmpipython3.11.____cpython.yaml --target-platform linux-aarch64"
+description = "Debug netcdf4-feedstock with variant linux_aarch64_hdf52is_abi3truempiopenmpipython3.11.____cpython directly (without setup scripts)"
+[feature.build.tasks."inspect-linux_aarch64_hdf52is_abi3truempiopenmpipython3.11.____cpython"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_aarch64_hdf52is_abi3truempiopenmpipython3.11.____cpython.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant linux_aarch64_hdf52is_abi3truempiopenmpipython3.11.____cpython"
+[feature.build.tasks."build-linux_ppc64le_hdf51.14.6is_abi3falsempimpichpython3.14.____cp314t"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_ppc64le_hdf51.14.6is_abi3falsempimpichpython3.14.____cp314t.yaml --target-platform linux-ppc64le"
+description = "Build netcdf4-feedstock with variant linux_ppc64le_hdf51.14.6is_abi3falsempimpichpython3.14.____cp314t directly (without setup scripts)"
+[feature.build.tasks."debug-linux_ppc64le_hdf51.14.6is_abi3falsempimpichpython3.14.____cp314t"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_ppc64le_hdf51.14.6is_abi3falsempimpichpython3.14.____cp314t.yaml --target-platform linux-ppc64le"
+description = "Debug netcdf4-feedstock with variant linux_ppc64le_hdf51.14.6is_abi3falsempimpichpython3.14.____cp314t directly (without setup scripts)"
+[feature.build.tasks."inspect-linux_ppc64le_hdf51.14.6is_abi3falsempimpichpython3.14.____cp314t"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_ppc64le_hdf51.14.6is_abi3falsempimpichpython3.14.____cp314t.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant linux_ppc64le_hdf51.14.6is_abi3falsempimpichpython3.14.____cp314t"
+[feature.build.tasks."build-linux_ppc64le_hdf51.14.6is_abi3falsempinompipython3.14.____cp314t"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_ppc64le_hdf51.14.6is_abi3falsempinompipython3.14.____cp314t.yaml --target-platform linux-ppc64le"
+description = "Build netcdf4-feedstock with variant linux_ppc64le_hdf51.14.6is_abi3falsempinompipython3.14.____cp314t directly (without setup scripts)"
+[feature.build.tasks."debug-linux_ppc64le_hdf51.14.6is_abi3falsempinompipython3.14.____cp314t"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_ppc64le_hdf51.14.6is_abi3falsempinompipython3.14.____cp314t.yaml --target-platform linux-ppc64le"
+description = "Debug netcdf4-feedstock with variant linux_ppc64le_hdf51.14.6is_abi3falsempinompipython3.14.____cp314t directly (without setup scripts)"
+[feature.build.tasks."inspect-linux_ppc64le_hdf51.14.6is_abi3falsempinompipython3.14.____cp314t"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_ppc64le_hdf51.14.6is_abi3falsempinompipython3.14.____cp314t.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant linux_ppc64le_hdf51.14.6is_abi3falsempinompipython3.14.____cp314t"
+[feature.build.tasks."build-linux_ppc64le_hdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_ppc64le_hdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t.yaml --target-platform linux-ppc64le"
+description = "Build netcdf4-feedstock with variant linux_ppc64le_hdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t directly (without setup scripts)"
+[feature.build.tasks."debug-linux_ppc64le_hdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_ppc64le_hdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t.yaml --target-platform linux-ppc64le"
+description = "Debug netcdf4-feedstock with variant linux_ppc64le_hdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t directly (without setup scripts)"
+[feature.build.tasks."inspect-linux_ppc64le_hdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_ppc64le_hdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant linux_ppc64le_hdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t"
+[feature.build.tasks."build-linux_ppc64le_hdf51.14.6is_abi3truempimpichpython3.11.____cpython"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_ppc64le_hdf51.14.6is_abi3truempimpichpython3.11.____cpython.yaml --target-platform linux-ppc64le"
+description = "Build netcdf4-feedstock with variant linux_ppc64le_hdf51.14.6is_abi3truempimpichpython3.11.____cpython directly (without setup scripts)"
+[feature.build.tasks."debug-linux_ppc64le_hdf51.14.6is_abi3truempimpichpython3.11.____cpython"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_ppc64le_hdf51.14.6is_abi3truempimpichpython3.11.____cpython.yaml --target-platform linux-ppc64le"
+description = "Debug netcdf4-feedstock with variant linux_ppc64le_hdf51.14.6is_abi3truempimpichpython3.11.____cpython directly (without setup scripts)"
+[feature.build.tasks."inspect-linux_ppc64le_hdf51.14.6is_abi3truempimpichpython3.11.____cpython"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_ppc64le_hdf51.14.6is_abi3truempimpichpython3.11.____cpython.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant linux_ppc64le_hdf51.14.6is_abi3truempimpichpython3.11.____cpython"
+[feature.build.tasks."build-linux_ppc64le_hdf51.14.6is_abi3truempinompipython3.11.____cpython"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_ppc64le_hdf51.14.6is_abi3truempinompipython3.11.____cpython.yaml --target-platform linux-ppc64le"
+description = "Build netcdf4-feedstock with variant linux_ppc64le_hdf51.14.6is_abi3truempinompipython3.11.____cpython directly (without setup scripts)"
+[feature.build.tasks."debug-linux_ppc64le_hdf51.14.6is_abi3truempinompipython3.11.____cpython"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_ppc64le_hdf51.14.6is_abi3truempinompipython3.11.____cpython.yaml --target-platform linux-ppc64le"
+description = "Debug netcdf4-feedstock with variant linux_ppc64le_hdf51.14.6is_abi3truempinompipython3.11.____cpython directly (without setup scripts)"
+[feature.build.tasks."inspect-linux_ppc64le_hdf51.14.6is_abi3truempinompipython3.11.____cpython"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_ppc64le_hdf51.14.6is_abi3truempinompipython3.11.____cpython.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant linux_ppc64le_hdf51.14.6is_abi3truempinompipython3.11.____cpython"
+[feature.build.tasks."build-linux_ppc64le_hdf51.14.6is_abi3truempiopenmpipython3.11.____cpython"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_ppc64le_hdf51.14.6is_abi3truempiopenmpipython3.11.____cpython.yaml --target-platform linux-ppc64le"
+description = "Build netcdf4-feedstock with variant linux_ppc64le_hdf51.14.6is_abi3truempiopenmpipython3.11.____cpython directly (without setup scripts)"
+[feature.build.tasks."debug-linux_ppc64le_hdf51.14.6is_abi3truempiopenmpipython3.11.____cpython"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_ppc64le_hdf51.14.6is_abi3truempiopenmpipython3.11.____cpython.yaml --target-platform linux-ppc64le"
+description = "Debug netcdf4-feedstock with variant linux_ppc64le_hdf51.14.6is_abi3truempiopenmpipython3.11.____cpython directly (without setup scripts)"
+[feature.build.tasks."inspect-linux_ppc64le_hdf51.14.6is_abi3truempiopenmpipython3.11.____cpython"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_ppc64le_hdf51.14.6is_abi3truempiopenmpipython3.11.____cpython.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant linux_ppc64le_hdf51.14.6is_abi3truempiopenmpipython3.11.____cpython"
+[feature.build.tasks."build-linux_ppc64le_hdf52is_abi3falsempimpichpython3.14.____cp314t"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_ppc64le_hdf52is_abi3falsempimpichpython3.14.____cp314t.yaml --target-platform linux-ppc64le"
+description = "Build netcdf4-feedstock with variant linux_ppc64le_hdf52is_abi3falsempimpichpython3.14.____cp314t directly (without setup scripts)"
+[feature.build.tasks."debug-linux_ppc64le_hdf52is_abi3falsempimpichpython3.14.____cp314t"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_ppc64le_hdf52is_abi3falsempimpichpython3.14.____cp314t.yaml --target-platform linux-ppc64le"
+description = "Debug netcdf4-feedstock with variant linux_ppc64le_hdf52is_abi3falsempimpichpython3.14.____cp314t directly (without setup scripts)"
+[feature.build.tasks."inspect-linux_ppc64le_hdf52is_abi3falsempimpichpython3.14.____cp314t"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_ppc64le_hdf52is_abi3falsempimpichpython3.14.____cp314t.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant linux_ppc64le_hdf52is_abi3falsempimpichpython3.14.____cp314t"
+[feature.build.tasks."build-linux_ppc64le_hdf52is_abi3falsempinompipython3.14.____cp314t"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_ppc64le_hdf52is_abi3falsempinompipython3.14.____cp314t.yaml --target-platform linux-ppc64le"
+description = "Build netcdf4-feedstock with variant linux_ppc64le_hdf52is_abi3falsempinompipython3.14.____cp314t directly (without setup scripts)"
+[feature.build.tasks."debug-linux_ppc64le_hdf52is_abi3falsempinompipython3.14.____cp314t"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_ppc64le_hdf52is_abi3falsempinompipython3.14.____cp314t.yaml --target-platform linux-ppc64le"
+description = "Debug netcdf4-feedstock with variant linux_ppc64le_hdf52is_abi3falsempinompipython3.14.____cp314t directly (without setup scripts)"
+[feature.build.tasks."inspect-linux_ppc64le_hdf52is_abi3falsempinompipython3.14.____cp314t"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_ppc64le_hdf52is_abi3falsempinompipython3.14.____cp314t.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant linux_ppc64le_hdf52is_abi3falsempinompipython3.14.____cp314t"
+[feature.build.tasks."build-linux_ppc64le_hdf52is_abi3falsempiopenmpipython3.14.____cp314t"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_ppc64le_hdf52is_abi3falsempiopenmpipython3.14.____cp314t.yaml --target-platform linux-ppc64le"
+description = "Build netcdf4-feedstock with variant linux_ppc64le_hdf52is_abi3falsempiopenmpipython3.14.____cp314t directly (without setup scripts)"
+[feature.build.tasks."debug-linux_ppc64le_hdf52is_abi3falsempiopenmpipython3.14.____cp314t"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_ppc64le_hdf52is_abi3falsempiopenmpipython3.14.____cp314t.yaml --target-platform linux-ppc64le"
+description = "Debug netcdf4-feedstock with variant linux_ppc64le_hdf52is_abi3falsempiopenmpipython3.14.____cp314t directly (without setup scripts)"
+[feature.build.tasks."inspect-linux_ppc64le_hdf52is_abi3falsempiopenmpipython3.14.____cp314t"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_ppc64le_hdf52is_abi3falsempiopenmpipython3.14.____cp314t.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant linux_ppc64le_hdf52is_abi3falsempiopenmpipython3.14.____cp314t"
+[feature.build.tasks."build-linux_ppc64le_hdf52is_abi3truempimpichpython3.11.____cpython"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_ppc64le_hdf52is_abi3truempimpichpython3.11.____cpython.yaml --target-platform linux-ppc64le"
+description = "Build netcdf4-feedstock with variant linux_ppc64le_hdf52is_abi3truempimpichpython3.11.____cpython directly (without setup scripts)"
+[feature.build.tasks."debug-linux_ppc64le_hdf52is_abi3truempimpichpython3.11.____cpython"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_ppc64le_hdf52is_abi3truempimpichpython3.11.____cpython.yaml --target-platform linux-ppc64le"
+description = "Debug netcdf4-feedstock with variant linux_ppc64le_hdf52is_abi3truempimpichpython3.11.____cpython directly (without setup scripts)"
+[feature.build.tasks."inspect-linux_ppc64le_hdf52is_abi3truempimpichpython3.11.____cpython"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_ppc64le_hdf52is_abi3truempimpichpython3.11.____cpython.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant linux_ppc64le_hdf52is_abi3truempimpichpython3.11.____cpython"
+[feature.build.tasks."build-linux_ppc64le_hdf52is_abi3truempinompipython3.11.____cpython"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_ppc64le_hdf52is_abi3truempinompipython3.11.____cpython.yaml --target-platform linux-ppc64le"
+description = "Build netcdf4-feedstock with variant linux_ppc64le_hdf52is_abi3truempinompipython3.11.____cpython directly (without setup scripts)"
+[feature.build.tasks."debug-linux_ppc64le_hdf52is_abi3truempinompipython3.11.____cpython"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_ppc64le_hdf52is_abi3truempinompipython3.11.____cpython.yaml --target-platform linux-ppc64le"
+description = "Debug netcdf4-feedstock with variant linux_ppc64le_hdf52is_abi3truempinompipython3.11.____cpython directly (without setup scripts)"
+[feature.build.tasks."inspect-linux_ppc64le_hdf52is_abi3truempinompipython3.11.____cpython"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_ppc64le_hdf52is_abi3truempinompipython3.11.____cpython.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant linux_ppc64le_hdf52is_abi3truempinompipython3.11.____cpython"
+[feature.build.tasks."build-linux_ppc64le_hdf52is_abi3truempiopenmpipython3.11.____cpython"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/linux_ppc64le_hdf52is_abi3truempiopenmpipython3.11.____cpython.yaml --target-platform linux-ppc64le"
+description = "Build netcdf4-feedstock with variant linux_ppc64le_hdf52is_abi3truempiopenmpipython3.11.____cpython directly (without setup scripts)"
+[feature.build.tasks."debug-linux_ppc64le_hdf52is_abi3truempiopenmpipython3.11.____cpython"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/linux_ppc64le_hdf52is_abi3truempiopenmpipython3.11.____cpython.yaml --target-platform linux-ppc64le"
+description = "Debug netcdf4-feedstock with variant linux_ppc64le_hdf52is_abi3truempiopenmpipython3.11.____cpython directly (without setup scripts)"
+[feature.build.tasks."inspect-linux_ppc64le_hdf52is_abi3truempiopenmpipython3.11.____cpython"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/linux_ppc64le_hdf52is_abi3truempiopenmpipython3.11.____cpython.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant linux_ppc64le_hdf52is_abi3truempiopenmpipython3.11.____cpython"
+[feature.build.tasks."build-osx_64_hdf51.14.6is_abi3falsempimpichpython3.14.____cp314t"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_hdf51.14.6is_abi3falsempimpichpython3.14.____cp314t.yaml --target-platform osx-64"
+description = "Build netcdf4-feedstock with variant osx_64_hdf51.14.6is_abi3falsempimpichpython3.14.____cp314t directly (without setup scripts)"
+[feature.build.tasks."debug-osx_64_hdf51.14.6is_abi3falsempimpichpython3.14.____cp314t"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/osx_64_hdf51.14.6is_abi3falsempimpichpython3.14.____cp314t.yaml --target-platform osx-64"
+description = "Debug netcdf4-feedstock with variant osx_64_hdf51.14.6is_abi3falsempimpichpython3.14.____cp314t directly (without setup scripts)"
+[feature.build.tasks."inspect-osx_64_hdf51.14.6is_abi3falsempimpichpython3.14.____cp314t"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_hdf51.14.6is_abi3falsempimpichpython3.14.____cp314t.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant osx_64_hdf51.14.6is_abi3falsempimpichpython3.14.____cp314t"
+[feature.build.tasks."build-osx_64_hdf51.14.6is_abi3falsempinompipython3.14.____cp314t"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_hdf51.14.6is_abi3falsempinompipython3.14.____cp314t.yaml --target-platform osx-64"
+description = "Build netcdf4-feedstock with variant osx_64_hdf51.14.6is_abi3falsempinompipython3.14.____cp314t directly (without setup scripts)"
+[feature.build.tasks."debug-osx_64_hdf51.14.6is_abi3falsempinompipython3.14.____cp314t"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/osx_64_hdf51.14.6is_abi3falsempinompipython3.14.____cp314t.yaml --target-platform osx-64"
+description = "Debug netcdf4-feedstock with variant osx_64_hdf51.14.6is_abi3falsempinompipython3.14.____cp314t directly (without setup scripts)"
+[feature.build.tasks."inspect-osx_64_hdf51.14.6is_abi3falsempinompipython3.14.____cp314t"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_hdf51.14.6is_abi3falsempinompipython3.14.____cp314t.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant osx_64_hdf51.14.6is_abi3falsempinompipython3.14.____cp314t"
+[feature.build.tasks."build-osx_64_hdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_hdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t.yaml --target-platform osx-64"
+description = "Build netcdf4-feedstock with variant osx_64_hdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t directly (without setup scripts)"
+[feature.build.tasks."debug-osx_64_hdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/osx_64_hdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t.yaml --target-platform osx-64"
+description = "Debug netcdf4-feedstock with variant osx_64_hdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t directly (without setup scripts)"
+[feature.build.tasks."inspect-osx_64_hdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_hdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant osx_64_hdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t"
+[feature.build.tasks."build-osx_64_hdf51.14.6is_abi3truempimpichpython3.11.____cpython"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_hdf51.14.6is_abi3truempimpichpython3.11.____cpython.yaml --target-platform osx-64"
+description = "Build netcdf4-feedstock with variant osx_64_hdf51.14.6is_abi3truempimpichpython3.11.____cpython directly (without setup scripts)"
+[feature.build.tasks."debug-osx_64_hdf51.14.6is_abi3truempimpichpython3.11.____cpython"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/osx_64_hdf51.14.6is_abi3truempimpichpython3.11.____cpython.yaml --target-platform osx-64"
+description = "Debug netcdf4-feedstock with variant osx_64_hdf51.14.6is_abi3truempimpichpython3.11.____cpython directly (without setup scripts)"
+[feature.build.tasks."inspect-osx_64_hdf51.14.6is_abi3truempimpichpython3.11.____cpython"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_hdf51.14.6is_abi3truempimpichpython3.11.____cpython.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant osx_64_hdf51.14.6is_abi3truempimpichpython3.11.____cpython"
+[feature.build.tasks."build-osx_64_hdf51.14.6is_abi3truempinompipython3.11.____cpython"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_hdf51.14.6is_abi3truempinompipython3.11.____cpython.yaml --target-platform osx-64"
+description = "Build netcdf4-feedstock with variant osx_64_hdf51.14.6is_abi3truempinompipython3.11.____cpython directly (without setup scripts)"
+[feature.build.tasks."debug-osx_64_hdf51.14.6is_abi3truempinompipython3.11.____cpython"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/osx_64_hdf51.14.6is_abi3truempinompipython3.11.____cpython.yaml --target-platform osx-64"
+description = "Debug netcdf4-feedstock with variant osx_64_hdf51.14.6is_abi3truempinompipython3.11.____cpython directly (without setup scripts)"
+[feature.build.tasks."inspect-osx_64_hdf51.14.6is_abi3truempinompipython3.11.____cpython"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_hdf51.14.6is_abi3truempinompipython3.11.____cpython.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant osx_64_hdf51.14.6is_abi3truempinompipython3.11.____cpython"
+[feature.build.tasks."build-osx_64_hdf51.14.6is_abi3truempiopenmpipython3.11.____cpython"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_hdf51.14.6is_abi3truempiopenmpipython3.11.____cpython.yaml --target-platform osx-64"
+description = "Build netcdf4-feedstock with variant osx_64_hdf51.14.6is_abi3truempiopenmpipython3.11.____cpython directly (without setup scripts)"
+[feature.build.tasks."debug-osx_64_hdf51.14.6is_abi3truempiopenmpipython3.11.____cpython"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/osx_64_hdf51.14.6is_abi3truempiopenmpipython3.11.____cpython.yaml --target-platform osx-64"
+description = "Debug netcdf4-feedstock with variant osx_64_hdf51.14.6is_abi3truempiopenmpipython3.11.____cpython directly (without setup scripts)"
+[feature.build.tasks."inspect-osx_64_hdf51.14.6is_abi3truempiopenmpipython3.11.____cpython"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_hdf51.14.6is_abi3truempiopenmpipython3.11.____cpython.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant osx_64_hdf51.14.6is_abi3truempiopenmpipython3.11.____cpython"
+[feature.build.tasks."build-osx_64_hdf52is_abi3falsempimpichpython3.14.____cp314t"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_hdf52is_abi3falsempimpichpython3.14.____cp314t.yaml --target-platform osx-64"
+description = "Build netcdf4-feedstock with variant osx_64_hdf52is_abi3falsempimpichpython3.14.____cp314t directly (without setup scripts)"
+[feature.build.tasks."debug-osx_64_hdf52is_abi3falsempimpichpython3.14.____cp314t"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/osx_64_hdf52is_abi3falsempimpichpython3.14.____cp314t.yaml --target-platform osx-64"
+description = "Debug netcdf4-feedstock with variant osx_64_hdf52is_abi3falsempimpichpython3.14.____cp314t directly (without setup scripts)"
+[feature.build.tasks."inspect-osx_64_hdf52is_abi3falsempimpichpython3.14.____cp314t"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_hdf52is_abi3falsempimpichpython3.14.____cp314t.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant osx_64_hdf52is_abi3falsempimpichpython3.14.____cp314t"
+[feature.build.tasks."build-osx_64_hdf52is_abi3falsempinompipython3.14.____cp314t"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_hdf52is_abi3falsempinompipython3.14.____cp314t.yaml --target-platform osx-64"
+description = "Build netcdf4-feedstock with variant osx_64_hdf52is_abi3falsempinompipython3.14.____cp314t directly (without setup scripts)"
+[feature.build.tasks."debug-osx_64_hdf52is_abi3falsempinompipython3.14.____cp314t"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/osx_64_hdf52is_abi3falsempinompipython3.14.____cp314t.yaml --target-platform osx-64"
+description = "Debug netcdf4-feedstock with variant osx_64_hdf52is_abi3falsempinompipython3.14.____cp314t directly (without setup scripts)"
+[feature.build.tasks."inspect-osx_64_hdf52is_abi3falsempinompipython3.14.____cp314t"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_hdf52is_abi3falsempinompipython3.14.____cp314t.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant osx_64_hdf52is_abi3falsempinompipython3.14.____cp314t"
+[feature.build.tasks."build-osx_64_hdf52is_abi3falsempiopenmpipython3.14.____cp314t"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_hdf52is_abi3falsempiopenmpipython3.14.____cp314t.yaml --target-platform osx-64"
+description = "Build netcdf4-feedstock with variant osx_64_hdf52is_abi3falsempiopenmpipython3.14.____cp314t directly (without setup scripts)"
+[feature.build.tasks."debug-osx_64_hdf52is_abi3falsempiopenmpipython3.14.____cp314t"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/osx_64_hdf52is_abi3falsempiopenmpipython3.14.____cp314t.yaml --target-platform osx-64"
+description = "Debug netcdf4-feedstock with variant osx_64_hdf52is_abi3falsempiopenmpipython3.14.____cp314t directly (without setup scripts)"
+[feature.build.tasks."inspect-osx_64_hdf52is_abi3falsempiopenmpipython3.14.____cp314t"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_hdf52is_abi3falsempiopenmpipython3.14.____cp314t.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant osx_64_hdf52is_abi3falsempiopenmpipython3.14.____cp314t"
+[feature.build.tasks."build-osx_64_hdf52is_abi3truempimpichpython3.11.____cpython"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_hdf52is_abi3truempimpichpython3.11.____cpython.yaml --target-platform osx-64"
+description = "Build netcdf4-feedstock with variant osx_64_hdf52is_abi3truempimpichpython3.11.____cpython directly (without setup scripts)"
+[feature.build.tasks."debug-osx_64_hdf52is_abi3truempimpichpython3.11.____cpython"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/osx_64_hdf52is_abi3truempimpichpython3.11.____cpython.yaml --target-platform osx-64"
+description = "Debug netcdf4-feedstock with variant osx_64_hdf52is_abi3truempimpichpython3.11.____cpython directly (without setup scripts)"
+[feature.build.tasks."inspect-osx_64_hdf52is_abi3truempimpichpython3.11.____cpython"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_hdf52is_abi3truempimpichpython3.11.____cpython.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant osx_64_hdf52is_abi3truempimpichpython3.11.____cpython"
+[feature.build.tasks."build-osx_64_hdf52is_abi3truempinompipython3.11.____cpython"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_hdf52is_abi3truempinompipython3.11.____cpython.yaml --target-platform osx-64"
+description = "Build netcdf4-feedstock with variant osx_64_hdf52is_abi3truempinompipython3.11.____cpython directly (without setup scripts)"
+[feature.build.tasks."debug-osx_64_hdf52is_abi3truempinompipython3.11.____cpython"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/osx_64_hdf52is_abi3truempinompipython3.11.____cpython.yaml --target-platform osx-64"
+description = "Debug netcdf4-feedstock with variant osx_64_hdf52is_abi3truempinompipython3.11.____cpython directly (without setup scripts)"
+[feature.build.tasks."inspect-osx_64_hdf52is_abi3truempinompipython3.11.____cpython"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_hdf52is_abi3truempinompipython3.11.____cpython.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant osx_64_hdf52is_abi3truempinompipython3.11.____cpython"
+[feature.build.tasks."build-osx_64_hdf52is_abi3truempiopenmpipython3.11.____cpython"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/osx_64_hdf52is_abi3truempiopenmpipython3.11.____cpython.yaml --target-platform osx-64"
+description = "Build netcdf4-feedstock with variant osx_64_hdf52is_abi3truempiopenmpipython3.11.____cpython directly (without setup scripts)"
+[feature.build.tasks."debug-osx_64_hdf52is_abi3truempiopenmpipython3.11.____cpython"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/osx_64_hdf52is_abi3truempiopenmpipython3.11.____cpython.yaml --target-platform osx-64"
+description = "Debug netcdf4-feedstock with variant osx_64_hdf52is_abi3truempiopenmpipython3.11.____cpython directly (without setup scripts)"
+[feature.build.tasks."inspect-osx_64_hdf52is_abi3truempiopenmpipython3.11.____cpython"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_64_hdf52is_abi3truempiopenmpipython3.11.____cpython.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant osx_64_hdf52is_abi3truempiopenmpipython3.11.____cpython"
+[feature.build.tasks."build-osx_arm64_hdf51.14.6is_abi3falsempimpichpython3.14.____cp314t"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_hdf51.14.6is_abi3falsempimpichpython3.14.____cp314t.yaml --target-platform osx-arm64"
+description = "Build netcdf4-feedstock with variant osx_arm64_hdf51.14.6is_abi3falsempimpichpython3.14.____cp314t directly (without setup scripts)"
+[feature.build.tasks."debug-osx_arm64_hdf51.14.6is_abi3falsempimpichpython3.14.____cp314t"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/osx_arm64_hdf51.14.6is_abi3falsempimpichpython3.14.____cp314t.yaml --target-platform osx-arm64"
+description = "Debug netcdf4-feedstock with variant osx_arm64_hdf51.14.6is_abi3falsempimpichpython3.14.____cp314t directly (without setup scripts)"
+[feature.build.tasks."inspect-osx_arm64_hdf51.14.6is_abi3falsempimpichpython3.14.____cp314t"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_hdf51.14.6is_abi3falsempimpichpython3.14.____cp314t.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant osx_arm64_hdf51.14.6is_abi3falsempimpichpython3.14.____cp314t"
+[feature.build.tasks."build-osx_arm64_hdf51.14.6is_abi3falsempinompipython3.14.____cp314t"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_hdf51.14.6is_abi3falsempinompipython3.14.____cp314t.yaml --target-platform osx-arm64"
+description = "Build netcdf4-feedstock with variant osx_arm64_hdf51.14.6is_abi3falsempinompipython3.14.____cp314t directly (without setup scripts)"
+[feature.build.tasks."debug-osx_arm64_hdf51.14.6is_abi3falsempinompipython3.14.____cp314t"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/osx_arm64_hdf51.14.6is_abi3falsempinompipython3.14.____cp314t.yaml --target-platform osx-arm64"
+description = "Debug netcdf4-feedstock with variant osx_arm64_hdf51.14.6is_abi3falsempinompipython3.14.____cp314t directly (without setup scripts)"
+[feature.build.tasks."inspect-osx_arm64_hdf51.14.6is_abi3falsempinompipython3.14.____cp314t"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_hdf51.14.6is_abi3falsempinompipython3.14.____cp314t.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant osx_arm64_hdf51.14.6is_abi3falsempinompipython3.14.____cp314t"
+[feature.build.tasks."build-osx_arm64_hdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_hdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t.yaml --target-platform osx-arm64"
+description = "Build netcdf4-feedstock with variant osx_arm64_hdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t directly (without setup scripts)"
+[feature.build.tasks."debug-osx_arm64_hdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/osx_arm64_hdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t.yaml --target-platform osx-arm64"
+description = "Debug netcdf4-feedstock with variant osx_arm64_hdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t directly (without setup scripts)"
+[feature.build.tasks."inspect-osx_arm64_hdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_hdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant osx_arm64_hdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t"
+[feature.build.tasks."build-osx_arm64_hdf51.14.6is_abi3truempimpichpython3.11.____cpython"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_hdf51.14.6is_abi3truempimpichpython3.11.____cpython.yaml --target-platform osx-arm64"
+description = "Build netcdf4-feedstock with variant osx_arm64_hdf51.14.6is_abi3truempimpichpython3.11.____cpython directly (without setup scripts)"
+[feature.build.tasks."debug-osx_arm64_hdf51.14.6is_abi3truempimpichpython3.11.____cpython"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/osx_arm64_hdf51.14.6is_abi3truempimpichpython3.11.____cpython.yaml --target-platform osx-arm64"
+description = "Debug netcdf4-feedstock with variant osx_arm64_hdf51.14.6is_abi3truempimpichpython3.11.____cpython directly (without setup scripts)"
+[feature.build.tasks."inspect-osx_arm64_hdf51.14.6is_abi3truempimpichpython3.11.____cpython"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_hdf51.14.6is_abi3truempimpichpython3.11.____cpython.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant osx_arm64_hdf51.14.6is_abi3truempimpichpython3.11.____cpython"
+[feature.build.tasks."build-osx_arm64_hdf51.14.6is_abi3truempinompipython3.11.____cpython"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_hdf51.14.6is_abi3truempinompipython3.11.____cpython.yaml --target-platform osx-arm64"
+description = "Build netcdf4-feedstock with variant osx_arm64_hdf51.14.6is_abi3truempinompipython3.11.____cpython directly (without setup scripts)"
+[feature.build.tasks."debug-osx_arm64_hdf51.14.6is_abi3truempinompipython3.11.____cpython"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/osx_arm64_hdf51.14.6is_abi3truempinompipython3.11.____cpython.yaml --target-platform osx-arm64"
+description = "Debug netcdf4-feedstock with variant osx_arm64_hdf51.14.6is_abi3truempinompipython3.11.____cpython directly (without setup scripts)"
+[feature.build.tasks."inspect-osx_arm64_hdf51.14.6is_abi3truempinompipython3.11.____cpython"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_hdf51.14.6is_abi3truempinompipython3.11.____cpython.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant osx_arm64_hdf51.14.6is_abi3truempinompipython3.11.____cpython"
+[feature.build.tasks."build-osx_arm64_hdf51.14.6is_abi3truempiopenmpipython3.11.____cpython"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_hdf51.14.6is_abi3truempiopenmpipython3.11.____cpython.yaml --target-platform osx-arm64"
+description = "Build netcdf4-feedstock with variant osx_arm64_hdf51.14.6is_abi3truempiopenmpipython3.11.____cpython directly (without setup scripts)"
+[feature.build.tasks."debug-osx_arm64_hdf51.14.6is_abi3truempiopenmpipython3.11.____cpython"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/osx_arm64_hdf51.14.6is_abi3truempiopenmpipython3.11.____cpython.yaml --target-platform osx-arm64"
+description = "Debug netcdf4-feedstock with variant osx_arm64_hdf51.14.6is_abi3truempiopenmpipython3.11.____cpython directly (without setup scripts)"
+[feature.build.tasks."inspect-osx_arm64_hdf51.14.6is_abi3truempiopenmpipython3.11.____cpython"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_hdf51.14.6is_abi3truempiopenmpipython3.11.____cpython.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant osx_arm64_hdf51.14.6is_abi3truempiopenmpipython3.11.____cpython"
+[feature.build.tasks."build-osx_arm64_hdf52is_abi3falsempimpichpython3.14.____cp314t"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_hdf52is_abi3falsempimpichpython3.14.____cp314t.yaml --target-platform osx-arm64"
+description = "Build netcdf4-feedstock with variant osx_arm64_hdf52is_abi3falsempimpichpython3.14.____cp314t directly (without setup scripts)"
+[feature.build.tasks."debug-osx_arm64_hdf52is_abi3falsempimpichpython3.14.____cp314t"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/osx_arm64_hdf52is_abi3falsempimpichpython3.14.____cp314t.yaml --target-platform osx-arm64"
+description = "Debug netcdf4-feedstock with variant osx_arm64_hdf52is_abi3falsempimpichpython3.14.____cp314t directly (without setup scripts)"
+[feature.build.tasks."inspect-osx_arm64_hdf52is_abi3falsempimpichpython3.14.____cp314t"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_hdf52is_abi3falsempimpichpython3.14.____cp314t.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant osx_arm64_hdf52is_abi3falsempimpichpython3.14.____cp314t"
+[feature.build.tasks."build-osx_arm64_hdf52is_abi3falsempinompipython3.14.____cp314t"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_hdf52is_abi3falsempinompipython3.14.____cp314t.yaml --target-platform osx-arm64"
+description = "Build netcdf4-feedstock with variant osx_arm64_hdf52is_abi3falsempinompipython3.14.____cp314t directly (without setup scripts)"
+[feature.build.tasks."debug-osx_arm64_hdf52is_abi3falsempinompipython3.14.____cp314t"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/osx_arm64_hdf52is_abi3falsempinompipython3.14.____cp314t.yaml --target-platform osx-arm64"
+description = "Debug netcdf4-feedstock with variant osx_arm64_hdf52is_abi3falsempinompipython3.14.____cp314t directly (without setup scripts)"
+[feature.build.tasks."inspect-osx_arm64_hdf52is_abi3falsempinompipython3.14.____cp314t"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_hdf52is_abi3falsempinompipython3.14.____cp314t.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant osx_arm64_hdf52is_abi3falsempinompipython3.14.____cp314t"
+[feature.build.tasks."build-osx_arm64_hdf52is_abi3falsempiopenmpipython3.14.____cp314t"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_hdf52is_abi3falsempiopenmpipython3.14.____cp314t.yaml --target-platform osx-arm64"
+description = "Build netcdf4-feedstock with variant osx_arm64_hdf52is_abi3falsempiopenmpipython3.14.____cp314t directly (without setup scripts)"
+[feature.build.tasks."debug-osx_arm64_hdf52is_abi3falsempiopenmpipython3.14.____cp314t"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/osx_arm64_hdf52is_abi3falsempiopenmpipython3.14.____cp314t.yaml --target-platform osx-arm64"
+description = "Debug netcdf4-feedstock with variant osx_arm64_hdf52is_abi3falsempiopenmpipython3.14.____cp314t directly (without setup scripts)"
+[feature.build.tasks."inspect-osx_arm64_hdf52is_abi3falsempiopenmpipython3.14.____cp314t"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_hdf52is_abi3falsempiopenmpipython3.14.____cp314t.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant osx_arm64_hdf52is_abi3falsempiopenmpipython3.14.____cp314t"
+[feature.build.tasks."build-osx_arm64_hdf52is_abi3truempimpichpython3.11.____cpython"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_hdf52is_abi3truempimpichpython3.11.____cpython.yaml --target-platform osx-arm64"
+description = "Build netcdf4-feedstock with variant osx_arm64_hdf52is_abi3truempimpichpython3.11.____cpython directly (without setup scripts)"
+[feature.build.tasks."debug-osx_arm64_hdf52is_abi3truempimpichpython3.11.____cpython"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/osx_arm64_hdf52is_abi3truempimpichpython3.11.____cpython.yaml --target-platform osx-arm64"
+description = "Debug netcdf4-feedstock with variant osx_arm64_hdf52is_abi3truempimpichpython3.11.____cpython directly (without setup scripts)"
+[feature.build.tasks."inspect-osx_arm64_hdf52is_abi3truempimpichpython3.11.____cpython"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_hdf52is_abi3truempimpichpython3.11.____cpython.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant osx_arm64_hdf52is_abi3truempimpichpython3.11.____cpython"
+[feature.build.tasks."build-osx_arm64_hdf52is_abi3truempinompipython3.11.____cpython"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_hdf52is_abi3truempinompipython3.11.____cpython.yaml --target-platform osx-arm64"
+description = "Build netcdf4-feedstock with variant osx_arm64_hdf52is_abi3truempinompipython3.11.____cpython directly (without setup scripts)"
+[feature.build.tasks."debug-osx_arm64_hdf52is_abi3truempinompipython3.11.____cpython"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/osx_arm64_hdf52is_abi3truempinompipython3.11.____cpython.yaml --target-platform osx-arm64"
+description = "Debug netcdf4-feedstock with variant osx_arm64_hdf52is_abi3truempinompipython3.11.____cpython directly (without setup scripts)"
+[feature.build.tasks."inspect-osx_arm64_hdf52is_abi3truempinompipython3.11.____cpython"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_hdf52is_abi3truempinompipython3.11.____cpython.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant osx_arm64_hdf52is_abi3truempinompipython3.11.____cpython"
+[feature.build.tasks."build-osx_arm64_hdf52is_abi3truempiopenmpipython3.11.____cpython"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/osx_arm64_hdf52is_abi3truempiopenmpipython3.11.____cpython.yaml --target-platform osx-arm64"
+description = "Build netcdf4-feedstock with variant osx_arm64_hdf52is_abi3truempiopenmpipython3.11.____cpython directly (without setup scripts)"
+[feature.build.tasks."debug-osx_arm64_hdf52is_abi3truempiopenmpipython3.11.____cpython"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/osx_arm64_hdf52is_abi3truempiopenmpipython3.11.____cpython.yaml --target-platform osx-arm64"
+description = "Debug netcdf4-feedstock with variant osx_arm64_hdf52is_abi3truempiopenmpipython3.11.____cpython directly (without setup scripts)"
+[feature.build.tasks."inspect-osx_arm64_hdf52is_abi3truempiopenmpipython3.11.____cpython"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/osx_arm64_hdf52is_abi3truempiopenmpipython3.11.____cpython.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant osx_arm64_hdf52is_abi3truempiopenmpipython3.11.____cpython"
+[feature.build.tasks."build-win_64_hdf51.14.6is_abi3falsempinompipython3.14.____cp314t"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/win_64_hdf51.14.6is_abi3falsempinompipython3.14.____cp314t.yaml --target-platform win-64"
+description = "Build netcdf4-feedstock with variant win_64_hdf51.14.6is_abi3falsempinompipython3.14.____cp314t directly (without setup scripts)"
+[feature.build.tasks."debug-win_64_hdf51.14.6is_abi3falsempinompipython3.14.____cp314t"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/win_64_hdf51.14.6is_abi3falsempinompipython3.14.____cp314t.yaml --target-platform win-64"
+description = "Debug netcdf4-feedstock with variant win_64_hdf51.14.6is_abi3falsempinompipython3.14.____cp314t directly (without setup scripts)"
+[feature.build.tasks."inspect-win_64_hdf51.14.6is_abi3falsempinompipython3.14.____cp314t"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/win_64_hdf51.14.6is_abi3falsempinompipython3.14.____cp314t.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant win_64_hdf51.14.6is_abi3falsempinompipython3.14.____cp314t"
+[feature.build.tasks."build-win_64_hdf51.14.6is_abi3truempinompipython3.11.____cpython"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/win_64_hdf51.14.6is_abi3truempinompipython3.11.____cpython.yaml --target-platform win-64"
+description = "Build netcdf4-feedstock with variant win_64_hdf51.14.6is_abi3truempinompipython3.11.____cpython directly (without setup scripts)"
+[feature.build.tasks."debug-win_64_hdf51.14.6is_abi3truempinompipython3.11.____cpython"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/win_64_hdf51.14.6is_abi3truempinompipython3.11.____cpython.yaml --target-platform win-64"
+description = "Debug netcdf4-feedstock with variant win_64_hdf51.14.6is_abi3truempinompipython3.11.____cpython directly (without setup scripts)"
+[feature.build.tasks."inspect-win_64_hdf51.14.6is_abi3truempinompipython3.11.____cpython"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/win_64_hdf51.14.6is_abi3truempinompipython3.11.____cpython.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant win_64_hdf51.14.6is_abi3truempinompipython3.11.____cpython"
+[feature.build.tasks."build-win_64_hdf52is_abi3falsempinompipython3.14.____cp314t"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/win_64_hdf52is_abi3falsempinompipython3.14.____cp314t.yaml --target-platform win-64"
+description = "Build netcdf4-feedstock with variant win_64_hdf52is_abi3falsempinompipython3.14.____cp314t directly (without setup scripts)"
+[feature.build.tasks."debug-win_64_hdf52is_abi3falsempinompipython3.14.____cp314t"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/win_64_hdf52is_abi3falsempinompipython3.14.____cp314t.yaml --target-platform win-64"
+description = "Debug netcdf4-feedstock with variant win_64_hdf52is_abi3falsempinompipython3.14.____cp314t directly (without setup scripts)"
+[feature.build.tasks."inspect-win_64_hdf52is_abi3falsempinompipython3.14.____cp314t"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/win_64_hdf52is_abi3falsempinompipython3.14.____cp314t.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant win_64_hdf52is_abi3falsempinompipython3.14.____cp314t"
+[feature.build.tasks."build-win_64_hdf52is_abi3truempinompipython3.11.____cpython"]
+cmd = "rattler-build build --recipe recipe -m .ci_support/win_64_hdf52is_abi3truempinompipython3.11.____cpython.yaml --target-platform win-64"
+description = "Build netcdf4-feedstock with variant win_64_hdf52is_abi3truempinompipython3.11.____cpython directly (without setup scripts)"
+[feature.build.tasks."debug-win_64_hdf52is_abi3truempinompipython3.11.____cpython"]
+cmd = "rattler-build debug setup --recipe recipe -m .ci_support/win_64_hdf52is_abi3truempinompipython3.11.____cpython.yaml --target-platform win-64"
+description = "Debug netcdf4-feedstock with variant win_64_hdf52is_abi3truempinompipython3.11.____cpython directly (without setup scripts)"
+[feature.build.tasks."inspect-win_64_hdf52is_abi3truempinompipython3.11.____cpython"]
+cmd = "inspect_artifacts --recipe-dir recipe -m .ci_support/win_64_hdf52is_abi3truempinompipython3.11.____cpython.yaml"
+description = "List contents of netcdf4-feedstock packages built for variant win_64_hdf52is_abi3truempinompipython3.11.____cpython"
 
 [environments]
 build = ["build"]

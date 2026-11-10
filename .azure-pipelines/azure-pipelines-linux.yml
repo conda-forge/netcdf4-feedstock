@@ -8,8 +8,8 @@ jobs:
     vmImage: ubuntu-latest
   strategy:
     matrix:
-      linux_aarch64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempimpichpython3.14.____cp314t:
-        CONFIG: linux_aarch64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempimpichpython3.14.____cp314t
+      linux_aarch64_hdf51.14.6is_abi3falsempimpichpython3.14.____cp314t:
+        CONFIG: linux_aarch64_hdf51.14.6is_abi3falsempimpichpython3.14.____cp314t
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma10
         docker_run_args: ''
@@ -19,8 +19,8 @@ jobs:
         resize_partitions: false
         store_build_artifacts: false
         tools_install_dir: ~/miniforge3
-      linux_aarch64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempinompipython3.14.____cp314t:
-        CONFIG: linux_aarch64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempinompipython3.14.____cp314t
+      linux_aarch64_hdf51.14.6is_abi3falsempinompipython3.14.____cp314t:
+        CONFIG: linux_aarch64_hdf51.14.6is_abi3falsempinompipython3.14.____cp314t
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma10
         docker_run_args: ''
@@ -30,8 +30,8 @@ jobs:
         resize_partitions: false
         store_build_artifacts: false
         tools_install_dir: ~/miniforge3
-      linux_aarch64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t:
-        CONFIG: linux_aarch64_channel_sourcesconda-forgehdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t
+      linux_aarch64_hdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t:
+        CONFIG: linux_aarch64_hdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma10
         docker_run_args: ''
@@ -41,8 +41,8 @@ jobs:
         resize_partitions: false
         store_build_artifacts: false
         tools_install_dir: ~/miniforge3
-      linux_aarch64_channel_sourcesconda-forgehdf51.14.6is_abi3truempimpichpython3.11.____cpython:
-        CONFIG: linux_aarch64_channel_sourcesconda-forgehdf51.14.6is_abi3truempimpichpython3.11.____cpython
+      linux_aarch64_hdf51.14.6is_abi3truempimpichpython3.11.____cpython:
+        CONFIG: linux_aarch64_hdf51.14.6is_abi3truempimpichpython3.11.____cpython
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma10
         docker_run_args: ''
@@ -52,8 +52,8 @@ jobs:
         resize_partitions: false
         store_build_artifacts: false
         tools_install_dir: ~/miniforge3
-      linux_aarch64_channel_sourcesconda-forgehdf51.14.6is_abi3truempinompipython3.11.____cpython:
-        CONFIG: linux_aarch64_channel_sourcesconda-forgehdf51.14.6is_abi3truempinompipython3.11.____cpython
+      linux_aarch64_hdf51.14.6is_abi3truempinompipython3.11.____cpython:
+        CONFIG: linux_aarch64_hdf51.14.6is_abi3truempinompipython3.11.____cpython
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma10
         docker_run_args: ''
@@ -63,8 +63,8 @@ jobs:
         resize_partitions: false
         store_build_artifacts: false
         tools_install_dir: ~/miniforge3
-      linux_aarch64_channel_sourcesconda-forgehdf51.14.6is_abi3truempiopenmpipython3.11.____cpython:
-        CONFIG: linux_aarch64_channel_sourcesconda-forgehdf51.14.6is_abi3truempiopenmpipython3.11.____cpython
+      linux_aarch64_hdf51.14.6is_abi3truempiopenmpipython3.11.____cpython:
+        CONFIG: linux_aarch64_hdf51.14.6is_abi3truempiopenmpipython3.11.____cpython
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma10
         docker_run_args: ''
@@ -74,8 +74,8 @@ jobs:
         resize_partitions: false
         store_build_artifacts: false
         tools_install_dir: ~/miniforge3
-      linux_aarch64_channel_sourcesconda-forgehdf52is_abi3falsempimpichpython3.14.____cp314t:
-        CONFIG: linux_aarch64_channel_sourcesconda-forgehdf52is_abi3falsempimpichpython3.14.____cp314t
+      linux_aarch64_hdf52is_abi3falsempimpichpython3.14.____cp314t:
+        CONFIG: linux_aarch64_hdf52is_abi3falsempimpichpython3.14.____cp314t
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma10
         docker_run_args: ''
@@ -85,8 +85,8 @@ jobs:
         resize_partitions: false
         store_build_artifacts: false
         tools_install_dir: ~/miniforge3
-      linux_aarch64_channel_sourcesconda-forgehdf52is_abi3falsempinompipython3.14.____cp314t:
-        CONFIG: linux_aarch64_channel_sourcesconda-forgehdf52is_abi3falsempinompipython3.14.____cp314t
+      linux_aarch64_hdf52is_abi3falsempinompipython3.14.____cp314t:
+        CONFIG: linux_aarch64_hdf52is_abi3falsempinompipython3.14.____cp314t
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma10
         docker_run_args: ''
@@ -96,8 +96,8 @@ jobs:
         resize_partitions: false
         store_build_artifacts: false
         tools_install_dir: ~/miniforge3
-      linux_aarch64_channel_sourcesconda-forgehdf52is_abi3falsempiopenmpipython3.14.____cp314t:
-        CONFIG: linux_aarch64_channel_sourcesconda-forgehdf52is_abi3falsempiopenmpipython3.14.____cp314t
+      linux_aarch64_hdf52is_abi3falsempiopenmpipython3.14.____cp314t:
+        CONFIG: linux_aarch64_hdf52is_abi3falsempiopenmpipython3.14.____cp314t
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma10
         docker_run_args: ''
@@ -107,8 +107,8 @@ jobs:
         resize_partitions: false
         store_build_artifacts: false
         tools_install_dir: ~/miniforge3
-      linux_aarch64_channel_sourcesconda-forgehdf52is_abi3truempimpichpython3.11.____cpython:
-        CONFIG: linux_aarch64_channel_sourcesconda-forgehdf52is_abi3truempimpichpython3.11.____cpython
+      linux_aarch64_hdf52is_abi3truempimpichpython3.11.____cpython:
+        CONFIG: linux_aarch64_hdf52is_abi3truempimpichpython3.11.____cpython
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma10
         docker_run_args: ''
@@ -118,8 +118,8 @@ jobs:
         resize_partitions: false
         store_build_artifacts: false
         tools_install_dir: ~/miniforge3
-      linux_aarch64_channel_sourcesconda-forgehdf52is_abi3truempinompipython3.11.____cpython:
-        CONFIG: linux_aarch64_channel_sourcesconda-forgehdf52is_abi3truempinompipython3.11.____cpython
+      linux_aarch64_hdf52is_abi3truempinompipython3.11.____cpython:
+        CONFIG: linux_aarch64_hdf52is_abi3truempinompipython3.11.____cpython
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma10
         docker_run_args: ''
@@ -129,8 +129,8 @@ jobs:
         resize_partitions: false
         store_build_artifacts: false
         tools_install_dir: ~/miniforge3
-      linux_aarch64_channel_sourcesconda-forgehdf52is_abi3truempiopenmpipython3.11.____cpython:
-        CONFIG: linux_aarch64_channel_sourcesconda-forgehdf52is_abi3truempiopenmpipython3.11.____cpython
+      linux_aarch64_hdf52is_abi3truempiopenmpipython3.11.____cpython:
+        CONFIG: linux_aarch64_hdf52is_abi3truempiopenmpipython3.11.____cpython
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-aarch64:alma10
         docker_run_args: ''
@@ -140,8 +140,8 @@ jobs:
         resize_partitions: false
         store_build_artifacts: false
         tools_install_dir: ~/miniforge3
-      linux_ppc64le_channel_sourcesconda-forgehdf51.14.6is_abi3falsempimpichpython3.14.____cp314t:
-        CONFIG: linux_ppc64le_channel_sourcesconda-forgehdf51.14.6is_abi3falsempimpichpython3.14.____cp314t
+      linux_ppc64le_hdf51.14.6is_abi3falsempimpichpython3.14.____cp314t:
+        CONFIG: linux_ppc64le_hdf51.14.6is_abi3falsempimpichpython3.14.____cp314t
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-ppc64le:alma10
         docker_run_args: ''
@@ -151,8 +151,8 @@ jobs:
         resize_partitions: false
         store_build_artifacts: false
         tools_install_dir: ~/miniforge3
-      linux_ppc64le_channel_sourcesconda-forgehdf51.14.6is_abi3falsempinompipython3.14.____cp314t:
-        CONFIG: linux_ppc64le_channel_sourcesconda-forgehdf51.14.6is_abi3falsempinompipython3.14.____cp314t
+      linux_ppc64le_hdf51.14.6is_abi3falsempinompipython3.14.____cp314t:
+        CONFIG: linux_ppc64le_hdf51.14.6is_abi3falsempinompipython3.14.____cp314t
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-ppc64le:alma10
         docker_run_args: ''
@@ -162,8 +162,8 @@ jobs:
         resize_partitions: false
         store_build_artifacts: false
         tools_install_dir: ~/miniforge3
-      linux_ppc64le_channel_sourcesconda-forgehdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t:
-        CONFIG: linux_ppc64le_channel_sourcesconda-forgehdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t
+      linux_ppc64le_hdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t:
+        CONFIG: linux_ppc64le_hdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-ppc64le:alma10
         docker_run_args: ''
@@ -173,8 +173,8 @@ jobs:
         resize_partitions: false
         store_build_artifacts: false
         tools_install_dir: ~/miniforge3
-      linux_ppc64le_channel_sourcesconda-forgehdf51.14.6is_abi3truempimpichpython3.11.____cpython:
-        CONFIG: linux_ppc64le_channel_sourcesconda-forgehdf51.14.6is_abi3truempimpichpython3.11.____cpython
+      linux_ppc64le_hdf51.14.6is_abi3truempimpichpython3.11.____cpython:
+        CONFIG: linux_ppc64le_hdf51.14.6is_abi3truempimpichpython3.11.____cpython
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-ppc64le:alma10
         docker_run_args: ''
@@ -184,8 +184,8 @@ jobs:
         resize_partitions: false
         store_build_artifacts: false
         tools_install_dir: ~/miniforge3
-      linux_ppc64le_channel_sourcesconda-forgehdf51.14.6is_abi3truempinompipython3.11.____cpython:
-        CONFIG: linux_ppc64le_channel_sourcesconda-forgehdf51.14.6is_abi3truempinompipython3.11.____cpython
+      linux_ppc64le_hdf51.14.6is_abi3truempinompipython3.11.____cpython:
+        CONFIG: linux_ppc64le_hdf51.14.6is_abi3truempinompipython3.11.____cpython
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-ppc64le:alma10
         docker_run_args: ''
@@ -195,8 +195,8 @@ jobs:
         resize_partitions: false
         store_build_artifacts: false
         tools_install_dir: ~/miniforge3
-      linux_ppc64le_channel_sourcesconda-forgehdf51.14.6is_abi3truempiopenmpipython3.11.____cpython:
-        CONFIG: linux_ppc64le_channel_sourcesconda-forgehdf51.14.6is_abi3truempiopenmpipython3.11.____cpython
+      linux_ppc64le_hdf51.14.6is_abi3truempiopenmpipython3.11.____cpython:
+        CONFIG: linux_ppc64le_hdf51.14.6is_abi3truempiopenmpipython3.11.____cpython
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-ppc64le:alma10
         docker_run_args: ''
@@ -206,8 +206,8 @@ jobs:
         resize_partitions: false
         store_build_artifacts: false
         tools_install_dir: ~/miniforge3
-      linux_ppc64le_channel_sourcesconda-forgehdf52is_abi3falsempimpichpython3.14.____cp314t:
-        CONFIG: linux_ppc64le_channel_sourcesconda-forgehdf52is_abi3falsempimpichpython3.14.____cp314t
+      linux_ppc64le_hdf52is_abi3falsempimpichpython3.14.____cp314t:
+        CONFIG: linux_ppc64le_hdf52is_abi3falsempimpichpython3.14.____cp314t
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-ppc64le:alma10
         docker_run_args: ''
@@ -217,8 +217,8 @@ jobs:
         resize_partitions: false
         store_build_artifacts: false
         tools_install_dir: ~/miniforge3
-      linux_ppc64le_channel_sourcesconda-forgehdf52is_abi3falsempinompipython3.14.____cp314t:
-        CONFIG: linux_ppc64le_channel_sourcesconda-forgehdf52is_abi3falsempinompipython3.14.____cp314t
+      linux_ppc64le_hdf52is_abi3falsempinompipython3.14.____cp314t:
+        CONFIG: linux_ppc64le_hdf52is_abi3falsempinompipython3.14.____cp314t
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-ppc64le:alma10
         docker_run_args: ''
@@ -228,8 +228,8 @@ jobs:
         resize_partitions: false
         store_build_artifacts: false
         tools_install_dir: ~/miniforge3
-      linux_ppc64le_channel_sourcesconda-forgehdf52is_abi3falsempiopenmpipython3.14.____cp314t:
-        CONFIG: linux_ppc64le_channel_sourcesconda-forgehdf52is_abi3falsempiopenmpipython3.14.____cp314t
+      linux_ppc64le_hdf52is_abi3falsempiopenmpipython3.14.____cp314t:
+        CONFIG: linux_ppc64le_hdf52is_abi3falsempiopenmpipython3.14.____cp314t
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-ppc64le:alma10
         docker_run_args: ''
@@ -239,8 +239,8 @@ jobs:
         resize_partitions: false
         store_build_artifacts: false
         tools_install_dir: ~/miniforge3
-      linux_ppc64le_channel_sourcesconda-forgehdf52is_abi3truempimpichpython3.11.____cpython:
-        CONFIG: linux_ppc64le_channel_sourcesconda-forgehdf52is_abi3truempimpichpython3.11.____cpython
+      linux_ppc64le_hdf52is_abi3truempimpichpython3.11.____cpython:
+        CONFIG: linux_ppc64le_hdf52is_abi3truempimpichpython3.11.____cpython
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-ppc64le:alma10
         docker_run_args: ''
@@ -250,8 +250,8 @@ jobs:
         resize_partitions: false
         store_build_artifacts: false
         tools_install_dir: ~/miniforge3
-      linux_ppc64le_channel_sourcesconda-forgehdf52is_abi3truempinompipython3.11.____cpython:
-        CONFIG: linux_ppc64le_channel_sourcesconda-forgehdf52is_abi3truempinompipython3.11.____cpython
+      linux_ppc64le_hdf52is_abi3truempinompipython3.11.____cpython:
+        CONFIG: linux_ppc64le_hdf52is_abi3truempinompipython3.11.____cpython
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-ppc64le:alma10
         docker_run_args: ''
@@ -261,8 +261,8 @@ jobs:
         resize_partitions: false
         store_build_artifacts: false
         tools_install_dir: ~/miniforge3
-      linux_ppc64le_channel_sourcesconda-forgehdf52is_abi3truempiopenmpipython3.11.____cpython:
-        CONFIG: linux_ppc64le_channel_sourcesconda-forgehdf52is_abi3truempiopenmpipython3.11.____cpython
+      linux_ppc64le_hdf52is_abi3truempiopenmpipython3.11.____cpython:
+        CONFIG: linux_ppc64le_hdf52is_abi3truempiopenmpipython3.11.____cpython
         UPLOAD_PACKAGES: 'True'
         DOCKER_IMAGE: quay.io/condaforge/linux-anvil-ppc64le:alma10
         docker_run_args: ''
