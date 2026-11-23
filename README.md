@@ -45,6 +45,13 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+              <td>linux_aarch64_hdf51.14.6is_abi3falsempimpichpython3.15.____cp315t</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_hdf51.14.6is_abi3falsempimpichpython3.15.____cp315t" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>linux_aarch64_hdf51.14.6is_abi3falsempinompipython3.14.____cp314t</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
@@ -52,10 +59,24 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+              <td>linux_aarch64_hdf51.14.6is_abi3falsempinompipython3.15.____cp315t</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_hdf51.14.6is_abi3falsempinompipython3.15.____cp315t" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>linux_aarch64_hdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_hdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_aarch64_hdf51.14.6is_abi3falsempiopenmpipython3.15.____cp315t</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_hdf51.14.6is_abi3falsempiopenmpipython3.15.____cp315t" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -87,6 +108,13 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+              <td>linux_aarch64_hdf52is_abi3falsempimpichpython3.15.____cp315t</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_hdf52is_abi3falsempimpichpython3.15.____cp315t" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>linux_aarch64_hdf52is_abi3falsempinompipython3.14.____cp314t</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
@@ -94,10 +122,24 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+              <td>linux_aarch64_hdf52is_abi3falsempinompipython3.15.____cp315t</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_hdf52is_abi3falsempinompipython3.15.____cp315t" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>linux_aarch64_hdf52is_abi3falsempiopenmpipython3.14.____cp314t</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_hdf52is_abi3falsempiopenmpipython3.14.____cp314t" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_aarch64_hdf52is_abi3falsempiopenmpipython3.15.____cp315t</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_aarch64_hdf52is_abi3falsempiopenmpipython3.15.____cp315t" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -129,6 +171,13 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+              <td>linux_ppc64le_hdf51.14.6is_abi3falsempimpichpython3.15.____cp315t</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_hdf51.14.6is_abi3falsempimpichpython3.15.____cp315t" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>linux_ppc64le_hdf51.14.6is_abi3falsempinompipython3.14.____cp314t</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
@@ -136,10 +185,24 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+              <td>linux_ppc64le_hdf51.14.6is_abi3falsempinompipython3.15.____cp315t</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_hdf51.14.6is_abi3falsempinompipython3.15.____cp315t" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>linux_ppc64le_hdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_hdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_ppc64le_hdf51.14.6is_abi3falsempiopenmpipython3.15.____cp315t</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_hdf51.14.6is_abi3falsempiopenmpipython3.15.____cp315t" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -171,6 +234,13 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+              <td>linux_ppc64le_hdf52is_abi3falsempimpichpython3.15.____cp315t</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_hdf52is_abi3falsempimpichpython3.15.____cp315t" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>linux_ppc64le_hdf52is_abi3falsempinompipython3.14.____cp314t</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
@@ -178,10 +248,24 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+              <td>linux_ppc64le_hdf52is_abi3falsempinompipython3.15.____cp315t</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_hdf52is_abi3falsempinompipython3.15.____cp315t" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>linux_ppc64le_hdf52is_abi3falsempiopenmpipython3.14.____cp314t</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_hdf52is_abi3falsempiopenmpipython3.14.____cp314t" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>linux_ppc64le_hdf52is_abi3falsempiopenmpipython3.15.____cp315t</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=linux&configuration=linux%20linux_ppc64le_hdf52is_abi3falsempiopenmpipython3.15.____cp315t" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -213,6 +297,13 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+              <td>osx_64_hdf51.14.6is_abi3falsempimpichpython3.15.____cp315t</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_hdf51.14.6is_abi3falsempimpichpython3.15.____cp315t" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>osx_64_hdf51.14.6is_abi3falsempinompipython3.14.____cp314t</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
@@ -220,10 +311,24 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+              <td>osx_64_hdf51.14.6is_abi3falsempinompipython3.15.____cp315t</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_hdf51.14.6is_abi3falsempinompipython3.15.____cp315t" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>osx_64_hdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_hdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_hdf51.14.6is_abi3falsempiopenmpipython3.15.____cp315t</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_hdf51.14.6is_abi3falsempiopenmpipython3.15.____cp315t" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -255,6 +360,13 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+              <td>osx_64_hdf52is_abi3falsempimpichpython3.15.____cp315t</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_hdf52is_abi3falsempimpichpython3.15.____cp315t" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>osx_64_hdf52is_abi3falsempinompipython3.14.____cp314t</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
@@ -262,10 +374,24 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+              <td>osx_64_hdf52is_abi3falsempinompipython3.15.____cp315t</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_hdf52is_abi3falsempinompipython3.15.____cp315t" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>osx_64_hdf52is_abi3falsempiopenmpipython3.14.____cp314t</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_hdf52is_abi3falsempiopenmpipython3.14.____cp314t" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_64_hdf52is_abi3falsempiopenmpipython3.15.____cp315t</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_64_hdf52is_abi3falsempiopenmpipython3.15.____cp315t" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -297,6 +423,13 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+              <td>osx_arm64_hdf51.14.6is_abi3falsempimpichpython3.15.____cp315t</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_hdf51.14.6is_abi3falsempimpichpython3.15.____cp315t" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>osx_arm64_hdf51.14.6is_abi3falsempinompipython3.14.____cp314t</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
@@ -304,10 +437,24 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+              <td>osx_arm64_hdf51.14.6is_abi3falsempinompipython3.15.____cp315t</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_hdf51.14.6is_abi3falsempinompipython3.15.____cp315t" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>osx_arm64_hdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_hdf51.14.6is_abi3falsempiopenmpipython3.14.____cp314t" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_hdf51.14.6is_abi3falsempiopenmpipython3.15.____cp315t</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_hdf51.14.6is_abi3falsempiopenmpipython3.15.____cp315t" alt="variant">
                 </a>
               </td>
             </tr><tr>
@@ -339,6 +486,13 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+              <td>osx_arm64_hdf52is_abi3falsempimpichpython3.15.____cp315t</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_hdf52is_abi3falsempimpichpython3.15.____cp315t" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>osx_arm64_hdf52is_abi3falsempinompipython3.14.____cp314t</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
@@ -346,10 +500,24 @@ Current build status
                 </a>
               </td>
             </tr><tr>
+              <td>osx_arm64_hdf52is_abi3falsempinompipython3.15.____cp315t</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_hdf52is_abi3falsempinompipython3.15.____cp315t" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
               <td>osx_arm64_hdf52is_abi3falsempiopenmpipython3.14.____cp314t</td>
               <td>
                 <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
                   <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_hdf52is_abi3falsempiopenmpipython3.14.____cp314t" alt="variant">
+                </a>
+              </td>
+            </tr><tr>
+              <td>osx_arm64_hdf52is_abi3falsempiopenmpipython3.15.____cp315t</td>
+              <td>
+                <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=676&branchName=main">
+                  <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/netcdf4-feedstock?branchName=main&jobName=osx&configuration=osx%20osx_arm64_hdf52is_abi3falsempiopenmpipython3.15.____cp315t" alt="variant">
                 </a>
               </td>
             </tr><tr>

@@ -5,7 +5,7 @@ context:
   version: 1.7.5
   # recipe-lint failed in v0 if mpi was undefined; keep the same defaulting behavior
   mpi: ${{ mpi or "nompi" }}
-  build_number: 0
+  build_number: 1
   mpi_prefix: ${{ "mpi_" + mpi if mpi != "nompi" else "nompi" }}
 
 package:
